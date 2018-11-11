@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import '../css/Nav.css';
 
 class Nav extends Component { 
   render() {
@@ -15,9 +16,6 @@ class Nav extends Component {
             </li>
             <li className="underline">
               <a href="/" target="_blank">CV</a>
-            </li>
-            <li className="underline">
-              <Link to="/teaching">Teaching</Link>
             </li>
           </ul>
         </div>

@@ -4,7 +4,7 @@ import Nav from './Nav';
 import Landing from './Landing';
 import About from './About';
 import Work from './Work';
-import Teaching from './Teaching';
+import Contact from './Contact';
 
 class App extends Component {
   
@@ -25,7 +25,7 @@ class App extends Component {
           <Route exact path='/' component={ Landing }/>
           <Route path='/about' component={ About }/>
           <Route path='/work' component={ Work }/>
-          <Route path='/teaching' component={ Teaching }/>
+          <Route path='/contact' component={ Contact }/>
         </Switch>
       </div>
     )

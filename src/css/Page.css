@@ -1,0 +1,33 @@
+.inner-page-container {
+  /* border: 1px solid white; */
+  margin-bottom: 70px;
+  overflow-x: auto;
+}
+
+.page-header {
+  /* border: 1px solid white; */
+  position: relative;
+}
+
+h1.page-header-label {
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  color: var(--lt-pink);
+  display: inline-block;
+}
+
+div.page-header-divider {
+  display: inline-block;
+	height: 2px;
+	background: var(--lt-pink);
+  width: 48px;
+  left: 128px;
+	position: absolute;
+	top: 50%;
+}
+
+div.page-content {
+  line-height: 26px;
+  max-width: 550px;
+  margin-left: 128px;
+}

@@ -3,7 +3,6 @@
 :root {
   --lt-pink: #FFEBFF;
   --med-pink: #D6B4D6;
-  /* --bg-navy: #1A1826; */
   --bg-navy: #1B182E;
 }
 
@@ -16,6 +15,7 @@ html, body {
   margin: 0 auto;
   height: 100%;
   font-family: "Roboto Mono", monospace;
+  color: var(--med-pink);
 }
 
 body {
@@ -28,7 +28,6 @@ p {
 }
 
 .page-container {
-  /* border: 1px solid white; */
   position: absolute;
   left: 70px;
   top: 70px;
@@ -36,73 +35,6 @@ p {
   height: calc(100% - 140px);
 }
 
-/* NAVIGATION */
-.nav {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav-items ul {     
-  margin: 0;
-  padding: 0;
-}
-
-.nav-items li {
-  list-style-type: none;
-  display: inline-block;
-  position: relative;
-  margin-left: 18px;
-  margin-right: 18px;
-}
- 
-a, a:visited { 
-  text-decoration: none;
-  color: var(--med-pink);
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 1.5px;
-}
-
-.underline:hover:after,
-.underline:focus:after,
-.underline:active:after {
-  width: 100%;
-}
-
-.underline:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  height: 1px;
-  background: var(--lt-pink);
-  width: 0;
-  transition: width 0.25s;
-}
-
-/* INFO */
-#info {
-  max-width: 450px;
-  line-height: 22px;
-  position: absolute;
-  bottom: 0;
-}
-
-.borderline {
-  position: relative;
-  height: 2px;
-  margin-bottom: 24px;
-  background: var(--med-pink);
-}
-
-span#info-label {
-  color: var(--lt-pink);
-  font-size: 22px;
-}
-
-/* CANVAS - Three.js */
 #canvas {
   position: absolute;
 }

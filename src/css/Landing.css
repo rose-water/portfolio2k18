@@ -1,0 +1,18 @@
+#info {
+  max-width: 450px;
+  line-height: 22px;
+  position: absolute;
+  bottom: 0;
+}
+
+.borderline {
+  position: relative;
+  height: 2px;
+  margin-bottom: 24px;
+  background: var(--med-pink);
+}
+
+span#info-label {
+  color: var(--lt-pink);
+  font-size: 22px;
+}
