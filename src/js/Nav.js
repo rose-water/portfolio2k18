@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Nav extends Component { 
   render() {
@@ -7,16 +8,16 @@ class Nav extends Component {
         <div className="nav-items">
           <ul>
             <li className="underline">
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li className="underline">
-              <a href="/work">Work</a>
+              <Link to="/work">Work</Link>
             </li>
             <li className="underline">
               <a href="/" target="_blank">CV</a>
             </li>
             <li className="underline">
-              <a href="/teaching">Teaching</a>
+              <Link to="/teaching">Teaching</Link>
             </li>
           </ul>
         </div>
