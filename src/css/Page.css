@@ -1,11 +1,9 @@
 .inner-page-container {
-  /* border: 1px solid white; */
   margin-bottom: 70px;
   overflow-x: auto;
 }
 
 .page-header {
-  /* border: 1px solid white; */
   position: relative;
 }
 

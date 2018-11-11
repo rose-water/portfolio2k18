@@ -6,6 +6,16 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav">
+        {
+          // window.location.pathname !== '/' ? 
+          // <span id="name-label">
+          //   <Link to="/">ROSEWATER</Link>
+          // </span> : null
+        }
+        <span id="name-label">
+          <Link to="/">ROSEWATER</Link>
+        </span>
+
         <div className="nav-items">
           <ul>
             <li className="underline">

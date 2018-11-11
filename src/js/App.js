@@ -10,14 +10,6 @@ class App extends Component {
   
   render() {
 
-    // TODO is the right way to do this? it works
-    let elem = document.getElementById('canvas');
-    if (window.location.pathname === '/') {
-      elem.style.display = "block";
-    } else {
-      elem.style.display = "none";
-    }
-
     const App = () => (
       <div className="page-container">
         <Nav />
@@ -30,7 +22,16 @@ class App extends Component {
       </div>
     )
 
+    // Only show the three.js sketch on the landing page
+    let elem = document.getElementById('canvas');
+    if (window.location.pathname === '/') {
+      elem.style.display = "block";
+    } else {
+      elem.style.display = "none";
+    }
+
     return (
+      
       <Switch>
         <App />
       </Switch>

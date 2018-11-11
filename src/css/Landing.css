@@ -14,5 +14,21 @@
 
 span#info-label {
   color: var(--lt-pink);
+  letter-spacing: 1.2px;
   font-size: 22px;
+}
+
+div#info-content {
+  margin-top: 24px;
+  margin-bottom: 28px;
+}
+
+img#ig-logo {
+  height: 22px;
+  width: 22px;
+  margin-right: 16px;
+}
+
+img#email-logo {
+  height: 22px;
 }

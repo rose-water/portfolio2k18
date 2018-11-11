@@ -5,6 +5,11 @@
   margin-bottom: 64px;
 }
 
+span#name-label {
+  position: absolute;
+  left: 0;
+}
+
 .nav-items ul {     
   margin: 0;
   padding: 0;
