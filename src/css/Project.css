@@ -1,0 +1,41 @@
+.project-container {
+  overflow: hidden;
+  margin-bottom: 64px;
+}
+.project-img {
+  width: 72%;
+  float: left;
+}
+
+img.project-highlight {
+  width: 100%;
+  height: auto;
+}
+
+.project-meta {
+  float: right;
+  width: 25%;
+  overflow:hidden;
+}
+
+.project-name {
+  text-transform: uppercase;
+  color: var(--lt-pink);
+  font-size: 22px;
+}
+
+.project-name, 
+.project-description {
+  border: 2px solid var(--med-pink);
+  padding: 12px;
+}
+
+.project-description {
+  margin-top: -2px;
+}
+
+.project-description p {
+  color: var(--lt-pink);
+  margin: 0px;
+  line-height: 22px;
+}

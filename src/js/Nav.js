@@ -25,7 +25,7 @@ class Nav extends Component {
               <Link to="/work">Work</Link>
             </li>
             <li className="underline">
-              <a href="/" target="_blank">CV</a>
+              <a href="http://dropbox.com" rel="noopener noreferrer" target="_blank">CV</a>
             </li>
           </ul>
         </div>

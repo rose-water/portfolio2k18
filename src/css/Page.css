@@ -29,3 +29,8 @@ div.page-content {
   max-width: 550px;
   margin-left: 128px;
 }
+
+/* Specific to Work page */
+div.work-page-content {
+  margin-top: 48px;
+}

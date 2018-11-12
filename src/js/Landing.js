@@ -14,10 +14,10 @@ class Landing extends Component {
           <p>My work is heavily influenced & inspired by nature, the cosmos, & our subconscious.</p>
         </div>
         <div id="social">
-          <a href="http://instagram.com/tenderbloom" target="_blank">
+          <a href="http://instagram.com/tenderbloom" rel="noopener noreferrer" target="_blank">
             <img id="ig-logo" alt="ig-logo" src="assets/logo-instagram.svg"></img>
           </a>
-          <a href="mailto:rachel.ulgado@gmail.com" target="_blank">
+          <a href="mailto:rachel.ulgado@gmail.com" rel="noopener noreferrer" target="_blank">
             <img id="email-logo" alt="email-logo" src="assets/logo-email.svg"></img>
           </a>
         </div>
