@@ -5,6 +5,7 @@ import Landing from './Landing';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
+import ProjectDetail from './ProjectDetail';
 
 class App extends Component {
   
@@ -16,6 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={ Landing }/>
           <Route path='/about' component={ About }/>
+          <Route path='/work/:projectId' component={ ProjectDetail }/>
           <Route path='/work' component={ Work }/>
           <Route path='/contact' component={ Contact }/>
         </Switch>
