@@ -7,14 +7,14 @@ class Nav extends Component {
     return (
       <div className="nav">
         {
-          // window.location.pathname !== '/' ? 
-          // <span id="name-label">
-          //   <Link to="/">ROSEWATER</Link>
-          // </span> : null
+          window.location.pathname !== '/' ? 
+          <span id="name-label">
+            <Link to="/">ROSEWATER</Link>
+          </span> : null
         }
-        <span id="name-label">
+        {/* <span id="name-label">
           <Link to="/">ROSEWATER</Link>
-        </span>
+        </span> */}
 
         <div className="nav-items">
           <ul>

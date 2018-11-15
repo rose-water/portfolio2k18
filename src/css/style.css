@@ -3,7 +3,8 @@
 :root {
   --lt-pink: #FFEBFF;
   --med-pink: #D6B4D6;
-  --bg-navy: #1B182E;
+  /* --bg-navy: #1B182E; */
+  --bg-navy: #19162f;
 }
 
 * {

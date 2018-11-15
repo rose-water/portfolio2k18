@@ -8,12 +8,12 @@ class Work extends Component {
   renderProjects(projects) {
     return projects.map(project => {
       return (
-        <div key={project.name}>
+        <div key={ project.name }>
           <Project 
-            name={project.name} 
-            description={project.description} 
-            url={project.url} 
-            highlightUrl={project.highlightUrl}
+            name={ project.name } 
+            id={ project.id }
+            description={ project.description } 
+            highlightUrl={ project.highlightUrl }
           />
         </div>
       );
@@ -27,9 +27,7 @@ class Work extends Component {
           <h1 className="page-header-label">WORK</h1>
           <div className="page-header-divider"></div>
         </div>
-      
-        {this.renderProjects(projects)}     
-        
+        { this.renderProjects(projects) }     
       </div>
     );
   }
