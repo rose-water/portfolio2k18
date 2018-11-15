@@ -8,7 +8,7 @@ module.exports = [
 
   {
     "name" : "GUISE + GAZE",
-    "id" : "shrines",
+    "id" : "guise",
     "description" : "Women appear. Taking direct influences from John Berger’s book “Ways of Seeing,” this work is a visual metaphor for womens’ everyday experiences of being looked at.",
     "url": "",
   },
