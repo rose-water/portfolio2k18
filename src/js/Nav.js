@@ -17,9 +17,6 @@ class Nav extends Component {
         <div className="nav-items">
           <ul>
             <li className="underline">
-              <Link to="/about">About</Link>
-            </li>
-            <li className="underline">
               <Link to="/work">Work</Link>
             </li>
             <li className="underline">

@@ -12,6 +12,7 @@ h1.page-header-label {
   letter-spacing: 1.5px;
   color: var(--lt-pink);
   display: inline-block;
+  text-transform: uppercase;
 }
 
 div.page-header-divider {

@@ -1,5 +1,5 @@
 #info {
-  max-width: 450px;
+  max-width: 460px;
   line-height: 22px;
   position: absolute;
   bottom: 0;
@@ -21,6 +21,10 @@ span#info-label {
 div#info-content {
   margin-top: 24px;
   margin-bottom: 28px;
+}
+
+div#info-content p {
+  font-size: 0.8em;
 }
 
 img#ig-logo {

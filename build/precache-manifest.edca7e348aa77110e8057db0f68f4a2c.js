@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "9791bf8ad5eb98ba24c201cebd51d986",
-    "url": "./static/media/feminist-hackers.9791bf8a.png"
+    "revision": "07e529a24b77d5ac39bb2aa1b304fc13",
+    "url": "./static/media/galaxy.07e529a2.png"
   },
   {
-    "revision": "6bfae860e2b0a22c0812",
-    "url": "./static/css/main.76295888.chunk.css"
+    "revision": "3af7530ef76ff97642b9",
+    "url": "./static/css/main.aaeb9178.chunk.css"
   },
   {
-    "revision": "04dc691022ef3ed14644",
-    "url": "./static/js/1.04dc6910.chunk.js"
+    "revision": "4fb30412497ebcf1a3f1",
+    "url": "./static/js/1.4fb30412.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "./static/media/chordal.db1d6f19.png"
   },
   {
-    "revision": "6bfae860e2b0a22c0812",
-    "url": "./static/js/main.6bfae860.chunk.js"
+    "revision": "9791bf8ad5eb98ba24c201cebd51d986",
+    "url": "./static/media/feminist-hackers.9791bf8a.png"
   },
   {
-    "revision": "07e529a24b77d5ac39bb2aa1b304fc13",
-    "url": "./static/media/galaxy.07e529a2.png"
+    "revision": "3af7530ef76ff97642b9",
+    "url": "./static/js/main.3af7530e.chunk.js"
   },
   {
     "revision": "e44cac677ec76ae0a295579baace451a",
@@ -52,6 +52,14 @@ self.__precacheManifest = [
     "url": "./static/media/perennial.be76411c.png"
   },
   {
+    "revision": "47dd38e7ce03574812f53a6f73933c58",
+    "url": "./static/media/install.47dd38e7.png"
+  },
+  {
+    "revision": "b7dc7c7a77238960c8071a0ea4b069f8",
+    "url": "./static/media/ss_1.b7dc7c7a.png"
+  },
+  {
     "revision": "f0b236c675b2c3fed34d138397b1e9a2",
     "url": "./static/media/propagator.f0b236c6.png"
   },
@@ -64,7 +72,7 @@ self.__precacheManifest = [
     "url": "./static/media/tenderbloom.a8b7a5d0.png"
   },
   {
-    "revision": "38122017f19aad07034a32f844b8c5e9",
+    "revision": "1f3887a908d93c0d0c89753886bef940",
     "url": "./index.html"
   }
 ];

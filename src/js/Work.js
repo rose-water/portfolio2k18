@@ -24,7 +24,7 @@ class Work extends Component {
     return (
       <div id="work" className="inner-page-container">
         <div className="page-header">
-          <h1 className="page-header-label">WORK</h1>
+          <h1 className="page-header-label">SELECTED WORK</h1>
         </div>
         <div id="projects-container">
           { this.renderProjects(projects) }  

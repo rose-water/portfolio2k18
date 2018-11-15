@@ -39,7 +39,7 @@ class Project extends Component {
         <div className="project-meta-container">
           <Link className="project-name project-link" to={`/work/${projectId}`}>{ name }</Link>
           <div className="project-desc-container">
-            <p className="project-desc">{ description }</p>
+            <p className="project-desc">{ description.replace("\\n", "\n") }</p>
           </div>
         </div>
         

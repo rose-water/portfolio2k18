@@ -13,8 +13,8 @@ class Landing extends Component {
           <span id="info-label">ROSEWATER</span>
         </div>
         <div id="info-content">
-          <p>I'm Rachel, an artist & technologist working primarily in 3D, creating interactive & experiences on web, VR & AR. My body of work is focused on creating speculative worlds & alternate realities.</p>
-          <p>My work is heavily influenced & inspired by nature, the cosmos, & our subconscious.</p>
+          <p>I'm Rachel, an artist and technologist working primarily with 3D software tools and code to create experiences for VR and the web. My work focuses on envisioning speculative worlds as a means of investigating notions of identity, mapping internal and physical landscapes, and cultivating communities around art and education.</p>
+          <p>My work is heavily influenced by nature, the cosmos, and our subconscious.</p>
         </div>
         <div id="social">
           <a href="http://instagram.com/tenderbloom" rel="noopener noreferrer" target="_blank">
