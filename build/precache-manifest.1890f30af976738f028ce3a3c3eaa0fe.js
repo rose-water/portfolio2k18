@@ -4,16 +4,20 @@ self.__precacheManifest = [
     "url": "./static/media/feminist-hackers.9791bf8a.png"
   },
   {
-    "revision": "7c1965a4a2fec6ceb1b4",
-    "url": "./static/css/main.90433380.chunk.css"
+    "revision": "e1b39d202c7ad911f7dd",
+    "url": "./static/css/main.76295888.chunk.css"
   },
   {
-    "revision": "56dfef065c25661b683e",
-    "url": "./static/js/1.56dfef06.chunk.js"
+    "revision": "04dc691022ef3ed14644",
+    "url": "./static/js/1.04dc6910.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
     "url": "./static/js/runtime~main.4a686d48.js"
+  },
+  {
+    "revision": "f00fcee143063588b65044d4a3c92084",
+    "url": "./static/media/rachel-rose-ulgado-2018-CV.f00fcee1.pdf"
   },
   {
     "revision": "bd084393d93971840d5b227c72a4b164",
@@ -28,12 +32,16 @@ self.__precacheManifest = [
     "url": "./static/media/chordal.db1d6f19.png"
   },
   {
-    "revision": "7c1965a4a2fec6ceb1b4",
-    "url": "./static/js/main.7c1965a4.chunk.js"
+    "revision": "e1b39d202c7ad911f7dd",
+    "url": "./static/js/main.e1b39d20.chunk.js"
   },
   {
     "revision": "07e529a24b77d5ac39bb2aa1b304fc13",
     "url": "./static/media/galaxy.07e529a2.png"
+  },
+  {
+    "revision": "e44cac677ec76ae0a295579baace451a",
+    "url": "./static/media/guise.e44cac67.png"
   },
   {
     "revision": "6e659e8a699455f36c9296d4d716d988",
@@ -56,7 +64,7 @@ self.__precacheManifest = [
     "url": "./static/media/tenderbloom.a8b7a5d0.png"
   },
   {
-    "revision": "02e6c913780a17c10d28ff9742490640",
+    "revision": "9ae3f8703fd3f3184e2c9085057a0207",
     "url": "./index.html"
   }
 ];
