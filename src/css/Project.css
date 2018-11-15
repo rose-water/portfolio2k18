@@ -1,3 +1,10 @@
+#projects-container {
+  margin-top: 2.4em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .project-container {
   overflow: hidden;
   margin-bottom: 64px;
@@ -18,13 +25,6 @@ img.project-highlight {
   overflow:hidden;
 }
 
-.project-name {
-  text-transform: uppercase;
-  color: var(--lt-pink);
-  font-size: 22px;
-}
-
-.project-name, 
 .project-description {
   border: 2px solid var(--med-pink);
   padding: 12px;
@@ -38,4 +38,55 @@ img.project-highlight {
   color: var(--lt-pink);
   margin: 0px;
   line-height: 22px;
+}
+
+/* GRID VIEW */
+.content-grid-item-outer {
+  width: 31%;
+  margin-bottom: 8em;
+  padding: 0px;  
+  min-width: 400px;
+}
+
+.project-img-grid {
+  width: 100%;
+}
+
+.project-meta-container {
+  margin-top: 1.2em;
+  position: relative;
+}
+
+.project-name {
+  text-transform: uppercase;
+  color: var(--lt-pink);
+  font-size: 1.1em;
+  letter-spacing: 0.02em;
+}
+
+a.project-link {
+  color: var(--lt-pink);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  /* border-bottom: 1px solid grey;
+  flex-grow: 2; */
+}
+
+a.project-link:after {
+  content: "";
+  bottom: -3px;
+  height: 1px;
+  width: 100%;
+  background: var(--lt-pink);
+}
+
+.project-desc-container {
+  padding-top: 2.5em;
+}
+
+.project-desc-container p {
+  margin: 0px;
+  line-height: 1.6em;
+  color: var(--lt-pink);
 }

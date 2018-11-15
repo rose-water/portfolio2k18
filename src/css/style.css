@@ -3,8 +3,8 @@
 :root {
   --lt-pink: #FFEBFF;
   --med-pink: #D6B4D6;
-  /* --bg-navy: #1B182E; */
-  --bg-navy: #19162f;
+  --bg-navy: #1B182E;
+  /* --bg-navy: #19162f; */
 }
 
 * {
@@ -25,15 +25,16 @@ body {
 
 p {
   color: var(--med-pink);
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.8em;
 }
 
 .page-container {
   position: absolute;
-  left: 70px;
-  top: 70px;
-  width: calc(100% - 140px);
-  height: calc(100% - 140px);
+  left: 5.0em;
+  top: 4.0em;
+  width: calc(100% - 10.0em);
+  height: calc(100% - 8.0em);
 }
 
 #canvas {

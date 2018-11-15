@@ -12,10 +12,7 @@ class Nav extends Component {
             <Link to="/">ROSEWATER</Link>
           </span> : null
         }
-        {/* <span id="name-label">
-          <Link to="/">ROSEWATER</Link>
-        </span> */}
-
+    
         <div className="nav-items">
           <ul>
             <li className="underline">
