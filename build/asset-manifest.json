@@ -1,7 +1,7 @@
 {
-  "main.css": "./static/css/main.aaeb9178.chunk.css",
-  "main.js": "./static/js/main.3af7530e.chunk.js",
-  "main.js.map": "./static/js/main.3af7530e.chunk.js.map",
+  "main.css": "./static/css/main.2b08b710.chunk.css",
+  "main.js": "./static/js/main.6a02608d.chunk.js",
+  "main.js.map": "./static/js/main.6a02608d.chunk.js.map",
   "static/js/1.4fb30412.chunk.js": "./static/js/1.4fb30412.chunk.js",
   "static/js/1.4fb30412.chunk.js.map": "./static/js/1.4fb30412.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
@@ -20,8 +20,8 @@
   "static/media/propagator.png": "./static/media/propagator.f0b236c6.png",
   "static/media/logo-instagram.svg": "./static/media/logo-instagram.bd084393.svg",
   "static/media/tenderbloom.png": "./static/media/tenderbloom.a8b7a5d0.png",
-  "static/css/main.aaeb9178.chunk.css.map": "./static/css/main.aaeb9178.chunk.css.map",
+  "static/css/main.2b08b710.chunk.css.map": "./static/css/main.2b08b710.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.edca7e348aa77110e8057db0f68f4a2c.js": "./precache-manifest.edca7e348aa77110e8057db0f68f4a2c.js",
+  "precache-manifest.11d288599d7a99832e9e8155d3f28a13.js": "./precache-manifest.11d288599d7a99832e9e8155d3f28a13.js",
   "service-worker.js": "./service-worker.js"
 }

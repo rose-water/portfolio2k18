@@ -35,16 +35,15 @@ class Project extends Component {
     // Grid view
     return (
       <div className="content-grid-item">
-        <Link to={`/work/${projectId}`}>
-          <img className="project-img-grid" src={ require('../assets/projects/' + projectId + '.png') }></img>
+        <Link to={`/work/${ projectId }`}>
+          <img alt={ projectId }className="project-img-grid" src={ require('../assets/projects/' + projectId + '.png') }></img>
         </Link>
         <div className="project-meta-container">
-          <Link className="project-name project-link" to={`/work/${projectId}`}>{ name }</Link>
+          <Link className="project-name project-link" to={`/work/${ projectId }`}>{ name }</Link>
           <div className="project-desc-container">
             <p className="project-desc">{ description.replace("\\n", "\n") }</p>
           </div>
         </div>
-        
       </div>
     );
   }
