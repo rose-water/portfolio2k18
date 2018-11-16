@@ -3,32 +3,41 @@ import projects from './data.js';
 
 class ProjectDetail extends Component {
 
-  componentWillMount() {
-    const { projectId } = this.props.match.params;
-    this.projectDetails = projects.filter(proj => {
-      return proj.id === projectId;
-    })[0];
+  constructor(props) {
+    super(props);
+
+    const { projectId } = props.match.params;
+    this.state = {
+      projectDetails: projects.filter(proj => {
+        return proj.id === projectId;
+      })[0]
+    }
+
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+  
   render() {
     return(
-      <div className="project inner-page-container" key={ this.projectDetails.id }>
+      <div className="project inner-page-container" key={ this.state.projectDetails.id }>
         <div className="page-header">
-          <h1 className="page-header-label">{ this.projectDetails.name }</h1>
+          <h1 className="page-header-label">{ this.state.projectDetails.name }</h1>
         </div>
         <div className="project-detail-container">
           <div className="project-content">
             {
-              this.projectDetails.content.map( para => {
-                return <p>
-                  { para }
+              this.state.projectDetails.content.map((para, index) => {
+                return <p key={ 'p-' + index }>
+                  { para }  
                 </p>
               })
             }
 
             {
-              this.projectDetails.imgs.map(img => {
-                return <img className="proj-img" src={ require('../assets/projects/' + this.projectDetails.id + '/' + img + '.png')}></img>
+              this.state.projectDetails.imgs.map((img, index) => {
+                return <img key={ this.state.projectDetails.id + '-img-' + index } className="proj-img" src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img + '.png')}></img>
               })
             }
           </div>
