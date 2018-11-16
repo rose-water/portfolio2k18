@@ -43,9 +43,9 @@ module.exports = [
     "id" : "propagator",
     "description" : "A digital zine created by a network of peers working across various creative disciplines looking to expand their art, design, and research practices.",
     "content": [
-      "\"I really want to make art... but I'm not sure what to make or where to start.\"",
-      "Several of my peers working across creative disciplines seemed to share this sentiment. Taking inspiration my peers who have launched their own zines, as well as other established platforms such as Rhizome and Web Residencies by Schloss Solitude, I decided to start a digital zine to function as a means of helping myself and others expand their art, design, and research practices as well as built an online community around making art.",
-      "Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside of the norms of their professional work. In Issue 01, \"DREAM MACHINE\", contributors attempt dream journaling over the course of several weeks and create a piece based on their entries. Some of the works submitted include web based VR pieces, audio visualizations, short essays, video essays, illustrations, and 3D art. The first issue will be released mid-December, 2018.",
+      "Taking inspiration from my peers who have launched their own zines, as well as other established platforms such as Rhizome and Web Residencies by Schloss Solitude, I decided to start a digital zine as a platform for supporting myself and my peers working across creative disciplines in expanding our artistic, design, and research practices.",
+      "Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside the norms of their professional work.",
+      "In Issue 01, \"DREAM MACHINE\", contributors attempt dream journaling over the course of several weeks and create a piece based on their entries. Some of the works submitted include web VR pieces, data visualizations, short essays, video essays, illustrations, and 3D art. The first issue will be released mid-December, 2018.",
     ],
     "imgs": [
       
