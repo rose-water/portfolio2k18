@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Project.css';
 import { Link } from 'react-router-dom';
+import LazyLoad from 'react-lazy-load';
 
 class Project extends Component {
   render() {
@@ -36,7 +37,9 @@ class Project extends Component {
     return (
       <div className="content-grid-item">
         <Link to={`/work/${ projectId }`}>
-          <img alt={ projectId }className="project-img-grid" src={ require('../assets/projects/' + projectId + '.png') }></img>
+          <LazyLoad>
+            <img alt={ projectId }className="project-img-grid" src={ require('../assets/projects/' + projectId + '.png') }></img>
+          </LazyLoad>
         </Link>
         <div className="project-meta-container">
           <Link className="project-name project-link" to={`/work/${ projectId }`}>{ name }</Link>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import projects from './data.js';
+import LazyLoad from 'react-lazy-load';
 
 class ProjectDetail extends Component {
 
@@ -37,7 +38,11 @@ class ProjectDetail extends Component {
 
             {
               this.state.projectDetails.imgs.map((img, index) => {
-                return <img alt={ this.state.projectDetails.id } key={ this.state.projectDetails.id + '-img-' + index } className="proj-img" src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img + '.png')}></img>
+                return (
+                  <LazyLoad>
+                    <img alt={ this.state.projectDetails.id } key={ this.state.projectDetails.id + '-img-' + index } className="proj-img" src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img + '.png')}></img>
+                  </LazyLoad>
+                )
               })
             }
           </div>
