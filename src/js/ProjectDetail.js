@@ -8,12 +8,18 @@ class ProjectDetail extends Component {
     super(props);
 
     const { projectId } = props.match.params;
-    this.state = {
-      projectDetails: projects.filter(proj => {
-        return proj.id === projectId;
-      })[0]
+    let projectDetails = {};
+    for (let i=0; i<projects.length; i++) {
+      // TODO: make filter return an object instead of assigning it directly
+      projects[i].projects.filter(project => {
+        if(project.id === projectId) {
+          projectDetails = project;
+        }
+      });
     }
-
+    this.state = {
+      projectDetails
+    }
   }
 
   componentDidMount() {
@@ -39,7 +45,7 @@ class ProjectDetail extends Component {
             {
               this.state.projectDetails.imgs.map((img, index) => {
                 return (
-                  <LazyLoad>
+                  <LazyLoad key={ this.state.projectDetails.id + '-img-' + index }>
                     <img alt={ this.state.projectDetails.id } key={ this.state.projectDetails.id + '-img-' + index } className="proj-img" src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img + '.png')}></img>
                   </LazyLoad>
                 )
