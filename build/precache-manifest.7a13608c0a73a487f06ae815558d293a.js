@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "./static/media/galaxy.07e529a2.png"
   },
   {
-    "revision": "6a02608d97fc8a3ea511",
-    "url": "./static/css/main.2b08b710.chunk.css"
+    "revision": "9e221417245455c7ba7c",
+    "url": "./static/css/main.5e2c752e.chunk.css"
   },
   {
-    "revision": "4fb30412497ebcf1a3f1",
-    "url": "./static/js/1.4fb30412.chunk.js"
+    "revision": "371c5a5bfee0210e2e25",
+    "url": "./static/js/1.371c5a5b.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "./static/media/feminist-hackers.9791bf8a.png"
   },
   {
-    "revision": "6a02608d97fc8a3ea511",
-    "url": "./static/js/main.6a02608d.chunk.js"
+    "revision": "9e221417245455c7ba7c",
+    "url": "./static/js/main.9e221417.chunk.js"
   },
   {
     "revision": "e44cac677ec76ae0a295579baace451a",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "./static/media/tenderbloom.a8b7a5d0.png"
   },
   {
-    "revision": "9589bf702028944d8cc0b7b7b8f116dd",
+    "revision": "4f5620744539d6f67ae1dd1081c38d5b",
     "url": "./index.html"
   }
 ];
