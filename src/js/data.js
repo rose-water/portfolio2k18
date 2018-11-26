@@ -107,12 +107,24 @@ module.exports = [
         ],
         "url": "",
         "isPublic": true
-      }
+      },
+
+      {
+        "name" : "",
+        "id" : "placeholder",
+        "description" : "",
+        "content": [
+          ""
+        ],
+        "imgs" : [],
+        "url" : "",
+        "isPublic": true
+      },
     ]
   },
 
   {
-    "workType" : "Academic Research",
+    "workType" : "Academic Work",
     "projects" : [
       {
         "name" : "VidCoach",
@@ -140,7 +152,18 @@ module.exports = [
         ],
         "url": "",
         "isPublic": true
-      }
+      },
+      {
+        "name" : "",
+        "id" : "placeholder",
+        "description" : "",
+        "content": [
+          ""
+        ],
+        "imgs" : [],
+        "url" : "",
+        "isPublic": true
+      },
     ]
   }, 
 

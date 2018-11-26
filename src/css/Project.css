@@ -1,9 +1,15 @@
 #projects-container {
   margin-top: 2.4em;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+/* #projects-container:after {
+  content: '';
+  flex: auto;
+} */
 
 .project-detail-container {
   max-width: 75%;

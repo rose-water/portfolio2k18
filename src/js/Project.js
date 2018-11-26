@@ -37,9 +37,11 @@ class Project extends Component {
     return (
       <div className="content-grid-item">
         <Link to={`/work/${ projectId }`}>
-          <LazyLoad>
+          {
+            projectId === "placeholder" ? null : <LazyLoad>
             <img alt={ projectId }className="project-img-grid" src={ require('../assets/projects/' + projectId + '.png') }></img>
           </LazyLoad>
+          }
         </Link>
         <div className="project-meta-container">
           <Link className="project-name project-link" to={`/work/${ projectId }`}>{ name }</Link>
