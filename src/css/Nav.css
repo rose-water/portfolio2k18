@@ -46,3 +46,11 @@ a, a:visited {
   width: 0;
   transition: width 0.25s;
 }
+
+@media screen and (max-width: 600px) {
+  .underline:hover:after,
+  .underline:focus:after,
+  .underline:active:after {
+    width: 0%;
+  }
+}
