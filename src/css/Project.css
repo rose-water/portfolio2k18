@@ -77,6 +77,14 @@ img.project-highlight {
   min-width: 400px;
 }
 
+@media screen and (max-width: 600px) {
+  .content-grid-item-outer {
+    width: 85%;
+    min-width: 100%;
+    margin-bottom: 5em;
+  }
+}
+
 .project-img-grid {
   width: 100%;
 }

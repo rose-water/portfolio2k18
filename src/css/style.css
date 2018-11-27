@@ -37,6 +37,14 @@ p {
   height: calc(100% - 8.0em);
 }
 
+@media screen and (max-width: 600px) {
+  .page-container {
+    left: 1.4em;
+    width: calc(100% - 2.8em);
+    height: calc(100% - 1.0em);
+  }
+}
+
 #canvas {
   position: absolute;
 }
