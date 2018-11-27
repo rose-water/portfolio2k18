@@ -129,7 +129,7 @@ module.exports = [
       {
         "name" : "VidCoach",
         "id" : "vidcoach",
-        "description" : "",
+        "description" : "Researching how to design educational tools to support individuals with Autism Spectrum Disorder (ASD) in learning & retaining valuable life skills.",
         "content" : [
 
         ],
