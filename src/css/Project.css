@@ -83,6 +83,10 @@ img.project-highlight {
     min-width: 100%;
     margin-bottom: 5em;
   }
+  .placeholder {
+    margin-bottom: 0;
+    display: none;
+  }
 }
 
 .project-img-grid {

@@ -3,6 +3,13 @@
   overflow-x: auto;
 }
 
+@media screen and (max-width: 600px) {
+  .inner-page-container {
+    margin-bottom: 0px;
+  }
+
+}
+
 .page-header {
   position: relative;
 }
