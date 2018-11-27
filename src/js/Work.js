@@ -23,7 +23,7 @@ class Work extends Component {
   renderProjects(projects) {
     return projects.map(project => {
       return (
-        <div className="content-grid-item-outer" key={ project.name }>
+        <div className={`content-grid-item-outer ${ project.id === "placeholder" ? "placeholder" : null }`} key={ project.name }>
           <Project 
             name={ project.name } 
             id={ project.id }
