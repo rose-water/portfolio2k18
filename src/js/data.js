@@ -170,6 +170,43 @@ module.exports = [
   {
     "workType" : "Professional Work",
     "projects" : [ 
+      {
+        "name" : "The Memory Observatory",
+        "id" : "memoryobservatory",
+        "description" : "A SXSW interactive installation to support the launch of the new Kodak Alaris Moments app.",
+        "content" : [
+          "Junior collaborated with Kodak Alaris and Special Guest to create the Memory Observatory at SXSW 2016. This physical installation provided an experience where people were invited to share upload a photo and describe a past memory and then re-experience their memory in a kaleidoscopic room with carefully chosen smells, colors, and custom sounds.",
+          "I was tasked with building two React applications to support numerous SXSW attendees to participate in this experience."
+        ],
+        "imgs" : ["memoryobservatory_1", "memoryobservatory_2", "memoryobservatory_4"],
+        "url" : [],
+        "isPublic": true
+      },
+      {
+        "name" : "pocktVR",
+        "id" : "pocktvr",
+        "description" : "A web-based VR platform for creating and sharing immersive 360° photospheres. Made with A-Frame, React, and Node.",
+        "content" : [
+          "A web-based VR platform for creating and sharing immersive 360° photospheres. Made with A-Frame, React, and Node.",
+          "As a Design Technologist at Junior, I contributed to the front-end development of my team's codebase and created fundamental React components for the platform. In addition, I led the initial visual design process and UX research for this internal project."
+        ],
+        "imgs" : ["pocktvr-1", "pocktvr-2"],
+        "url" : [],
+        "isPublic": true
+      },
+      {
+        "name" : "Catching Tigers & Flies",
+        "id" : "chinafile",
+        "description" : "An interactive data visualization for observing and understanding patterns of corruption across China's provinces.",
+        "content" : [
+          "Schema Design collaborated with ChinaFile, a publication by Asia Society, to create an interactive tool for visualizing and understanding corruption in China.",
+          "As the Creative Technologist in Residence at Schema Design, I met with the client weekly throughout their data collection process and collaborated with another developer to build the website.",
+          "Built with HTML, CSS, and Javascript (C3, Isotope)."
+        ],
+        "imgs" : ["chinafile_01", "chinafile_02","chinafile_04"],
+        "url" : [],
+        "isPublic": true
+      },
       
     ]
   }
