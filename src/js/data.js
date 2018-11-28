@@ -78,7 +78,7 @@ module.exports = [
         "imgs": [
           "ss_1", "install"
         ],
-        "url": "",
+        "url": "https://tenderbloom-perennial.herokuapp.com/",
         "isPublic": true
       },
     
@@ -90,7 +90,7 @@ module.exports = [
           "An ongoing series of little renders created in the process of learning 3D modeling, animation, and working with 3D on the web."
         ],
         "imgs": [],
-        "url": "",
+        "url": "https://www.instagram.com/tenderbloom/",
         "isPublic": true
       },
     
@@ -134,7 +134,7 @@ module.exports = [
 
         ],
         "imgs" : [],
-        "url" : [],
+        "url" : "",
         "isPublic": true
       },
       {
@@ -179,7 +179,7 @@ module.exports = [
           "I was tasked with building two React applications to support numerous SXSW attendees to participate in this experience."
         ],
         "imgs" : ["memoryobservatory_1", "memoryobservatory_2", "memoryobservatory_4"],
-        "url" : [],
+        "url" : "",
         "isPublic": true
       },
       {
@@ -191,7 +191,7 @@ module.exports = [
           "As a Design Technologist at Junior, I contributed to the front-end development of my team's codebase and created fundamental React components for the platform. In addition, I led the initial visual design process and UX research for this internal project."
         ],
         "imgs" : ["pocktvr-1", "pocktvr-2"],
-        "url" : [],
+        "url" : "",
         "isPublic": true
       },
       {
@@ -204,7 +204,7 @@ module.exports = [
           "Built with HTML, CSS, and Javascript (C3, Isotope)."
         ],
         "imgs" : ["chinafile_01", "chinafile_02","chinafile_04"],
-        "url" : [],
+        "url" : "http://anticorruption.chinafile.com",
         "isPublic": true
       },
       

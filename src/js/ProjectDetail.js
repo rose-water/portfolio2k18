@@ -48,7 +48,11 @@ class ProjectDetail extends Component {
                 </p>
               })
             }
-
+            { this.state.projectDetails.url === "" ? null : 
+              <a href={ this.state.projectDetails.url } target="_blank">
+                <div className="project-detail-link">Project Website</div>
+              </a>
+            }
             {
               this.state.projectDetails.imgs.map((img, index) => {
                 return (
