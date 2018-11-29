@@ -81,18 +81,6 @@ img.project-highlight {
   /* height: 0px; */
 }
 
-@media screen and (max-width: 600px) {
-  .content-grid-item-outer {
-    width: 85%;
-    min-width: 100%;
-    margin-bottom: 5em;
-  }
-  .placeholder {
-    margin-bottom: 0;
-    display: none;
-  }
-}
-
 .project-img-grid {
   width: 100%;
 }
@@ -150,4 +138,29 @@ a.project-link:after {
 .project-detail-link:hover {
   background: var(--med-pink);
   color: var(--bg-navy);
+}
+
+@media screen and (max-width: 600px) {
+  .content-grid-item-outer {
+    width: 85%;
+    min-width: 100%;
+    margin-bottom: 5em;
+  }
+  .placeholder {
+    margin-bottom: 0;
+    display: none;
+  }
+  .project-detail-container {
+    max-width: 95%;
+    margin-top: 0px;
+  }
+  .back-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .content-grid-item-outer {
+    width: 46%;
+  }
 }
