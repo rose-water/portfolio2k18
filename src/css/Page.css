@@ -1,5 +1,5 @@
 .inner-page-container {
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   overflow-x: auto;
 }
 
@@ -16,10 +16,11 @@
 
 h1.page-header-label {
   font-size: 24px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   color: var(--lt-pink);
   display: inline-block;
   text-transform: uppercase;
+  font-weight: 100;
 }
 
 div.page-header-divider {
@@ -36,6 +37,7 @@ div.page-content {
   line-height: 26px;
   max-width: 550px;
   margin-left: 128px;
+  margin-right: 128px;
 }
 
 /* Specific to Work page */

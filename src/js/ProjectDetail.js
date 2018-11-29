@@ -31,16 +31,15 @@ class ProjectDetail extends Component {
   render() {
     return(
       <div className="project inner-page-container" key={ this.state.projectDetails.id }>
-        <div className="page-header">
-          <div className="back-icon">
-            <Link to="/work" >
-              <img id="ig-logo" alt="ig-logo" src={ backIcon }></img>
-            </Link>
-          </div>
-          <h1 className="page-header-label">{ this.state.projectDetails.name }</h1>
-        </div>
+        <div className="back-icon">
+          <Link to="/work" >
+            <img id="ig-logo" alt="ig-logo" src={ backIcon }></img>
+          </Link>
+        </div> 
         <div className="project-detail-container">
+        <h1 className="page-header-label">{ this.state.projectDetails.name }</h1>
           <div className="project-content">
+            
             {
               this.state.projectDetails.content.map((para, index) => {
                 return <p key={ 'p-' + index }>
@@ -57,7 +56,7 @@ class ProjectDetail extends Component {
               this.state.projectDetails.imgs.map((img, index) => {
                 return (
                   <LazyLoad key={ this.state.projectDetails.id + '-img-' + index }>
-                    <img alt={ this.state.projectDetails.id } key={ this.state.projectDetails.id + '-img-' + index } className="proj-img" src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img + '.png')}></img>
+                    <img alt={ this.state.projectDetails.id } key={ this.state.projectDetails.id + '-img-' + index } className="proj-img" src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img)}></img>
                   </LazyLoad>
                 )
               })

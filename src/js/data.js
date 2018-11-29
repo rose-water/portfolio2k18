@@ -15,37 +15,13 @@ module.exports = [
       },
     
       {
-        "name" : "GUISE + GAZE",
-        "id" : "guise",
-        "description" : "Women appear. Taking direct influences from John Berger’s book “Ways of Seeing,” this work is a visual metaphor for womens’ everyday experiences of being looked at.",
-        "content": [
-          "Women appear. Taking direct influences from John Berger’s book “Ways of Seeing,” this work is a visual metaphor for womens’ everyday experiences of being looked at."
-        ],
-        "imgs": [],
-        "url": "",
-        "isPublic": false
-      },
-    
-      {
-        "name" : "Shrines",
-        "id" : "shrines",
-        "description" : "Sanctums.",
-        "content": [
-          "Sanguine, sanctums"
-        ],
-        "imgs": [],
-        "url": "",
-        "isPublic": false
-      },
-    
-      {
         "name" : "Propagator",
         "id" : "propagator",
         "description" : "A digital zine created by a network of peers working across various creative disciplines looking to expand their art, design, and research practices.",
         "content": [
           "Taking inspiration from my peers who have launched their own zines, as well as other established platforms such as Rhizome and Web Residencies by Schloss Solitude, I decided to start a digital zine as a platform for supporting myself and my peers working across creative disciplines in expanding our artistic, design, and research practices.",
           "Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside the norms of their professional work.",
-          "In Issue 01, \"DREAM MACHINE\", contributors attempt dream journaling over the course of several weeks and create a piece based on their entries. Some of the works submitted include web VR pieces, data visualizations, short essays, video essays, illustrations, and 3D art. The first issue will be released mid-December, 2018.",
+          "In Issue 01, \"DREAM MACHINE,\" contributors attempted dream journaling over the course of several weeks and created a piece based on their entries. Some of the works submitted include 3D art for the web, data visualizations, short essays, video essays, and illustrations. The first issue will be released mid-December, 2018.",
         ],
         "imgs": [],
         "url": "http://propagator.xyz",
@@ -76,7 +52,7 @@ module.exports = [
           "This project was built with Cinema 4D, Three.js, and Web Audio. Perennial was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts."
         ],
         "imgs": [
-          "ss_1", "install"
+          "ss_1.png", "install.png"
         ],
         "url": "https://tenderbloom-perennial.herokuapp.com/",
         "isPublic": true
@@ -120,6 +96,7 @@ module.exports = [
         "url" : "",
         "isPublic": true
       },
+      
     ]
   },
 
@@ -148,11 +125,27 @@ module.exports = [
           "Drawing upon Dunne and Raby's seminal work on critical and speculative design, participants collaborated in exercises around imagining what an ideal future would look like, and investigating how several systemic and infrastructural portions of the past and present would need to be refigured to bring about that ideal future."
         ],
         "imgs": [
-          
+          "feminist-hackers-1.jpg",
+          "feminist-hackers-2.jpg",
+          "feminist-hackers-3.jpg",
+          "feminist-hackers-4.jpg",
+          "feminist-hackers-5.jpg"
         ],
         "url": "",
         "isPublic": true
       },
+      {
+        "name" : "",
+        "id" : "placeholder",
+        "description" : "",
+        "content": [
+          ""
+        ],
+        "imgs" : [],
+        "url" : "",
+        "isPublic": true
+      },
+
       {
         "name" : "",
         "id" : "placeholder",
@@ -178,7 +171,7 @@ module.exports = [
           "Junior collaborated with Kodak Alaris and Special Guest to create the Memory Observatory at SXSW 2016. This physical installation provided an experience where people were invited to share upload a photo and describe a past memory and then re-experience their memory in a kaleidoscopic room with carefully chosen smells, colors, and custom sounds.",
           "I was tasked with building two React applications to support numerous SXSW attendees to participate in this experience."
         ],
-        "imgs" : ["memoryobservatory_1", "memoryobservatory_2", "memoryobservatory_4"],
+        "imgs" : ["memoryobservatory_1.png", "memoryobservatory_2.png", "memoryobservatory_4.png"],
         "url" : "",
         "isPublic": true
       },
@@ -190,7 +183,7 @@ module.exports = [
           "A web-based VR platform for creating and sharing immersive 360° photospheres. Made with A-Frame, React, and Node.",
           "As a Design Technologist at Junior, I contributed to the front-end development of my team's codebase and created fundamental React components for the platform. In addition, I led the initial visual design process and UX research for this internal project."
         ],
-        "imgs" : ["pocktvr-1", "pocktvr-2"],
+        "imgs" : ["pocktvr-1.png", "pocktvr-2.png"],
         "url" : "",
         "isPublic": true
       },
@@ -203,7 +196,7 @@ module.exports = [
           "As the Creative Technologist in Residence at Schema Design, I met with the client weekly throughout their data collection process and collaborated with another developer to build the website.",
           "Built with HTML, CSS, and Javascript (C3, Isotope)."
         ],
-        "imgs" : ["chinafile_01", "chinafile_02","chinafile_04"],
+        "imgs" : ["chinafile_01.png", "chinafile_02.png","chinafile_04.png"],
         "url" : "http://anticorruption.chinafile.com",
         "isPublic": true
       },
@@ -214,3 +207,30 @@ module.exports = [
 
   
 ];
+
+
+
+
+// {
+//   "name" : "GUISE + GAZE",
+//   "id" : "guise",
+//   "description" : "Women appear. Taking direct influences from John Berger’s book “Ways of Seeing,” this work is a visual metaphor for womens’ everyday experiences of being looked at.",
+//   "content": [
+//     "Women appear. Taking direct influences from John Berger’s book “Ways of Seeing,” this work is a visual metaphor for womens’ everyday experiences of being looked at."
+//   ],
+//   "imgs": [],
+//   "url": "",
+//   "isPublic": false
+// },
+
+// {
+//   "name" : "Shrines",
+//   "id" : "shrines",
+//   "description" : "Sanctums.",
+//   "content": [
+//     "Sanguine, sanctums"
+//   ],
+//   "imgs": [],
+//   "url": "",
+//   "isPublic": false
+// },

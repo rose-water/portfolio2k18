@@ -8,11 +8,11 @@ class Work extends Component {
   renderProjectSections(projects) {
     return projects.map(workSection => {
       return (
-        <div id="work" className="inner-page-container" key={workSection.workType}>
-          <div className="page-header">
+        <div className="work inner-page-container" key={workSection.workType}>
+          <div className="page-header work">
             <h1 className="page-header-label">{ workSection.workType }</h1>
           </div>
-          <div id="projects-container">
+          <div className="projects-container">
             { this.renderProjects(workSection.projects) }
           </div>
         </div>
@@ -22,6 +22,7 @@ class Work extends Component {
 
   renderProjects(projects) {
     return projects.map(project => {
+      
       return (
         <div className={`content-grid-item-outer ${ project.id === "placeholder" ? "placeholder" : null }`} key={ project.name }>
           <Project 

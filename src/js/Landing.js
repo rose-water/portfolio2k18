@@ -9,9 +9,6 @@ class Landing extends Component {
     return (
       <div id="info">
         <div className="borderline"></div>
-        <div>
-          <span id="info-label">ROSEWATER</span>
-        </div>
         <div id="info-content">
           <p>I'm Rachel, an artist and technologist working primarily with 3D software and code to create experiences for VR and the web. My work focuses on envisioning and materializing speculative worlds to investigate notions of identity and map internal landscapes.</p>
           <p>My work is heavily influenced by nature, the cosmos, and our subconscious.</p>
