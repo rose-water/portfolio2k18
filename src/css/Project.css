@@ -140,7 +140,7 @@ a.project-link:after {
   color: var(--bg-navy);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 980px) {
   .content-grid-item-outer {
     width: 85%;
     min-width: 100%;
