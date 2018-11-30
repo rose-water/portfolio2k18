@@ -140,6 +140,19 @@ a.project-link:after {
   color: var(--bg-navy);
 }
 
+div.vid {
+  margin-top: 48px;
+  padding:75% 0 0 0;
+  position:relative;
+}
+
+.player {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 @media screen and (max-width: 980px) {
   .content-grid-item-outer {
     width: 85%;

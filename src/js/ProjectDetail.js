@@ -3,6 +3,7 @@ import projects from './data.js';
 import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
 import backIcon from '../assets/arrow.svg';
+import ReactPlayer from 'react-player';
 
 class ProjectDetail extends Component {
 
@@ -28,7 +29,14 @@ class ProjectDetail extends Component {
     window.scrollTo(0, 0);
   }
   
+  createVidMarkup() {
+    let test = `<iframe src="https://player.vimeo.com/video/303633620?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`;
+
+    return {__html: test};
+  }
+
   render() {
+    
     return(
       <div className="project inner-page-container" key={ this.state.projectDetails.id }>
         <div className="back-icon">
@@ -39,7 +47,6 @@ class ProjectDetail extends Component {
         <div className="project-detail-container">
         <h1 className="page-header-label">{ this.state.projectDetails.name }</h1>
           <div className="project-content">
-            
             {
               this.state.projectDetails.content.map((para, index) => {
                 return <p key={ 'p-' + index }>
@@ -53,6 +60,9 @@ class ProjectDetail extends Component {
               </a>
             }
             {
+              this.state.projectDetails.name === "cepheids" ?
+              <div className="vid" dangerouslySetInnerHTML={ this.createVidMarkup() } >
+              </div> :
               this.state.projectDetails.imgs.map((img, index) => {
                 return (
                   <LazyLoad key={ this.state.projectDetails.id + '-img-' + index }>
