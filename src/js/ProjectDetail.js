@@ -28,10 +28,8 @@ class ProjectDetail extends Component {
     window.scrollTo(0, 0);
   }
   
-  createVidMarkup() {
-    let test = `<iframe src="https://player.vimeo.com/video/303633620?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`;
-
-    return {__html: test};
+  createVidMarkup(embedCode) {
+    return {__html: embedCode};
   }
 
   render() {
@@ -58,10 +56,8 @@ class ProjectDetail extends Component {
                 <div className="project-detail-link">Project Website</div>
               </a>
             }
+            
             {
-              this.state.projectDetails.name === "cepheids" ?
-              <div className="vid" dangerouslySetInnerHTML={ this.createVidMarkup() } >
-              </div> :
               this.state.projectDetails.imgs.map((img, index) => {
                 return (
                   <LazyLoad key={ this.state.projectDetails.id + '-img-' + index }>
@@ -71,9 +67,12 @@ class ProjectDetail extends Component {
               })
             }
           </div>
-          
+          {
+            this.state.projectDetails.videoEmbedUrl !== "" ? 
+            <div className="vid" dangerouslySetInnerHTML={ this.createVidMarkup(this.state.projectDetails.videoEmbedUrl) } >
+            </div> : null
+          }
         </div>
-        
       </div>
     );
   }

@@ -29,7 +29,7 @@ module.exports = [
       },
     
       {
-        "name" : "Chordal",
+        "name" : "Chordal (2019)",
         "id" : "chordal",
         "description" : "A web-based educational tool for learning various musical scales. Built with Tone.js, React, and GSAP.",
         "content": [
@@ -51,6 +51,7 @@ module.exports = [
           "\"I feel like I’m stuck in a dark tunnel\" was all I could come up with. So I started from there, and literally started with a tunnel. In an attempt to confront my inner demons, I molded this form and grew myself a garden. Thus a meditation was born, from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal.",
           "This project was built with Cinema 4D, Three.js, and Web Audio. Perennial was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts."
         ],
+        "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303649092?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs": [
           "ss_1.png", "install.png"
         ],
@@ -78,9 +79,8 @@ module.exports = [
           "Cepheids, also known as Cepheid Variables, \"are a type of star that pulsates radially, varying in both diameter and temperature.\" (from Wikipedia).",
           "This project was created as part of \"Creative Programming for Digital Media & Mobile Apps\" on Coursera. I originally developed this with Processing and the Minim library, but I have ported it to p5.js."
         ],
-        "imgs": [
-          
-        ],
+        "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303633620?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
+        "imgs": [],
         "url": "",
         "isPublic": true
       },

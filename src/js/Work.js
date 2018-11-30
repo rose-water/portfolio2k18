@@ -6,9 +6,9 @@ import '../css/Project.css';
 class Work extends Component {
 
   renderProjectSections(projects) {
-    return projects.map(workSection => {
+    return projects.map((workSection, index) => {
       return (
-        <div className="work inner-page-container" key={workSection.workType}>
+        <div className="work inner-page-container" key={ 'worksection-' + index }>
           <div className="page-header work">
             <h1 className="page-header-label">{ workSection.workType }</h1>
           </div>
@@ -21,8 +21,7 @@ class Work extends Component {
   }
 
   renderProjects(projects) {
-    return projects.map(project => {
-      
+    return projects.map((project, index) => {
       return (
         <div className={`content-grid-item-outer ${ project.id === "placeholder" ? "placeholder" : null }`} key={ project.name }>
           <Project 
@@ -32,17 +31,17 @@ class Work extends Component {
             highlightUrl={ project.highlightUrl }
           />
         </div>
-        );
-      });
-    }
+      );
+    });
+  }
     
-    render() {
-      return (
-          <div key={ Math.random() }>
-            { this.renderProjectSections(projects) }
-          </div>
-        );
-      }
-    }
-    
-    export default Work;
+  render() {
+  return (
+    <div key={ Math.random() }>
+      { this.renderProjectSections(projects) }
+    </div>
+    );
+  }
+}
+  
+export default Work;
