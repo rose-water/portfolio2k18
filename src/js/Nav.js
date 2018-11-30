@@ -10,7 +10,8 @@ class Nav extends Component {
         {
           window.location.pathname !== '/' ? 
           <span id="name-label">
-            <Link to="/">ROSEWATER</Link>
+            {/* <Link to="/">RACHEL ROSE ULGADO</Link> */}
+            RACHEL ROSE ULGADO
           </span> : null
         }
     

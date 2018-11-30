@@ -3,7 +3,6 @@ import projects from './data.js';
 import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
 import backIcon from '../assets/arrow.svg';
-import ReactPlayer from 'react-player';
 
 class ProjectDetail extends Component {
 

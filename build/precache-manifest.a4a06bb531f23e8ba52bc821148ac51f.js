@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "./static/media/perennial.be76411c.png"
   },
   {
-    "revision": "78c73fa71be7e96c483f",
-    "url": "./static/css/main.2f40c523.chunk.css"
+    "revision": "1f5c0a12115c84dfa419",
+    "url": "./static/css/main.609d3162.chunk.css"
   },
   {
     "revision": "cb82e4f95f2ef91ff1cb",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "./static/media/paracosm.6e659e8a.png"
   },
   {
-    "revision": "78c73fa71be7e96c483f",
-    "url": "./static/js/main.78c73fa7.chunk.js"
+    "revision": "1f5c0a12115c84dfa419",
+    "url": "./static/js/main.1f5c0a12.chunk.js"
   },
   {
     "revision": "47dd38e7ce03574812f53a6f73933c58",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "./static/media/feminist-hackers-5.7f3d2c89.jpg"
   },
   {
-    "revision": "aa6e86dc46c4510483de9c91bd33239f",
+    "revision": "bb2fe4e31fa23a42461cfff0c67904d9",
     "url": "./index.html"
   }
 ];
