@@ -66,9 +66,10 @@ module.exports = [
         "content": [
           "An ongoing series of little renders created in the process of learning 3D modeling, animation, and working with 3D on the web."
         ],
-        "imgs": [],
+        "imgs": ["shortened.gif", "monstera_still.png", "aloe.png"],
         "url": "https://www.instagram.com/tenderbloom/",
-        "isPublic": true
+        "isPublic": true,
+        "videoEmbedUrl" : "",
       },
     
       {
@@ -92,6 +93,7 @@ module.exports = [
         "content": [
           ""
         ],
+        "videoEmbedUrl" : "",
         "imgs" : [],
         "url" : "",
         "isPublic": true
