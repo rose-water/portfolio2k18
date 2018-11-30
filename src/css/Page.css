@@ -3,13 +3,6 @@
   overflow-x: auto;
 }
 
-@media screen and (max-width: 600px) {
-  .inner-page-container {
-    margin-bottom: 0px;
-  }
-
-}
-
 .page-header {
   position: relative;
 }
@@ -43,4 +36,15 @@ div.page-content {
 /* Specific to Work page */
 div.work-page-content {
   margin-top: 48px;
+}
+
+@media screen and (max-width: 600px) {
+  .inner-page-container {
+    margin-bottom: 0px;
+  }
+  div.page-content {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
 }

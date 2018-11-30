@@ -53,4 +53,7 @@ a, a:visited {
   .underline:active:after {
     width: 0%;
   }
+  span#name-label {
+    display: none;
+  }
 }
