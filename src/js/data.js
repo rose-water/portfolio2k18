@@ -9,6 +9,7 @@ module.exports = [
         "content": [
           "A VR experience. More text goes here, this is the showcase piece. Made with Unity, Oculus Medium, and Tilt Brush."
         ],
+        "videoEmbedUrl" : "",
         "imgs" : [],
         "url" : "",
         "isPublic": true
@@ -23,6 +24,7 @@ module.exports = [
           "Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside the norms of their professional work.",
           "In Issue 01, \"DREAM MACHINE,\" contributors attempted dream journaling over the course of several weeks and created a piece based on their entries. Some of the works submitted include 3D art for the web, data visualizations, short essays, video essays, and illustrations. The first issue will be released mid-December, 2018.",
         ],
+        "videoEmbedUrl" : "",
         "imgs": [],
         "url": "http://propagator.xyz",
         "isPublic": true
@@ -36,6 +38,7 @@ module.exports = [
           "A web-based educational tool for learning various musical scales. Built with Tone.js, React, and GSAP.",
           "Coming in 2019."
         ],
+        "videoEmbedUrl" : "",
         "imgs": [],
         "url": "",
         "isPublic": false
@@ -112,6 +115,7 @@ module.exports = [
         "content" : [
 
         ],
+        "videoEmbedUrl" : "",
         "imgs" : [],
         "url" : "",
         "isPublic": true
@@ -126,6 +130,7 @@ module.exports = [
           "This work was focused on the design and structure of feminist maker communities. My fieldwork involved interviewing members of several makerspace communities on the west coast to develop an understanding of the need for these spaces to exist, and to understand how certain tools and frameworks that are ingrained/integrated into these spaces enables them to support women, POC, and traditionally marginalized groups in high tech culture. The culmination of this qualitative research was a design workshop with the members of one of the makerspaces we visited.",
           "Drawing upon Dunne and Raby's seminal work on critical and speculative design, participants collaborated in exercises around imagining what an ideal future would look like, and investigating how several systemic and infrastructural portions of the past and present would need to be refigured to bring about that ideal future."
         ],
+        "videoEmbedUrl" : "",
         "imgs": [
           "feminist-hackers-1.jpg",
           "feminist-hackers-2.jpg",
@@ -173,6 +178,7 @@ module.exports = [
           "Junior collaborated with Kodak Alaris and Special Guest to create the Memory Observatory at SXSW 2016. This physical installation provided an experience where people were invited to share upload a photo and describe a past memory and then re-experience their memory in a kaleidoscopic room with carefully chosen smells, colors, and custom sounds.",
           "I was tasked with building two React applications to support numerous SXSW attendees to participate in this experience."
         ],
+        "videoEmbedUrl": `<iframe src="https://player.vimeo.com/video/164570589?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs" : ["memoryobservatory_1.png", "memoryobservatory_2.png", "memoryobservatory_4.png"],
         "url" : "",
         "isPublic": true
@@ -185,6 +191,7 @@ module.exports = [
           "A web-based VR platform for creating and sharing immersive 360° photospheres. Made with A-Frame, React, and Node.",
           "As a Design Technologist at Junior, I contributed to the front-end development of my team's codebase and created fundamental React components for the platform. In addition, I led the initial visual design process and UX research for this internal project."
         ],
+        "videoEmbedUrl" : "",
         "imgs" : ["pocktvr-1.png", "pocktvr-2.png"],
         "url" : "",
         "isPublic": true
@@ -193,6 +200,7 @@ module.exports = [
         "name" : "Catching Tigers & Flies",
         "id" : "chinafile",
         "description" : "An interactive data visualization for observing and understanding patterns of corruption across China's provinces.",
+        "videoEmbedUrl" : "",
         "content" : [
           "Schema Design collaborated with ChinaFile, a publication by Asia Society, to create an interactive tool for visualizing and understanding corruption in China.",
           "As the Creative Technologist in Residence at Schema Design, I met with the client weekly throughout their data collection process and collaborated with another developer to build the website.",
@@ -201,7 +209,7 @@ module.exports = [
         "imgs" : ["chinafile_01.png", "chinafile_02.png","chinafile_04.png"],
         "url" : "http://anticorruption.chinafile.com",
         "isPublic": true
-      },
+      }
       
     ]
   }
