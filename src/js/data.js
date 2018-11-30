@@ -54,7 +54,7 @@ module.exports = [
         "imgs": [
           "ss_1.png", "install.png"
         ],
-        "url": "https://tenderbloom-perennial.herokuapp.com/",
+        "url": "https://perennial.herokuapp.com/",
         "isPublic": true
       },
     
