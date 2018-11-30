@@ -5,9 +5,9 @@ module.exports = [
       {
         "name" : "Paracosm",
         "id" : "paracosm",
-        "description" : "A VR experience. More text goes here, this is the showcase piece. Made with Unity, Oculus Medium, and Tilt Brush.",
+        "description" : "A dream within a dream, experienced in VR. Made with Cinema 4D and Unity for Oculus Rift.",
         "content": [
-          "A VR experience. More text goes here, this is the showcase piece. Made with Unity, Oculus Medium, and Tilt Brush."
+          "Coming soon."
         ],
         "videoEmbedUrl" : "",
         "imgs" : [],
@@ -113,10 +113,16 @@ module.exports = [
         "id" : "vidcoach",
         "description" : "Researching how to design educational tools to support individuals with Autism Spectrum Disorder (ASD) in learning & retaining valuable life skills.",
         "content" : [
-
+          "VidCoach is the result of a year-long effort to research and build tools for individuals with Autism Spectrum Disorder (ASD), focusing on adolescents participating in school-to-work transition programs (students making the transition to adulthood, from high school into the workforce), which is a subset of the ASD population often overlooked in research.",
+          "Using ethnographic methods as my primary mode of inquiry, I observed at workshops teaching students ‘tech etiquette’ (e.g., not answering the phone during work hours) as well as how to use smartphone apps (e.g., how to use a calendar app to schedule work shifts and job interviews). I went into the field and spoke with professional caretakers to understand their students’ primary needs, and involved them throughout the research and design processes to ensure that these needs were being fulfilled.","I also spoke with management at several companies in the surrounding area to ask for volunteers who would be willing to conduct mock interviews with the students and evaluate their performances.",
+          "These conversations and observations informed the design of an iOS app called ‘VidCoach,’ an app designed to aid students in learning and retaining valuable life skills. The first release of the app was aimed at teaching students how to interview for jobs.",
+          "Publications:",
+          "Ulgado, R. R., Nguyen, K., Custodio, V. E., Waterhouse, A., Weiner, R., & Hayes, G. VidCoach: A mobile video modeling system for youth with special needs. In Proceedings of the 12th International Conference on Interaction Design and Children (pp. 581-584). ACM.",
+          "Hayes, G.R., Custodio, V.E., Haimson, O.L., Nguyen, K., Ringland, K.E., Ulgado, R.R.,Waterhouse, A., and Weiner, R. Mobile video modeling for employment interviews for individuals with autism. Journal of Vocational Rehabilitation.",
+          "Nguyen, K., Custodio, V.E., Ulgado, R.R., Weiner, R., Waterhouse, A., O’Neal, L., and Hayes, G.R. Evaluation of the Use of Mobile Video Modeling for Job Interviews. 2014. International Meeting for Autism Research."
         ],
         "videoEmbedUrl" : "",
-        "imgs" : [],
+        "imgs" : ["vidcoach.png"],
         "url" : "",
         "isPublic": true
       },

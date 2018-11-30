@@ -66,6 +66,7 @@ class ProjectDetail extends Component {
                 )
               })
             }
+            
           </div>
           {
             this.state.projectDetails.videoEmbedUrl !== "" ? 
