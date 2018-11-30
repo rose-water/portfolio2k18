@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "b7dc7c7a77238960c8071a0ea4b069f8",
-    "url": "./static/media/ss_1.b7dc7c7a.png"
+    "revision": "c412508010088b2c123ecd0d7702cf85",
+    "url": "./static/media/pocktvr.c4125080.png"
   },
   {
-    "revision": "eb2e4f82b03df3582d06",
-    "url": "./static/css/main.b9eaee3f.chunk.css"
+    "revision": "a5cd5d3cd172e6ea6654",
+    "url": "./static/css/main.ad5ba6cf.chunk.css"
   },
   {
-    "revision": "f729cc8216d24aba111f",
-    "url": "./static/js/1.f729cc82.chunk.js"
+    "revision": "e7900331cee31a05588d",
+    "url": "./static/js/1.e7900331.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "url": "./static/media/install.47dd38e7.png"
   },
   {
-    "revision": "eb2e4f82b03df3582d06",
-    "url": "./static/js/main.eb2e4f82.chunk.js"
+    "revision": "b7dc7c7a77238960c8071a0ea4b069f8",
+    "url": "./static/media/ss_1.b7dc7c7a.png"
   },
   {
-    "revision": "c412508010088b2c123ecd0d7702cf85",
-    "url": "./static/media/pocktvr.c4125080.png"
+    "revision": "a5cd5d3cd172e6ea6654",
+    "url": "./static/js/main.a5cd5d3c.chunk.js"
   },
   {
     "revision": "f6c1cfa7af052bf5fdc6235b049329f8",
@@ -132,6 +132,10 @@ self.__precacheManifest = [
     "url": "./static/media/vidcoach.33bbd543.png"
   },
   {
+    "revision": "ff088890d9f7cebe17723d626538cd08",
+    "url": "./static/media/vidcoach.ff088890.png"
+  },
+  {
     "revision": "f047d0c8881ab2ba3cc21dbe07849a5f",
     "url": "./static/media/rachel-rose-ulgado-2018-CV.f047d0c8.pdf"
   },
@@ -168,11 +172,15 @@ self.__precacheManifest = [
     "url": "./static/media/feminist-hackers-5.7f3d2c89.jpg"
   },
   {
+    "revision": "0429989b3a6719ed0b91702897de5f52",
+    "url": "./static/media/vidcoach.0429989b.jpg"
+  },
+  {
     "revision": "69d5c72bc783ef5b354f9a43282e8225",
     "url": "./static/media/shortened.69d5c72b.gif"
   },
   {
-    "revision": "a5c1167f400f76dbeaa61eac3bae77cf",
+    "revision": "307641f380c4cb9d9ebc8e42021ce711",
     "url": "./index.html"
   }
 ];
