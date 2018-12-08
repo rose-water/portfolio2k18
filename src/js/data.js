@@ -49,9 +49,10 @@ module.exports = [
         "id" : "perennial",
         "description": "A 3D meditation born from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal.",
         "content": [
-          "It is somehow fitting that I am telling this story in a place/platform as volatile as the internet, but this is the story around this project:",
-          "I had been avoiding it for so long, maybe in part because I wasn’t sure if it was something I deserved (insert an essay on the obligation and guilt that comes from a first generation child’s responsibilities to her Asian immigrant parents, along with all of the apologies and feelings of betrayal that follow).",
-          "\"I feel like I’m stuck in a dark tunnel\" was all I could come up with. So I started from there, and literally started with a tunnel. In an attempt to confront my inner demons, I molded this form and grew myself a garden. Thus a meditation was born, from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal.",
+          // "It is somehow fitting that I am telling this story in a place/platform as volatile as the internet, but this is the story around this project:",
+          // "I had been avoiding it for so long, maybe in part because I wasn’t sure if it was something I deserved (insert an essay on the obligation and guilt that comes from a first generation child’s responsibilities to her Asian immigrant parents, along with all of the apologies and feelings of betrayal that follow).",
+          "This is a personal project.",
+          "\"I feel like I’m stuck in a dark tunnel\" was all I could come up with, while experiencing a more intense bout of creative block. So I started from there, with a cylindrical mesh, and grew myself a garden. It started from nothing, and eventually grew during moments of self-reflection & self-care. Perennial is a little world, a gentle vessel, a patient portal.",
           "This project was built with Cinema 4D, Three.js, and Web Audio. Perennial was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts."
         ],
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303649092?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
