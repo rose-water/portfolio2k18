@@ -11,20 +11,20 @@ class Nav extends Component {
           window.location.pathname !== '/' ? 
           <span id="name-label">
             {/* <Link to="/">RACHEL ROSE ULGADO</Link> */}
-            RACHEL ROSE ULGADO
+            Rachel Rose Ulgado
           </span> : null
         }
     
         <div className="nav-items">
           <ul>
             <li className="underline">
-              <Link to="/about">About</Link>
+              <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="underline">
-              <Link to="/work">Work</Link>
+              <Link className="nav-link" to="/work">Work</Link>
             </li>
             <li className="underline">
-              <a href={ cv } rel="noopener noreferrer" target="_blank">CV</a>
+              <a className="nav-link" href={ cv } rel="noopener noreferrer" target="_blank">CV</a>
             </li>
           </ul>
         </div>

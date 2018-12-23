@@ -18,9 +18,9 @@
 }
 
 .project-content p {
-  font-size: 0.8em;
+  font-size: 0.775em;
   line-height: 1.6em;
-  color: var(--lt-pink);
+  color: var(--med-pink);
 }
 
 .project-content {
@@ -78,7 +78,6 @@ img.project-highlight {
 
 .content-grid-item-outer.placeholder {
   margin-bottom: 0px;
-  /* height: 0px; */
 }
 
 .project-img-grid {
@@ -92,7 +91,7 @@ img.project-highlight {
 
 .project-name {
   text-transform: uppercase;
-  color: var(--lt-pink);
+  color: var(--med-pink);
   font-size: 1.1em;
   letter-spacing: 0.02em;
 }
@@ -102,8 +101,8 @@ a.project-link {
   display: flex;
   flex-direction: column;
   position: absolute;
-  /* border-bottom: 1px solid grey;
-  flex-grow: 2; */
+  font-family: "Heebo", sans-serif;
+  text-transform: none;
 }
 
 a.project-link:after {
@@ -111,7 +110,7 @@ a.project-link:after {
   bottom: -3px;
   height: 1px;
   width: 100%;
-  background: var(--lt-pink);
+  background: var(--med-pink);
 }
 
 .project-desc-container {
@@ -121,18 +120,19 @@ a.project-link:after {
 .project-desc-container p {
   margin: 0px;
   line-height: 1.6em;
-  font-size: 0.8em;
-  color: var(--lt-pink);
+  font-size: 0.775em;
+  color: var(--med-pink);
 }
 
 .project-detail-link {
   display: inline-block;
-  padding: 9px 36px 10px 36px;
+  padding: 8px 16px;
+  font-size: 1em;
   margin-top: 36px;
   margin-bottom: 36px;
   border: 1px solid var(--med-pink);
-  border-radius: 2px;
-  /* font-weight: bold; */
+  border-radius: 3px;
+  font-size: 0.875em;
 }
 
 .project-detail-link:hover {

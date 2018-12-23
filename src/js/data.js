@@ -3,7 +3,7 @@ module.exports = [
     "workType" : "Selected Work",
     "projects" : [
       {
-        "name" : "Paracosm",
+        "name" : "Paracosms ",
         "id" : "paracosm",
         "description" : "A dream within a dream, experienced in VR. Made with Cinema 4D and Unity for Oculus Rift.",
         "content": [
@@ -49,8 +49,6 @@ module.exports = [
         "id" : "perennial",
         "description": "A 3D meditation born from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal.",
         "content": [
-          // "It is somehow fitting that I am telling this story in a place/platform as volatile as the internet, but this is the story around this project:",
-          // "I had been avoiding it for so long, maybe in part because I wasn’t sure if it was something I deserved (insert an essay on the obligation and guilt that comes from a first generation child’s responsibilities to her Asian immigrant parents, along with all of the apologies and feelings of betrayal that follow).",
           "This is a personal project.",
           "\"I feel like I’m stuck in a dark tunnel\" was all I could come up with, while experiencing a more intense bout of creative block. So I started from there, with a cylindrical mesh, and grew myself a garden. It started from nothing, and eventually grew during moments of self-reflection & self-care. Perennial is a little world, a gentle vessel, a patient portal.",
           "This project was built with Cinema 4D, Three.js, and Web Audio. Perennial was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts."
@@ -77,7 +75,7 @@ module.exports = [
       },
     
       {
-        "name" : "cepheids",
+        "name" : "Cepheids",
         "id" : "galaxy",
         "description": "An audio visualization made with Processing & the Minim library.",
         "content": [
@@ -86,6 +84,46 @@ module.exports = [
         ],
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303633620?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs": [],
+        "url": "",
+        "isPublic": true
+      },
+
+      {
+        "name" : "VidCoach",
+        "id" : "vidcoach",
+        "description" : "Researching how to design educational tools to support individuals with Autism Spectrum Disorder (ASD) in learning & retaining valuable life skills.",
+        "content" : [
+          "VidCoach is the result of a year-long effort to research and build tools for individuals with Autism Spectrum Disorder (ASD), focusing on adolescents participating in school-to-work transition programs (students making the transition to adulthood, from high school into the workforce), which is a subset of the ASD population often overlooked in research.",
+          "Using ethnographic methods as my primary mode of inquiry, I observed at workshops teaching students ‘tech etiquette’ (e.g., not answering the phone during work hours) as well as how to use smartphone apps (e.g., how to use a calendar app to schedule work shifts and job interviews). I went into the field and spoke with professional caretakers to understand their students’ primary needs, and involved them throughout the research and design processes to ensure that these needs were being fulfilled.","I also spoke with management at several companies in the surrounding area to ask for volunteers who would be willing to conduct mock interviews with the students and evaluate their performances.",
+          "These conversations and observations informed the design of an iOS app called ‘VidCoach,’ an app designed to aid students in learning and retaining valuable life skills. The first release of the app was aimed at teaching students how to interview for jobs.",
+          "Publications:",
+          "Ulgado, R. R., Nguyen, K., Custodio, V. E., Waterhouse, A., Weiner, R., & Hayes, G. VidCoach: A mobile video modeling system for youth with special needs. In Proceedings of the 12th International Conference on Interaction Design and Children (pp. 581-584). ACM.",
+          "Hayes, G.R., Custodio, V.E., Haimson, O.L., Nguyen, K., Ringland, K.E., Ulgado, R.R.,Waterhouse, A., and Weiner, R. Mobile video modeling for employment interviews for individuals with autism. Journal of Vocational Rehabilitation.",
+          "Nguyen, K., Custodio, V.E., Ulgado, R.R., Weiner, R., Waterhouse, A., O’Neal, L., and Hayes, G.R. Evaluation of the Use of Mobile Video Modeling for Job Interviews. 2014. International Meeting for Autism Research."
+        ],
+        "videoEmbedUrl" : "",
+        "imgs" : ["vidcoach.png"],
+        "url" : "",
+        "isPublic": true
+      },
+      {
+        "name" : "Research on Feminist Hackerspaces",
+        "id" : "feminist-hackers",
+        "description": "Graduate research on the sociocultural aspects of hacker and maker culture with a focus on critical design and feminist maker communities.",
+        "content": [
+          "As a graduate student in the Tactile & Tactical Lab at the University of Washington, I collaborated with Sarah Fox and Professor Daniela Rosner to research the sociocultural aspects of hacker and maker culture.",
+    
+          "This work was focused on the design and structure of feminist maker communities. My fieldwork involved interviewing members of several makerspace communities on the west coast to develop an understanding of the need for these spaces to exist, and to understand how certain tools and frameworks that are ingrained/integrated into these spaces enables them to support women, POC, and traditionally marginalized groups in high tech culture. The culmination of this qualitative research was a design workshop with the members of one of the makerspaces we visited.",
+          "Drawing upon Dunne and Raby's seminal work on critical and speculative design, participants collaborated in exercises around imagining what an ideal future would look like, and investigating how several systemic and infrastructural portions of the past and present would need to be refigured to bring about that ideal future."
+        ],
+        "videoEmbedUrl" : "",
+        "imgs": [
+          "feminist-hackers-1.jpg",
+          "feminist-hackers-2.jpg",
+          "feminist-hackers-3.jpg",
+          "feminist-hackers-4.jpg",
+          "feminist-hackers-5.jpg"
+        ],
         "url": "",
         "isPublic": true
       },
@@ -106,73 +144,75 @@ module.exports = [
     ]
   },
 
-  {
-    "workType" : "Academic Work",
-    "projects" : [
-      {
-        "name" : "VidCoach",
-        "id" : "vidcoach",
-        "description" : "Researching how to design educational tools to support individuals with Autism Spectrum Disorder (ASD) in learning & retaining valuable life skills.",
-        "content" : [
-          "VidCoach is the result of a year-long effort to research and build tools for individuals with Autism Spectrum Disorder (ASD), focusing on adolescents participating in school-to-work transition programs (students making the transition to adulthood, from high school into the workforce), which is a subset of the ASD population often overlooked in research.",
-          "Using ethnographic methods as my primary mode of inquiry, I observed at workshops teaching students ‘tech etiquette’ (e.g., not answering the phone during work hours) as well as how to use smartphone apps (e.g., how to use a calendar app to schedule work shifts and job interviews). I went into the field and spoke with professional caretakers to understand their students’ primary needs, and involved them throughout the research and design processes to ensure that these needs were being fulfilled.","I also spoke with management at several companies in the surrounding area to ask for volunteers who would be willing to conduct mock interviews with the students and evaluate their performances.",
-          "These conversations and observations informed the design of an iOS app called ‘VidCoach,’ an app designed to aid students in learning and retaining valuable life skills. The first release of the app was aimed at teaching students how to interview for jobs.",
-          "Publications:",
-          "Ulgado, R. R., Nguyen, K., Custodio, V. E., Waterhouse, A., Weiner, R., & Hayes, G. VidCoach: A mobile video modeling system for youth with special needs. In Proceedings of the 12th International Conference on Interaction Design and Children (pp. 581-584). ACM.",
-          "Hayes, G.R., Custodio, V.E., Haimson, O.L., Nguyen, K., Ringland, K.E., Ulgado, R.R.,Waterhouse, A., and Weiner, R. Mobile video modeling for employment interviews for individuals with autism. Journal of Vocational Rehabilitation.",
-          "Nguyen, K., Custodio, V.E., Ulgado, R.R., Weiner, R., Waterhouse, A., O’Neal, L., and Hayes, G.R. Evaluation of the Use of Mobile Video Modeling for Job Interviews. 2014. International Meeting for Autism Research."
-        ],
-        "videoEmbedUrl" : "",
-        "imgs" : ["vidcoach.png"],
-        "url" : "",
-        "isPublic": true
-      },
-      {
-        "name" : "Feminist Hackerspace Research",
-        "id" : "feminist-hackers",
-        "description": "Graduate research on the sociocultural aspects of hacker and maker culture with a focus on critical design and feminist maker communities.",
-        "content": [
-          "As a graduate student in the Tactile & Tactical Lab at the University of Washington, I collaborated with Sarah Fox and Professor Daniela Rosner to research the sociocultural aspects of hacker and maker culture.",
-    
-          "This work was focused on the design and structure of feminist maker communities. My fieldwork involved interviewing members of several makerspace communities on the west coast to develop an understanding of the need for these spaces to exist, and to understand how certain tools and frameworks that are ingrained/integrated into these spaces enables them to support women, POC, and traditionally marginalized groups in high tech culture. The culmination of this qualitative research was a design workshop with the members of one of the makerspaces we visited.",
-          "Drawing upon Dunne and Raby's seminal work on critical and speculative design, participants collaborated in exercises around imagining what an ideal future would look like, and investigating how several systemic and infrastructural portions of the past and present would need to be refigured to bring about that ideal future."
-        ],
-        "videoEmbedUrl" : "",
-        "imgs": [
-          "feminist-hackers-1.jpg",
-          "feminist-hackers-2.jpg",
-          "feminist-hackers-3.jpg",
-          "feminist-hackers-4.jpg",
-          "feminist-hackers-5.jpg"
-        ],
-        "url": "",
-        "isPublic": true
-      },
-      {
-        "name" : "",
-        "id" : "placeholder",
-        "description" : "",
-        "content": [
-          ""
-        ],
-        "imgs" : [],
-        "url" : "",
-        "isPublic": true
-      },
+  
 
-      {
-        "name" : "",
-        "id" : "placeholder",
-        "description" : "",
-        "content": [
-          ""
-        ],
-        "imgs" : [],
-        "url" : "",
-        "isPublic": true
-      },
-    ]
-  }, 
+  // {
+  //   "workType" : "Academic Work",
+  //   "projects" : [
+  //     {
+  //       "name" : "VidCoach",
+  //       "id" : "vidcoach",
+  //       "description" : "Researching how to design educational tools to support individuals with Autism Spectrum Disorder (ASD) in learning & retaining valuable life skills.",
+  //       "content" : [
+  //         "VidCoach is the result of a year-long effort to research and build tools for individuals with Autism Spectrum Disorder (ASD), focusing on adolescents participating in school-to-work transition programs (students making the transition to adulthood, from high school into the workforce), which is a subset of the ASD population often overlooked in research.",
+  //         "Using ethnographic methods as my primary mode of inquiry, I observed at workshops teaching students ‘tech etiquette’ (e.g., not answering the phone during work hours) as well as how to use smartphone apps (e.g., how to use a calendar app to schedule work shifts and job interviews). I went into the field and spoke with professional caretakers to understand their students’ primary needs, and involved them throughout the research and design processes to ensure that these needs were being fulfilled.","I also spoke with management at several companies in the surrounding area to ask for volunteers who would be willing to conduct mock interviews with the students and evaluate their performances.",
+  //         "These conversations and observations informed the design of an iOS app called ‘VidCoach,’ an app designed to aid students in learning and retaining valuable life skills. The first release of the app was aimed at teaching students how to interview for jobs.",
+  //         "Publications:",
+  //         "Ulgado, R. R., Nguyen, K., Custodio, V. E., Waterhouse, A., Weiner, R., & Hayes, G. VidCoach: A mobile video modeling system for youth with special needs. In Proceedings of the 12th International Conference on Interaction Design and Children (pp. 581-584). ACM.",
+  //         "Hayes, G.R., Custodio, V.E., Haimson, O.L., Nguyen, K., Ringland, K.E., Ulgado, R.R.,Waterhouse, A., and Weiner, R. Mobile video modeling for employment interviews for individuals with autism. Journal of Vocational Rehabilitation.",
+  //         "Nguyen, K., Custodio, V.E., Ulgado, R.R., Weiner, R., Waterhouse, A., O’Neal, L., and Hayes, G.R. Evaluation of the Use of Mobile Video Modeling for Job Interviews. 2014. International Meeting for Autism Research."
+  //       ],
+  //       "videoEmbedUrl" : "",
+  //       "imgs" : ["vidcoach.png"],
+  //       "url" : "",
+  //       "isPublic": true
+  //     },
+  //     {
+  //       "name" : "Feminist Hackerspace Research",
+  //       "id" : "feminist-hackers",
+  //       "description": "Graduate research on the sociocultural aspects of hacker and maker culture with a focus on critical design and feminist maker communities.",
+  //       "content": [
+  //         "As a graduate student in the Tactile & Tactical Lab at the University of Washington, I collaborated with Sarah Fox and Professor Daniela Rosner to research the sociocultural aspects of hacker and maker culture.",
+    
+  //         "This work was focused on the design and structure of feminist maker communities. My fieldwork involved interviewing members of several makerspace communities on the west coast to develop an understanding of the need for these spaces to exist, and to understand how certain tools and frameworks that are ingrained/integrated into these spaces enables them to support women, POC, and traditionally marginalized groups in high tech culture. The culmination of this qualitative research was a design workshop with the members of one of the makerspaces we visited.",
+  //         "Drawing upon Dunne and Raby's seminal work on critical and speculative design, participants collaborated in exercises around imagining what an ideal future would look like, and investigating how several systemic and infrastructural portions of the past and present would need to be refigured to bring about that ideal future."
+  //       ],
+  //       "videoEmbedUrl" : "",
+  //       "imgs": [
+  //         "feminist-hackers-1.jpg",
+  //         "feminist-hackers-2.jpg",
+  //         "feminist-hackers-3.jpg",
+  //         "feminist-hackers-4.jpg",
+  //         "feminist-hackers-5.jpg"
+  //       ],
+  //       "url": "",
+  //       "isPublic": true
+  //     },
+  //     {
+  //       "name" : "",
+  //       "id" : "placeholder",
+  //       "description" : "",
+  //       "content": [
+  //         ""
+  //       ],
+  //       "imgs" : [],
+  //       "url" : "",
+  //       "isPublic": true
+  //     },
+
+  //     {
+  //       "name" : "",
+  //       "id" : "placeholder",
+  //       "description" : "",
+  //       "content": [
+  //         ""
+  //       ],
+  //       "imgs" : [],
+  //       "url" : "",
+  //       "isPublic": true
+  //     },
+  //   ]
+  // }, 
 
   {
     "workType" : "Professional Work",

@@ -1,6 +1,7 @@
 .inner-page-container {
-  /* margin-bottom: 35px; */
   overflow-x: auto;
+  background: #0c0a18;
+  /* background: black; */
 }
 
 .page-header {
@@ -8,12 +9,12 @@
 }
 
 h1.page-header-label {
-  font-size: 24px;
-  letter-spacing: 1px;
+  font-size: 20px;
   color: var(--lt-pink);
   display: inline-block;
-  text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  margin-bottom: 4px;
 }
 
 div.page-header-divider {
@@ -28,9 +29,13 @@ div.page-header-divider {
 
 div.page-content {
   line-height: 26px;
-  max-width: 550px;
-  margin-left: 128px;
-  margin-right: 128px;
+  max-width: 580px;
+}
+
+div.page-content.about p {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.4em;
 }
 
 /* Specific to Work page */
