@@ -1,9 +1,9 @@
 {
-  "main.css": "./static/css/main.6d676939.chunk.css",
-  "main.js": "./static/js/main.ad5a215d.chunk.js",
-  "main.js.map": "./static/js/main.ad5a215d.chunk.js.map",
-  "static/js/1.e7900331.chunk.js": "./static/js/1.e7900331.chunk.js",
-  "static/js/1.e7900331.chunk.js.map": "./static/js/1.e7900331.chunk.js.map",
+  "main.css": "./static/css/main.e11bd9d9.chunk.css",
+  "main.js": "./static/js/main.3f60d38d.chunk.js",
+  "main.js.map": "./static/js/main.3f60d38d.chunk.js.map",
+  "static/js/1.64296779.chunk.js": "./static/js/1.64296779.chunk.js",
+  "static/js/1.64296779.chunk.js.map": "./static/js/1.64296779.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
   "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
   "static/media/monstera_still.png": "./static/media/monstera_still.95d23581.png",
@@ -46,8 +46,8 @@
   "static/media/feminist-hackers-5.jpg": "./static/media/feminist-hackers-5.7f3d2c89.jpg",
   "static/media/vidcoach.jpg": "./static/media/vidcoach.0429989b.jpg",
   "static/media/shortened.gif": "./static/media/shortened.69d5c72b.gif",
-  "static/css/main.6d676939.chunk.css.map": "./static/css/main.6d676939.chunk.css.map",
+  "static/css/main.e11bd9d9.chunk.css.map": "./static/css/main.e11bd9d9.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.914a9d2429053cae50c9234781a6201e.js": "./precache-manifest.914a9d2429053cae50c9234781a6201e.js",
+  "precache-manifest.10be54f11c567c30ddf3976a0fa271da.js": "./precache-manifest.10be54f11c567c30ddf3976a0fa271da.js",
   "service-worker.js": "./service-worker.js"
 }

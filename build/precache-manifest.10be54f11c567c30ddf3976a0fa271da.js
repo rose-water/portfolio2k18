@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "./static/media/pocktvr.c4125080.png"
   },
   {
-    "revision": "ad5a215d989827de38e9",
-    "url": "./static/css/main.6d676939.chunk.css"
+    "revision": "3f60d38d1d3b1d32dff1",
+    "url": "./static/css/main.e11bd9d9.chunk.css"
   },
   {
-    "revision": "e7900331cee31a05588d",
-    "url": "./static/js/1.e7900331.chunk.js"
+    "revision": "64296779f7be9af1fbfe",
+    "url": "./static/js/1.64296779.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "./static/media/ss_1.b7dc7c7a.png"
   },
   {
-    "revision": "ad5a215d989827de38e9",
-    "url": "./static/js/main.ad5a215d.chunk.js"
+    "revision": "3f60d38d1d3b1d32dff1",
+    "url": "./static/js/main.3f60d38d.chunk.js"
   },
   {
     "revision": "f6c1cfa7af052bf5fdc6235b049329f8",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "./static/media/shortened.69d5c72b.gif"
   },
   {
-    "revision": "8052ac0241afab5dee85e6583d928967",
+    "revision": "d48b5691b45d6be88f1a99ec7837e3c6",
     "url": "./index.html"
   }
 ];
