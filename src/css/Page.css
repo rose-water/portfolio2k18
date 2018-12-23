@@ -1,7 +1,6 @@
 .inner-page-container {
   overflow-x: auto;
-  background: #0c0a18;
-  /* background: black; */
+  background: #0b0a13;
 }
 
 .page-header {
@@ -34,8 +33,9 @@ div.page-content {
 
 div.page-content.about p {
   font-family: "Heebo", sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.4em;
+  font-weight: 300;
 }
 
 /* Specific to Work page */

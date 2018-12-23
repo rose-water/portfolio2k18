@@ -98,6 +98,7 @@ img.project-highlight {
 
 a.project-link {
   color: var(--lt-pink);
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -114,7 +115,7 @@ a.project-link:after {
 }
 
 .project-desc-container {
-  padding-top: 2.5em;
+  padding-top: 2.2em;
 }
 
 .project-desc-container p {
