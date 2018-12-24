@@ -1,5 +1,4 @@
 .projects-container {
-  margin-top: 0.8em;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -195,6 +194,6 @@ iframe {
 
 @media screen and (max-width: 1400px) {
   .content-grid-item-outer {
-    width: 46%;
+    width: 47%;
   }
 }

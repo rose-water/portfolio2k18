@@ -34,7 +34,6 @@ p {
   left: 5.0em;
   top: 4.0em;
   width: calc(100% - 10.0em);
-  height: calc(100% - 8.0em);
 }
 
 @media screen and (max-width: 600px) {
@@ -42,6 +41,7 @@ p {
     left: 1.4em;
     width: calc(100% - 2.8em);
     height: calc(100% - 1.0em);
+    top: 1.5em;
   }
 }
 

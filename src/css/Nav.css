@@ -45,6 +45,21 @@ a, a:visited {
 }
 
 @media screen and (max-width: 600px) {
+  .nav-items {
+    width: 100%;
+  }
+
+  .nav-items ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-items ul li {
+    margin-left: 0;
+  }
+
   span#name-label {
     display: none;
   }

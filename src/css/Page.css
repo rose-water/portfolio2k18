@@ -1,6 +1,7 @@
 .inner-page-container {
   overflow-x: auto;
   background: #13111e;
+  margin-bottom: 60px;
 }
 
 .page-header {
@@ -8,7 +9,7 @@
 }
 
 h1.page-header-label {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--lt-pink);
   display: inline-block;
   font-weight: 400;
@@ -49,9 +50,6 @@ div.work-page-content {
 }
 
 @media screen and (max-width: 600px) {
-  .inner-page-container {
-    margin-bottom: 0px;
-  }
   div.page-content {
     margin-left: 0px;
     margin-right: 0px;
