@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Landing.css';
-import igLogo from '../assets/logo-instagram.svg';
-import emailIcon from '../assets/logo-email.svg';
+// import igLogo from '../assets/logo-instagram.svg';
+// import emailIcon from '../assets/logo-email.svg';
 import { Redirect } from 'react-router-dom';
 
 

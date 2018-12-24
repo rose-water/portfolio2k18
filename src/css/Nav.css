@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 span#name-label {
@@ -34,29 +34,17 @@ a, a:visited {
   letter-spacing: 1.0px;
 }
 
-.underline:hover:after,
-.underline:focus:after,
-.underline:active:after {
-  width: 100%;
-}
-
-.underline:after {
+.nav-link.active:after {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -3px;
+  bottom: -2px;
   height: 1px;
-  background: var(--lt-pink);
-  width: 0;
-  transition: width 0.25s;
+  background: var(--med-pink);
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
-  .underline:hover:after,
-  .underline:focus:after,
-  .underline:active:after {
-    width: 0%;
-  }
   span#name-label {
     display: none;
   }

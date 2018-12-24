@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "c412508010088b2c123ecd0d7702cf85",
-    "url": "/static/media/pocktvr.c4125080.png"
+    "revision": "b7dc7c7a77238960c8071a0ea4b069f8",
+    "url": "/static/media/ss_1.b7dc7c7a.png"
   },
   {
-    "revision": "098082f616814f58ed73",
-    "url": "/static/css/main.6d901889.chunk.css"
+    "revision": "6644ec1e20385a8ff039",
+    "url": "/static/css/main.08f7860f.chunk.css"
   },
   {
-    "revision": "64296779f7be9af1fbfe",
-    "url": "/static/js/1.64296779.chunk.js"
+    "revision": "a699074d4c890a308be7",
+    "url": "/static/js/1.a699074d.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
+  },
+  {
+    "revision": "d38163af4ad44b78763447dd115923e0",
+    "url": "/static/media/cepheids.d38163af.png"
   },
   {
     "revision": "96ad0a0b05359707910d6a00a3ca5b91",
@@ -46,10 +50,6 @@ self.__precacheManifest = [
   {
     "revision": "9791bf8ad5eb98ba24c201cebd51d986",
     "url": "/static/media/feminist-hackers.9791bf8a.png"
-  },
-  {
-    "revision": "d38163af4ad44b78763447dd115923e0",
-    "url": "/static/media/galaxy.d38163af.png"
   },
   {
     "revision": "e44cac677ec76ae0a295579baace451a",
@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "url": "/static/media/install.47dd38e7.png"
   },
   {
-    "revision": "b7dc7c7a77238960c8071a0ea4b069f8",
-    "url": "/static/media/ss_1.b7dc7c7a.png"
+    "revision": "6644ec1e20385a8ff039",
+    "url": "/static/js/main.6644ec1e.chunk.js"
   },
   {
-    "revision": "098082f616814f58ed73",
-    "url": "/static/js/main.098082f6.chunk.js"
+    "revision": "c412508010088b2c123ecd0d7702cf85",
+    "url": "/static/media/pocktvr.c4125080.png"
   },
   {
     "revision": "f6c1cfa7af052bf5fdc6235b049329f8",
@@ -106,6 +106,10 @@ self.__precacheManifest = [
   {
     "revision": "f0b236c675b2c3fed34d138397b1e9a2",
     "url": "/static/media/propagator.f0b236c6.png"
+  },
+  {
+    "revision": "cb18f07bc628aa8267bcbfc994a1b219",
+    "url": "/static/media/propagator-ss.cb18f07b.png"
   },
   {
     "revision": "18635e7ccc7e5d02ae52f75427ce362a",
@@ -144,14 +148,6 @@ self.__precacheManifest = [
     "url": "/static/media/arrow.5a9ecb0f.svg"
   },
   {
-    "revision": "bd084393d93971840d5b227c72a4b164",
-    "url": "/static/media/logo-instagram.bd084393.svg"
-  },
-  {
-    "revision": "8dd4450bdd8fbda3a0c0ecd527c3ac3c",
-    "url": "/static/media/logo-email.8dd4450b.svg"
-  },
-  {
     "revision": "a1fe4f0f29fa51d07d51cb917239fa65",
     "url": "/static/media/feminist-hackers-1.a1fe4f0f.jpg"
   },
@@ -180,7 +176,7 @@ self.__precacheManifest = [
     "url": "/static/media/shortened.69d5c72b.gif"
   },
   {
-    "revision": "1abcf5cd2970090f2f6d3872431058d3",
+    "revision": "3a553fa0503b76b2a568ce10aa3af7af",
     "url": "/index.html"
   }
 ];
