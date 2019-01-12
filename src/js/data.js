@@ -44,7 +44,7 @@ module.exports = [
         "id" : "propagator",
         "assetsDir": "projects/propagator",
         "description" : "A digital zine created by a network of peers working across various creative disciplines looking to expand their art, design, and research practices.",
-        "content": "Taking inspiration from my peers who have launched their own zines, as well as other established platforms such as Rhizome and Web Residencies by Schloss Solitude, I decided to start a digital zine as a platform for supporting myself and my peers working across creative disciplines in expanding our artistic, design, and research practices.<br/><br/>Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside the norms of their professional work. <br/><br/>In Issue 01, \"DREAM MACHINE,\" contributors attempted dream journaling over the course of several weeks and created a piece based on their entries. Some of the works submitted include 3D art for the web, data visualizations, short essays, video essays, and illustrations. The first issue will be released mid-December, 2018.",
+        "content": "Taking inspiration from my peers who have launched their own zines, as well as other established platforms such as Rhizome and Web Residencies by Schloss Solitude, I decided to start a digital zine as a platform for supporting myself and my peers working across creative disciplines in expanding our artistic, design, and research practices.<br/><br/>Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside the norms of their professional work. <br/><br/>In Issue 01, \"DREAM MACHINE,\" contributors attempted dream journaling over the course of several weeks and created a piece based on their entries. Some of the works submitted include 3D art for the web, data visualizations, short essays, video essays, and illustrations.",
         "videoEmbedUrl" : `<iframe style="background:white; "src="http://www.propagator.xyz"></iframe>`,
         "imgs": [],
         "url": "http://propagator.xyz",
@@ -126,7 +126,7 @@ module.exports = [
   },
   
   {
-    "workType" : "Select Professional Work",
+    "workType" : "Selected Professional Work",
     "projects" : [ 
       {
         "name" : "The Memory Observatory",
