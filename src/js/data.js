@@ -8,9 +8,9 @@ module.exports = [
         "id" : "paracosm",
         "assetsDir": "projects/paracosm",
         "description" : "A VR experience created from childhood dreams and memories.",
-        "content": "This is the first of three VR experiences in a series called \"Paracosms.\" It is a materialization of a world that came from childhood dreams and memories, and is a haven that attempts to evoke feelings of detachment and calm in the viewer as they spend a few moments in a place of solitude. <br/><br/>\"The creator of a paracosm has a complex and deeply felt relationship with this subjective universe. It is an experience that is often developed during childhood and continues over a long period of time, months or even years, as a sophisticated reality that can last into childhood.\" (from \"Paracosmic Immersion,\" Cyborg Anthropology & Wikipedia).",
+        "content": "This is the first of three VR experiences in a series called \"Paracosms.\" <br/><br/>\"The creator of a paracosm has a complex and deeply felt relationship with this subjective universe. It is an experience that is often developed during childhood and continues over a long period of time, months or even years, as a sophisticated reality that can last into childhood.\" (from \"Paracosmic Immersion,\" Cyborg Anthropology & Wikipedia).<br/><br/>This VR experience is an attempt at materializing a world that came from childhood dreams and memories. Experienced sitting down, with no hand controllers, \"Paracosm I\" is a haven that attempts to evoke feelings of detachment and calm in the viewer as they spend a few moments in a place of solitude. This VR experience was exhibited at the Gray Area Foundation for the Arts Showcase 2018.2.",
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/309774249?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
-        "imgs" : [],
+        "imgs" : [ "paracosms-1.png" ],
         "tools": ["Cinema 4D", "Oculus Rift", "Unity"],
         "url" : "",
         "isPublic": true
@@ -21,7 +21,7 @@ module.exports = [
         "id" : "perennial",
         "assetsDir": "projects/perennial",
         "description": "A 3D meditation born from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal.",
-        "content": "This is a personal project.<br/><br/>\"I feel like I’m stuck in a dark tunnel\" was all I could come up with, while experiencing a more intense bout of creative block. So I started from there, with a cylindrical mesh, and grew myself a garden. It started from nothing, and eventually grew during moments of self-reflection & self-care. Perennial is a little world, a gentle vessel, a patient portal.<br/><br/>Perennial was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts.",
+        "content": "\"I feel like I’m stuck in a dark tunnel\" was all I could come up with, while experiencing a more intense bout of creative block. So I started from there, with a cylindrical mesh, and grew myself a garden. It started from nothing, and eventually grew during moments of self-reflection & self-care. \"Perennial\" is a little world, a gentle vessel, a patient portal.<br/><br/>This project was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts.",
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303649092?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs": [ "install.png" ],
         "tools": ["Cinema 4D", "Three.js", "Web Audio", "Leap Motion"],
@@ -110,9 +110,9 @@ module.exports = [
           "feminist-hackers-3.jpg",
           "feminist-hackers-4.jpg",
           "feminist-hackers-5.jpg",
-          "feminist-hackers-1.jpg"
+          // "feminist-hackers-1.jpg"
         ],
-        "tools": ["Participant Observation", "Workshop", "Semistructured Interviews"],
+        "tools": ["Participant Observation", "Critical Design", "Semistructured Interviews", "Ethnographic Research"],
         "url": "",
         "isPublic": true
       },
@@ -142,6 +142,7 @@ module.exports = [
         "description" : "A SXSW interactive installation to support the launch of the new Kodak Alaris Moments app.",
         "content" : "Junior collaborated with Kodak Alaris and Special Guest to create the Memory Observatory at SXSW 2016. This physical installation provided an experience where people were invited to share upload a photo and describe a past memory and then re-experience their memory in a kaleidoscopic room with carefully chosen smells, colors, and custom sounds.<br/><br/>I was tasked with building two React applications to support numerous SXSW attendees to participate in this experience.",
         "videoEmbedUrl": `<iframe src="https://player.vimeo.com/video/164570589?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
+        "tools": ["React", "Node", "Twilio API"],
         "imgs" : ["memoryobservatory_1.png", "memoryobservatory_2.png", "memoryobservatory_4.png"],
         "url" : "",
         "isPublic": true
@@ -149,10 +150,11 @@ module.exports = [
       {
         "name" : "pocktVR",
         "id" : "pocktvr",
-        "description" : "A web-based VR platform for creating and sharing immersive 360° photospheres. Made with A-Frame, React, and Node.",
+        "description" : "A web-based VR platform for creating and sharing immersive 360° photospheres.",
         "content" :"A web-based VR platform for creating and sharing immersive 360° photospheres. Made with A-Frame, React, and Node.<br/><br/>As a Design Technologist at Junior, I contributed to the front-end development of my team's codebase and created fundamental React components for the platform. In addition, I led the initial visual design process and UX research for this internal project.",
         "videoEmbedUrl" : "",
         "imgs" : ["pocktvr-1.png", "pocktvr-2.png"],
+        "tools": [ "A-Frame", "React", "Node", "SCSS", "Sketch 3" ],
         "url" : "",
         "isPublic": true
       },

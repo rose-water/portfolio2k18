@@ -53,13 +53,12 @@ class ProjectDetail extends Component {
             }
           </div>
           <div className="project-content">
-            {
-              this.state.projectDetails.videoEmbedUrl !== "" ? 
-              <div className={ "vid " + this.state.projectDetails.id } dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.videoEmbedUrl) } >
-              </div> : null
-            }
-
+  
             <div className="project-content-meta">
+              <div className="project-content-desc">
+                <p dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.content) }></p>
+              </div>
+
               {
                 this.state.projectDetails.hasOwnProperty("tools") ?
                 <div className="project-content-tools">
@@ -76,21 +75,32 @@ class ProjectDetail extends Component {
                 </div> : null
               }
 
-              <div className="project-content-desc">
-                DESCRIPTION
-                <p dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.content) }></p>
-              </div>
+             
             </div>
 
             {
-              this.state.projectDetails.imgs.map((img, index) => {
-                return (
-                  <LazyLoad className="proj-img-container" key={ this.state.projectDetails.id + '-img-' + index }>
-                    <img alt={ this.state.projectDetails.id } key={ this.state.projectDetails.id + '-img-' + index } className="proj-img" src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img)}></img>
-                  </LazyLoad>
-                )
-              })
+              this.state.projectDetails.videoEmbedUrl !== "" ? 
+              <div className={ "vid " + this.state.projectDetails.id } dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.videoEmbedUrl) } >
+              </div> : null
             }
+
+            <div className="project-content-imgs">
+              {
+                this.state.projectDetails.imgs.map((img, index) => {
+                  return (
+                    <LazyLoad 
+                      className={ this.state.projectDetails.imgs.length > 1 ? "proj-img-container half" : "proj-img-container full" }  
+                      key={ this.state.projectDetails.id + '-img-' + index }>
+                      <img 
+                        alt={ this.state.projectDetails.id } 
+                        key={ this.state.projectDetails.id + '-img-' + index } 
+                        className="proj-img"  
+                        src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img)}></img>
+                    </LazyLoad>
+                  )
+                })
+              }
+            </div>
           </div>
         </div>
       </div>
