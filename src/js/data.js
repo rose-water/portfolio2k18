@@ -1,29 +1,17 @@
 module.exports = [
   {
-    "workType" : "Selected Work",
+    "workType" : "",
     
     "projects" : [
       {
-        "name" : "Paracosms ",
+        "name" : "Paracosm I",
         "id" : "paracosm",
-        "assetsDir": "projects/chinafile",
-        "description" : "A dream within a dream, experienced in VR. Made with Cinema 4D and Unity for Oculus Rift.",
-        "content": "Coming soon.",
-        "videoEmbedUrl" : "",
+        "assetsDir": "projects/paracosm",
+        "description" : "A VR experience created from childhood dreams and memories.",
+        "content": "This is the first of three VR experiences in a series called \"Paracosms.\" It is a materialization of a world that came from childhood dreams and memories, and is a haven that attempts to evoke feelings of detachment and calm in the viewer as they spend a few moments in a place of solitude. <br/><br/>\"The creator of a paracosm has a complex and deeply felt relationship with this subjective universe. It is an experience that is often developed during childhood and continues over a long period of time, months or even years, as a sophisticated reality that can last into childhood.\" (from \"Paracosmic Immersion,\" Cyborg Anthropology & Wikipedia).",
+        "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/309774249?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs" : [],
         "url" : "",
-        "isPublic": true
-      },
-      
-      {
-        "name" : "Propagator",
-        "id" : "propagator",
-        "assetsDir": "projects/propagator",
-        "description" : "A digital zine created by a network of peers working across various creative disciplines looking to expand their art, design, and research practices.",
-        "content": "Taking inspiration from my peers who have launched their own zines, as well as other established platforms such as Rhizome and Web Residencies by Schloss Solitude, I decided to start a digital zine as a platform for supporting myself and my peers working across creative disciplines in expanding our artistic, design, and research practices.<br/><br/>Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside the norms of their professional work. <br/><br/>In Issue 01, \"DREAM MACHINE,\" contributors attempted dream journaling over the course of several weeks and created a piece based on their entries. Some of the works submitted include 3D art for the web, data visualizations, short essays, video essays, and illustrations. The first issue will be released mid-December, 2018.",
-        "videoEmbedUrl" : "",
-        "imgs": [ "propagator-ss.png" ],
-        "url": "http://propagator.xyz",
         "isPublic": true
       },
       
@@ -38,7 +26,7 @@ module.exports = [
         "url": "https://perennial.herokuapp.com/",
         "isPublic": true
       },
-      
+
       {
         "name" : "tenderbloom",
         "id" : "tenderbloom",
@@ -52,10 +40,22 @@ module.exports = [
       },
 
       {
+        "name" : "Propagator",
+        "id" : "propagator",
+        "assetsDir": "projects/propagator",
+        "description" : "A digital zine created by a network of peers working across various creative disciplines looking to expand their art, design, and research practices.",
+        "content": "Taking inspiration from my peers who have launched their own zines, as well as other established platforms such as Rhizome and Web Residencies by Schloss Solitude, I decided to start a digital zine as a platform for supporting myself and my peers working across creative disciplines in expanding our artistic, design, and research practices.<br/><br/>Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside the norms of their professional work. <br/><br/>In Issue 01, \"DREAM MACHINE,\" contributors attempted dream journaling over the course of several weeks and created a piece based on their entries. Some of the works submitted include 3D art for the web, data visualizations, short essays, video essays, and illustrations. The first issue will be released mid-December, 2018.",
+        "videoEmbedUrl" : `<iframe style="background:white; "src="http://www.propagator.xyz"></iframe>`,
+        "imgs": [],
+        "url": "http://propagator.xyz",
+        "isPublic": true
+      },
+
+      {
         "name" : "Chordal (2019)",
         "id" : "chordal",
         "assetsDir": "projects/chordal",
-        "description" : "A web-based educational tool for learning various musical scales. Built with Tone.js, React, and GSAP.",
+        "description" : "A web-based educational tool for learning musical scales.",
         "content": "A web-based educational tool for learning various musical scales. Built with Tone.js, React, and GSAP.<br/><br/>Coming in 2019.",
         "videoEmbedUrl" : "",
         "imgs": [],
@@ -126,7 +126,7 @@ module.exports = [
   },
   
   {
-    "workType" : "Professional Work",
+    "workType" : "Select Professional Work",
     "projects" : [ 
       {
         "name" : "The Memory Observatory",
@@ -161,30 +161,3 @@ module.exports = [
     ]
   }
 ];
-
-
-
-
-// {
-//   "name" : "GUISE + GAZE",
-//   "id" : "guise",
-//   "description" : "Women appear. Taking direct influences from John Berger’s book “Ways of Seeing,” this work is a visual metaphor for womens’ everyday experiences of being looked at.",
-//   "content": [
-//     "Women appear. Taking direct influences from John Berger’s book “Ways of Seeing,” this work is a visual metaphor for womens’ everyday experiences of being looked at."
-//   ],
-//   "imgs": [],
-//   "url": "",
-//   "isPublic": false
-// },
-
-// {
-//   "name" : "Shrines",
-//   "id" : "shrines",
-//   "description" : "Sanctums.",
-//   "content": [
-//     "Sanguine, sanctums"
-//   ],
-//   "imgs": [],
-//   "url": "",
-//   "isPublic": false
-// },

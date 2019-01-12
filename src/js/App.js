@@ -13,10 +13,9 @@ class App extends Component {
 
     const App = () => (
       <div className="page-container">
-        <Nav />
         <Switch>
           <Route exact path='/' component={ Landing }/>
-          <Route path='/about' component={ About }/>
+          <Route path='/info' component={ About }/>
           <Route path='/work/:projectId' component={ ProjectDetail }/>
           <Route path='/work' component={ Work }/>
           <Route path='/contact' component={ Contact }/>

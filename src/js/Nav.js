@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import cv from '../assets/rachel-rose-ulgado-2018-CV.pdf';
 import '../css/Nav.css';
 
@@ -10,22 +10,21 @@ class Nav extends Component {
         {
           window.location.pathname !== '/' ? 
           <span id="name-label">
-            {/* <Link to="/">RACHEL ROSE ULGADO</Link> */}
-            Rachel Rose Ulgado
+            <Link to="/">RACHEL ROSE ULGADO</Link>
           </span> : null
         }
     
         <div className="nav-items">
           <ul>
             <li className="underline">
-              <NavLink className="nav-link" to="/about">About</NavLink>
+              <NavLink className="nav-link" to="/info">Info</NavLink>
             </li>
             <li className="underline">
               <NavLink className="nav-link" to="/work">Work</NavLink>
             </li>
-            <li className="underline">
+            {/* <li className="underline">
               <a className="nav-link" href={ cv } rel="noopener noreferrer" target="_blank">CV</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

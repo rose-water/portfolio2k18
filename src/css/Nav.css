@@ -2,12 +2,17 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 100;
 }
 
 span#name-label {
   position: absolute;
   left: 0;
+  letter-spacing: 0.5px!important;
+  font-weight: 200;
 }
 
 span#name-label:hover {
@@ -31,7 +36,6 @@ a, a:visited {
   color: var(--med-pink);
   text-transform: uppercase;
   font-size: 0.9em;
-  letter-spacing: 1.0px;
 }
 
 .nav-link.active:after {

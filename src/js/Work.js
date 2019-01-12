@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import projects from './data.js';
 import Project from './Project'
+import Nav from './Nav';
 import '../css/Project.css'; 
 
 class Work extends Component {
@@ -37,9 +38,13 @@ class Work extends Component {
     
   render() {
   return (
-    <div key={ Math.random() }>
+    <div>
+      <Nav />
+      <div key={ Math.random() }>
       { this.renderProjectSections(projects) }
     </div>
+    </div>
+    
     );
   }
 }

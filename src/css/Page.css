@@ -1,7 +1,5 @@
 .inner-page-container {
   overflow-x: auto;
-  background: #13111e;
-  margin-bottom: 60px;
 }
 
 .page-header {
@@ -13,7 +11,6 @@ h1.page-header-label {
   color: var(--lt-pink);
   display: inline-block;
   font-weight: 400;
-  font-family: "Heebo", sans-serif;
 }
 
 .project-header-label-container {
@@ -38,7 +35,6 @@ div.page-content {
 }
 
 div.page-content.about p {
-  font-family: "Heebo", sans-serif;
   font-size: 1.2em;
   line-height: 1.4em;
   font-weight: 300;
@@ -54,5 +50,4 @@ div.work-page-content {
     margin-left: 0px;
     margin-right: 0px;
   }
-
 }

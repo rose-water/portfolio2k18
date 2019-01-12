@@ -5,9 +5,6 @@ class About extends Component {
   render() {
     return (
       <div id="about" className="inner-page-container">
-        <div className="page-header">
-          <h1 className="page-header-label">About</h1>
-        </div>
         <div className="page-content about">
           <p>I’m an artist, technologist, and researcher working with code as a medium for exploring new ways of interacting and engaging with the world. My most recent work is focused on creating 3D interactive experiences for VR and the web.</p>
 
