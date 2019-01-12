@@ -32,19 +32,14 @@ p {
   font-size: 0.8em;
 }
 
-.page-container {
-  position: absolute;
-  left: 5.0em;
-  top: 4.0em;
-  width: calc(100% - 10.0em);
+#app {
+  padding: 6em;
+  background: var(--bg-dark);
 }
 
 @media screen and (max-width: 600px) {
-  .page-container {
-    left: 1.4em;
-    width: calc(100% - 2.8em);
-    height: calc(100% - 1.0em);
-    top: 1.5em;
+  #app {
+    padding: 1em;
   }
 }
 

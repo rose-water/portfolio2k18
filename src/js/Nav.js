@@ -19,12 +19,14 @@ class Nav extends Component {
             <li className="underline">
               <NavLink className="nav-link" to="/info">Info</NavLink>
             </li>
+            /
             <li className="underline">
               <NavLink className="nav-link" to="/work">Work</NavLink>
             </li>
-            {/* <li className="underline">
+            /
+            <li className="underline">
               <a className="nav-link" href={ cv } rel="noopener noreferrer" target="_blank">CV</a>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

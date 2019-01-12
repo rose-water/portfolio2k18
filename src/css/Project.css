@@ -6,7 +6,7 @@
 }
 
 .project-detail-container {
-  max-width: 75%;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -24,6 +24,15 @@
 .project-container {
   overflow: hidden;
   margin-bottom: 64px;
+}
+
+.LazyLoad {
+  display: inline-block;
+}
+
+.LazyLoad.proj-img-container {
+  width: 50%;
+  padding: 16px;
 }
 
 .project-img {
@@ -48,9 +57,7 @@ img.project-highlight {
 }
 
 .proj-img {
-  margin-top: 32px;
   width: 100%;
-  max-width: 100%;
 }
 
 .project-description {
@@ -86,18 +93,16 @@ img.project-highlight {
 
 .project-name {
   text-transform: uppercase;
-  color: var(--med-pink);
-  /* font-size: 1.1em; */
+  color: var(--lt-pink);
   letter-spacing: 0.02em;
 }
 
 a.project-link {
-  color: var(--lt-pink);
+  color: var(--lt-pink)!important;
   font-size: 16px;
   display: flex;
   flex-direction: column;
   position: absolute;
-  /* text-transform: none; */
 }
 
 a.project-link:after {
@@ -123,6 +128,7 @@ a.project-link:after {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 28px;
 }
 
 .project-detail-link {
@@ -133,18 +139,15 @@ a.project-link:after {
   margin-bottom: 36px;
   border: 1px solid var(--med-pink);
   border-radius: 3px;
-  font-size: 0.875em;
-}
-
-.project-detail-link:hover {
   background: var(--med-pink);
   color: var(--bg-navy);
+  font-size: 0.875em;
 }
 
 div.vid {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%;
+  padding-top: 62.25%;
   margin-bottom: 60px;
 }
 
@@ -172,6 +175,40 @@ iframe {
   width: 100%;
 }
 
+.project-content-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.project-content-desc {
+  padding-top: 8px;
+  color: var(--lt-pink);
+  width: 70%;
+  border-top: 1px solid var(--med-pink);
+}
+
+.project-content-tools {
+  color: var(--lt-pink);
+  width: 20%;
+  border-top: 0.5px solid var(--med-pink);
+  padding-top: 8px;
+}
+
+.project-content-tools ul {
+  margin: 12px 0px;
+  padding: 0px;
+}
+
+.project-content-tools ul li {
+  list-style-type: none;
+  font-size: 0.8em;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: var(--med-pink);
+}
+
+
 @media screen and (max-width: 980px) {
   .content-grid-item-outer {
     width: 85%;
@@ -194,5 +231,11 @@ iframe {
 @media screen and (max-width: 1400px) {
   .content-grid-item-outer {
     width: 47%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.vid.propagator {
+    padding-top: 195%;
   }
 }

@@ -1,7 +1,7 @@
 .nav {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-bottom: 4em;
   font-size: 1.2em;
   letter-spacing: 1px;
@@ -9,8 +9,6 @@
 }
 
 span#name-label {
-  position: absolute;
-  left: 0;
   letter-spacing: 0.5px!important;
   font-weight: 200;
 }
@@ -28,7 +26,8 @@ span#name-label:hover {
   list-style-type: none;
   display: inline-block;
   position: relative;
-  margin-left: 4em;
+  margin-right: 1em;
+  margin-left: 1em;
 }
  
 a, a:visited { 

@@ -11,6 +11,7 @@ module.exports = [
         "content": "This is the first of three VR experiences in a series called \"Paracosms.\" It is a materialization of a world that came from childhood dreams and memories, and is a haven that attempts to evoke feelings of detachment and calm in the viewer as they spend a few moments in a place of solitude. <br/><br/>\"The creator of a paracosm has a complex and deeply felt relationship with this subjective universe. It is an experience that is often developed during childhood and continues over a long period of time, months or even years, as a sophisticated reality that can last into childhood.\" (from \"Paracosmic Immersion,\" Cyborg Anthropology & Wikipedia).",
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/309774249?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs" : [],
+        "tools": ["Cinema 4D", "Oculus Rift", "Unity"],
         "url" : "",
         "isPublic": true
       },
@@ -20,9 +21,10 @@ module.exports = [
         "id" : "perennial",
         "assetsDir": "projects/perennial",
         "description": "A 3D meditation born from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal.",
-        "content": "This is a personal project.<br/><br/>\"I feel like I’m stuck in a dark tunnel\" was all I could come up with, while experiencing a more intense bout of creative block. So I started from there, with a cylindrical mesh, and grew myself a garden. It started from nothing, and eventually grew during moments of self-reflection & self-care. Perennial is a little world, a gentle vessel, a patient portal.<br/><br/>This project was built with Cinema 4D, Three.js, and Web Audio. Perennial was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts.",
+        "content": "This is a personal project.<br/><br/>\"I feel like I’m stuck in a dark tunnel\" was all I could come up with, while experiencing a more intense bout of creative block. So I started from there, with a cylindrical mesh, and grew myself a garden. It started from nothing, and eventually grew during moments of self-reflection & self-care. Perennial is a little world, a gentle vessel, a patient portal.<br/><br/>Perennial was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts.",
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303649092?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs": [ "install.png" ],
+        "tools": ["Cinema 4D", "Three.js", "Web Audio", "Leap Motion"],
         "url": "https://perennial.herokuapp.com/",
         "isPublic": true
       },
@@ -35,6 +37,7 @@ module.exports = [
         "content": "An ongoing series of little renders created in the process of learning 3D modeling, animation, and working with 3D on the web.",
         "imgs": ["shortened.gif", "monstera_still.png", "aloe.png"],
         "url": "https://www.instagram.com/tenderbloom/",
+        "tools": ["Cinema 4D", "Unity", "Processing", "openFrameworks", "Three.js"],
         "isPublic": true,
         "videoEmbedUrl" : "",
       },
@@ -47,6 +50,7 @@ module.exports = [
         "content": "Taking inspiration from my peers who have launched their own zines, as well as other established platforms such as Rhizome and Web Residencies by Schloss Solitude, I decided to start a digital zine as a platform for supporting myself and my peers working across creative disciplines in expanding our artistic, design, and research practices.<br/><br/>Each issue of PROPAGATOR is loosely structured around a prompt that invites contributors to engage in an activity meant to be outside the norms of their professional work. <br/><br/>In Issue 01, \"DREAM MACHINE,\" contributors attempted dream journaling over the course of several weeks and created a piece based on their entries. Some of the works submitted include 3D art for the web, data visualizations, short essays, video essays, and illustrations.",
         "videoEmbedUrl" : `<iframe style="background:white; "src="http://www.propagator.xyz"></iframe>`,
         "imgs": [],
+        "tools": ["Node.js", "React"],
         "url": "http://propagator.xyz",
         "isPublic": true
       },
@@ -56,8 +60,9 @@ module.exports = [
         "id" : "chordal",
         "assetsDir": "projects/chordal",
         "description" : "A web-based educational tool for learning musical scales.",
-        "content": "A web-based educational tool for learning various musical scales. Built with Tone.js, React, and GSAP.<br/><br/>Coming in 2019.",
+        "content": "A web-based educational tool for learning various musical scales.<br/><br/>Coming in April 2019.",
         "videoEmbedUrl" : "",
+        "tools": ["Sketch 3", "Tone.js", "React", "GSAP"],
         "imgs": [],
         "url": "",
         "isPublic": false
@@ -68,9 +73,10 @@ module.exports = [
         "id" : "cepheids",
         "assetsDir": "projects/cepheids",
         "description": "An audio visualization made with Processing & the Minim library.",
-        "content": "Cepheids, also known as Cepheid Variables, \"are a type of star that pulsates radially, varying in both diameter and temperature.\" (from Wikipedia).<br/><br/>This project was created as part of \"Creative Programming for Digital Media & Mobile Apps\" on Coursera. Created with Processing.",
+        "content": "Cepheids, also known as Cepheid Variables, \"are a type of star that pulsates radially, varying in both diameter and temperature.\" (from Wikipedia).<br/><br/>This project was created as part of \"Creative Programming for Digital Media & Mobile Apps\" on Coursera.",
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303633620?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs": [],
+        "tools": ["Processing"],
         "url": "",
         "isPublic": true
       },
@@ -88,6 +94,7 @@ module.exports = [
         ],
         "videoEmbedUrl" : "",
         "imgs" : ["vidcoach.png"],
+        "tools": ["Objective-C", "Balsamiq", "Questionnaires", "Semistructured Interviews", "Concept Validation"],
         "url" : "",
         "isPublic": true
       },
@@ -96,15 +103,16 @@ module.exports = [
         "id" : "feminist-hackers",
         "assetsDir": "projects/feminist-hackers",
         "description": "Graduate research on the sociocultural aspects of hacker and maker culture with a focus on critical design and feminist maker communities.",
-        "content": "As a graduate student in the Tactile & Tactical Lab at the University of Washington, I collaborated with Sarah Fox and Professor Daniela Rosner to research the sociocultural aspects of hacker and maker culture.<br/><br/>This work was focused on the design and structure of feminist maker communities. My fieldwork involved interviewing members of several makerspace communities on the west coast to develop an understanding of the need for these spaces to exist, and to understand how certain tools and frameworks that are ingrained/integrated into these spaces enables them to support women, POC, and traditionally marginalized groups in high tech culture. The culmination of this qualitative research was a design workshop with the members of one of the makerspaces we visited.<br/><br/>Drawing upon Dunne and Raby's seminal work on critical and speculative design, participants collaborated in exercises around imagining what an ideal future would look like, and investigating how several systemic and infrastructural portions of the past and present would need to be refigured to bring about that ideal future.",
+        "content": "As a graduate student in the Tactile & Tactical Lab at the University of Washington, I collaborated with Sarah Fox and Professor Daniela Rosner to research the sociocultural aspects of hacker and maker culture.<br/><br/>This work was focused on the design and structure of feminist maker communities. My fieldwork involved interviewing members of several makerspace communities on the west coast to develop an understanding of the need for these spaces to exist, and to understand how certain tools and frameworks that are ingrained/integrated into these spaces enables them to support women, POC, and traditionally marginalized groups in high tech culture. The culmination of this qualitative research was a critical design workshop with the members of one of the makerspaces we visited.<br/><br/>Drawing upon Dunne and Raby's seminal work on critical and speculative design, participants collaborated in exercises around imagining what an ideal future would look like, and investigating how their spaces could be designed towards obtaining that ideal future.",
         "videoEmbedUrl" : "",
         "imgs": [
-          "feminist-hackers-1.jpg",
           "feminist-hackers-2.jpg",
           "feminist-hackers-3.jpg",
           "feminist-hackers-4.jpg",
-          "feminist-hackers-5.jpg"
+          "feminist-hackers-5.jpg",
+          "feminist-hackers-1.jpg"
         ],
+        "tools": ["Participant Observation", "Workshop", "Semistructured Interviews"],
         "url": "",
         "isPublic": true
       },

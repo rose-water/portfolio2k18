@@ -12,7 +12,7 @@ class About extends Component {
 
           <p>My bachelor’s degrees are in anthropology and informatics (specialization in human-computer interaction) from UC Irvine, where I started a campus makerspace and designed educational tools for adolescents with Autism Spectrum Disorder.</p>
 
-          <p>I hold a master’s degree is in human-centered design and engineering from the University of Washington, where I spent my time researching the sociocultural aspects of hacker and maker culture, particularly around the design of feminist hackerspace communities.</p>
+          <p>I hold a master’s degree is in human-centered design and engineering from the University of Washington, where I spent my time researching the sociocultural aspects of hacker and maker culture, particularly around feminist hackerspace communities.</p>
 
           <p>I was a student at the School for Poetic Computation in New York in 2014.</p>
           

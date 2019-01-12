@@ -8,9 +8,10 @@
 
 h1.page-header-label {
   font-size: 20px;
+  text-transform: uppercase;
   color: var(--lt-pink);
   display: inline-block;
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .project-header-label-container {
@@ -35,14 +36,9 @@ div.page-content {
 }
 
 div.page-content.about p {
-  font-size: 1.2em;
-  line-height: 1.4em;
-  font-weight: 300;
-}
-
-/* Specific to Work page */
-div.work-page-content {
-  margin-top: 48px;
+  font-size: 1.0em;
+  line-height: 1.7em;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 600px) {

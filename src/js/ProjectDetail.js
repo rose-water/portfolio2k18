@@ -37,7 +37,7 @@ class ProjectDetail extends Component {
 
   // ------------------------------------------------------
   render() {
-    return(
+    return (
       <div className="project inner-page-container" key={ this.state.projectDetails.id }>
         
         <div className="project-detail-container">
@@ -58,11 +58,34 @@ class ProjectDetail extends Component {
               <div className={ "vid " + this.state.projectDetails.id } dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.videoEmbedUrl) } >
               </div> : null
             }
-            <p dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.content) }></p>
+
+            <div className="project-content-meta">
+              {
+                this.state.projectDetails.hasOwnProperty("tools") ?
+                <div className="project-content-tools">
+                  TOOLS
+                  <ul>
+                    {
+                      this.state.projectDetails.tools.map((tool, index) => {
+                        return (
+                          <li key={ tool+'-'+index }>{ tool }</li>
+                        )
+                      })
+                    }
+                  </ul>
+                </div> : null
+              }
+
+              <div className="project-content-desc">
+                DESCRIPTION
+                <p dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.content) }></p>
+              </div>
+            </div>
+
             {
               this.state.projectDetails.imgs.map((img, index) => {
                 return (
-                  <LazyLoad key={ this.state.projectDetails.id + '-img-' + index }>
+                  <LazyLoad className="proj-img-container" key={ this.state.projectDetails.id + '-img-' + index }>
                     <img alt={ this.state.projectDetails.id } key={ this.state.projectDetails.id + '-img-' + index } className="proj-img" src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img)}></img>
                   </LazyLoad>
                 )
