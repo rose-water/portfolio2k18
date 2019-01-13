@@ -165,9 +165,10 @@ module.exports = [
         "id" : "chinafile",
         "description" : "An interactive data visualization for observing and understanding patterns of corruption across China's provinces.",
         "videoEmbedUrl" : "",
-        "content" : "Schema Design collaborated with ChinaFile, a publication by Asia Society, to create an interactive tool for visualizing and understanding corruption in China.<br/><br/>As the Creative Technologist in Residence at Schema Design, I met with the client weekly throughout their data collection process and collaborated with another developer to build the website. Built with HTML, CSS, and Javascript (C3, Isotope).",
+        "content" : "Schema Design collaborated with ChinaFile, a publication by Asia Society, to create an interactive tool for visualizing and understanding corruption in China.<br/><br/>As the Creative Technologist in Residence at Schema Design, I met with the client weekly throughout their data collection process and collaborated with another developer to build the website.",
         "imgs" : ["chinafile_01.png", "chinafile_02.png","chinafile_04.png"],
         "url" : "http://anticorruption.chinafile.com",
+        "tools": ["HTML", "CSS", "C3.js", "Isotope"],
         "isPublic": true
       }
     ]
