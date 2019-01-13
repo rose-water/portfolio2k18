@@ -150,10 +150,10 @@ module.exports = [
         "isPublic": true
       },
       {
-        "name" : "pocktVR",
+        "name" : "PocktVR",
         "id" : "pocktvr",
-        "description" : "A web-based VR platform for creating and sharing immersive 360° photospheres.",
-        "content" :"A web-based VR platform for creating and sharing immersive 360° photospheres.<br/><br/>As a Design Technologist at Junior, I contributed to the front-end development of my team's codebase and created fundamental React components for the platform. In addition, I led the initial visual design process and UX research for this internal project.",
+        "description" : "A web-based VR platform for creating and sharing interactive, immersive 360° photospheres.",
+        "content" :"Although virtual reality is becoming more widely adopted, the creation and curation of virtual reality content is closed to a vast majority of users; the software tools are not only owned by corporations, they often present steep learning curves for consumers. <br/><br/>As a Design Technologist at Junior, I worked on a project which aimed to lower these barriers around VR content creation. Working on an interdisciplinary team of engineers and designers, I helped design and build a CMS mobile web app that enables users to upload and share their 360° photospheres.<br/><br/>These uploaded photospheres could then be annotated with text, sound, website hyperlinks, and teleportation links to other 360° experiences that they uploaded. These annotations were represented with visual cues that could be explored within the space.<br/><br/>My roles in this project were to lead the visual design and contribute to the UX strategy for PocktVR. While this project was built to cater to consumers, we also did early research on contextualizing use for commercial applications, specifically with small, independently owned businesses with storefronts. We imagined a scenario in which a shop might take a 360° photosphere of portions of their store, and use the media annotations to tell their stories as well as annotate products that they had for sale. In addition to visual design and UX, I also contributed to the front-end development of my team's codebase and created fundamental React components for the platform.",
         "videoEmbedUrl" : "",
         "imgs" : ["pocktvr-1.png", "pocktvr-2.png"],
         "tools": [ "A-Frame", "React", "Node.js", "SCSS", "Sketch 3" ],
