@@ -74,8 +74,6 @@ class ProjectDetail extends Component {
                   </ul>
                 </div> : null
               }
-
-             
             </div>
 
             {
@@ -101,6 +99,22 @@ class ProjectDetail extends Component {
                 })
               }
             </div>
+
+            {
+              this.state.projectDetails.hasOwnProperty("publications") ?
+              <div className="project-content-pubs">
+                PUBLICATIONS
+                <ul>
+                  { 
+                    this.state.projectDetails.publications.map((pub, index) => {
+                      return (
+                        <li>{ pub }</li>
+                      )
+                    })
+                  }
+                </ul>
+              </div> : null
+            }
           </div>
         </div>
       </div>
