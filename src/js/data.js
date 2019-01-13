@@ -35,7 +35,7 @@ module.exports = [
         "assetsDir": "projects/tenderbloom",
         "description": "An ongoing series of little renders created in the process of learning 3D modeling, animation, and working with 3D on the web.",
         "content": "An ongoing series of little renders created in the process of learning 3D modeling, animation, and working with 3D on the web.",
-        "imgs": ["shortened.gif", "monstera_still.png", "aloe.png", "polar.jpg"],
+        "imgs": ["shortened.gif", "monstera_still.png", "aloe.png", "polar.jpg", "interim.png"],
         "imgLayout": "grid",
         "url": "https://www.instagram.com/tenderbloom/",
         "tools": ["Cinema 4D", "Unity", "Processing", "openFrameworks", "Three.js"],
@@ -57,14 +57,14 @@ module.exports = [
       },
 
       {
-        "name" : "Chordal (2019)",
+        "name" : "Chordal",
         "id" : "chordal",
         "assetsDir": "projects/chordal",
         "description" : "A web-based educational tool for learning musical scales.",
-        "content": "A web-based educational tool for learning various musical scales.<br/><br/>Coming in April 2019.",
+        "content": "I've long held a passion for music, despite the fact that I didn't learn how to play any instruments growing up. I started taking classical piano lessons in my late twenties, almost two years ago, and find myself constantly taken aback by the construction of chords, and what emotions can be felt and communicated by <a href=\"https://youtu.be/89FcgK5jtiY?t=15\" target=\"_blank\">changing just one key</a>. <br/><br/>In between lessons, practice sessions, and studying music theory, I decided that I wanted to design and build a web-based educational tool for learning various musical chords and scales.<br/><br/>This project is in its early stages, but I knew from the very beginning that I wanted it to feel inviting and fun, with a playful color palette and aesthetic that could be enjoyed by all ages. An interactive prototype is in the works and will be available April 2019.",
         "videoEmbedUrl" : "",
         "tools": ["Tone.js", "React", "GSAP", "CSS3", "Sketch 3"],
-        "imgs": [],
+        "imgs": ["chordal-proto.png"],
         "url": "",
         "isPublic": false
       },
@@ -87,7 +87,7 @@ module.exports = [
         "id" : "vidcoach",
         "assetsDir": "projects/vidcoach",
         "description" : "Researching how to design educational tools to support individuals with Autism Spectrum Disorder (ASD) in learning & retaining valuable life skills.",
-        "content": "VidCoach is the result of a year-long effort to research, design, and build tools for individuals with Autism Spectrum Disorder (ASD), focusing on adolescents participating in school-to-work transition programs (students making the transition to adulthood, from high school into the workforce), which is a subset of the ASD population often overlooked in research. <br/><br/>Using ethnographic methods as my modes of inquiry, I observed at workshops teaching students ‘tech etiquette’ (e.g., not answering the phone during work hours) as well as how to use smartphone apps (e.g., using a calendar app to schedule work shifts and job interviews). I went into the field and spoke with professional caretakers to understand their students’ primary needs, and involved them throughout the research and design processes to ensure that these needs were being fulfilled.<br/><br/>These conversations and observations, along with an extensive literature review, informed the design of an iOS app called ‘VidCoach,’ an app built upon video modeling, an effective tool for reaching and retaining skills. The first release of made use of both peer-modeling (where one watches a peer similar to themselves completing a task) and self-modeling (where one watches themselves successfully completing a task) in the context of teaching students how to interview for jobs.",
+        "content": "VidCoach is the result of a year-long effort to research, design, and build tools for individuals with Autism Spectrum Disorder (ASD), focusing on adolescents participating in school-to-work transition programs (students making the transition to adulthood, from high school into the workforce), which is a subset of the ASD population often overlooked in research. <br/><br/>As an undergraduate researcher working with Dr. Gillian Hayes, I employed ethnographic methods in my research; I observed at educational workshops teaching students ‘tech etiquette’ (e.g., not answering the phone during work hours) as well as how to use smartphone apps (e.g., using a calendar app to schedule work shifts and job interviews). I went into the field and spoke with professional caretakers to understand their students’ primary needs, and involved them throughout the research and design processes to ensure that these needs were being fulfilled.<br/><br/>These conversations and observations, along with an extensive literature review, informed the design of an iOS app called ‘VidCoach,’ an app built upon video modeling, an effective tool for reaching and retaining skills. The first release of made use of both peer-modeling (where one watches a peer similar to themselves completing a task) and self-modeling (where one watches themselves successfully completing a task) in the context of teaching students how to interview for jobs.",
         "publications" : [
           "Ulgado, R.R., Nguyen, K., Custodio, V. E., Waterhouse, A., Weiner, R., & Hayes, G. \"VidCoach: A mobile video modeling system for youth with special needs.\" In Proceedings of the 12th International Conference on Interaction Design and Children (pp. 581-584). ACM.",
           "Nguyen, K., Custodio, V.E., Ulgado, R.R., Weiner, R., Waterhouse, A., O’Neal, L., and Hayes, G.R. \"Evaluation of the Use of Mobile Video Modeling for Job Interviews\". 2014. International Meeting for Autism Research.",
