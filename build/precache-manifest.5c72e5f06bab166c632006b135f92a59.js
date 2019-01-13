@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "47dd38e7ce03574812f53a6f73933c58",
-    "url": "/static/media/install.47dd38e7.png"
+    "revision": "f58e308d806dbc3fa21c809fa1d5ede4",
+    "url": "/static/media/proto-1.f58e308d.png"
   },
   {
-    "revision": "0bcb6640cf4ec9ffaa47",
-    "url": "/static/css/main.9d2a88aa.chunk.css"
+    "revision": "2c448a8e355a331f0af7",
+    "url": "/static/css/main.3a0bca11.chunk.css"
   },
   {
-    "revision": "15d3232136155fa17ee5",
-    "url": "/static/js/1.15d32321.chunk.js"
+    "revision": "32f3a980ddaaeb8bc454",
+    "url": "/static/js/1.32f3a980.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -46,6 +46,10 @@ self.__precacheManifest = [
   {
     "revision": "db1d6f19f65c5f4b35860d8f293e4b98",
     "url": "/static/media/chordal.db1d6f19.png"
+  },
+  {
+    "revision": "3555366a0bfcb094eeba8b8609968f2d",
+    "url": "/static/media/chordal-proto.3555366a.png"
   },
   {
     "revision": "9791bf8ad5eb98ba24c201cebd51d986",
@@ -92,8 +96,20 @@ self.__precacheManifest = [
     "url": "/static/media/perennial.be76411c.png"
   },
   {
-    "revision": "0bcb6640cf4ec9ffaa47",
-    "url": "/static/js/main.0bcb6640.chunk.js"
+    "revision": "f93468fa3ea7c90eb81b44d4226e61fc",
+    "url": "/static/media/install-mock.f93468fa.png"
+  },
+  {
+    "revision": "47dd38e7ce03574812f53a6f73933c58",
+    "url": "/static/media/install.47dd38e7.png"
+  },
+  {
+    "revision": "2c448a8e355a331f0af7",
+    "url": "/static/js/main.2c448a8e.chunk.js"
+  },
+  {
+    "revision": "d1a614df2ca2db42f2c5dca6b5029ffe",
+    "url": "/static/media/proto-2.d1a614df.png"
   },
   {
     "revision": "b7dc7c7a77238960c8071a0ea4b069f8",
@@ -130,6 +146,10 @@ self.__precacheManifest = [
   {
     "revision": "9697eeec296f67a465fb401ea63abcd5",
     "url": "/static/media/aloe.9697eeec.png"
+  },
+  {
+    "revision": "75cd7463053129dfe7e079f40f88a0f7",
+    "url": "/static/media/interim.75cd7463.png"
   },
   {
     "revision": "95d23581c22101e03d709bfc49deb4a9",
@@ -180,11 +200,15 @@ self.__precacheManifest = [
     "url": "/static/media/vidcoach.0429989b.jpg"
   },
   {
+    "revision": "cd462098dc8326c8729f099de5e971d1",
+    "url": "/static/media/polar.cd462098.jpg"
+  },
+  {
     "revision": "69d5c72bc783ef5b354f9a43282e8225",
     "url": "/static/media/shortened.69d5c72b.gif"
   },
   {
-    "revision": "bb9748c1b2b724dead4da6568d795f70",
+    "revision": "04b83ea09d17faa9f2b0fa2782a323c9",
     "url": "/index.html"
   }
 ];
