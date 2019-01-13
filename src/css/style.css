@@ -5,7 +5,7 @@
   --lt-pink: #FFEBFF;
   --med-pink: #D6B4D6;
   --bg-navy: #1B182E;
-  --bg-dark: #08080c;
+  --bg-dark: #11111a;
   background: var(--bg-dark);
 }
 
@@ -33,6 +33,7 @@ p {
 }
 
 #app {
+  min-height: 100%;
   padding: 6em;
   background: var(--bg-dark);
 }
