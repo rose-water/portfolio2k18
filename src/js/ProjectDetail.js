@@ -41,6 +41,11 @@ class ProjectDetail extends Component {
       <div className="project inner-page-container" key={ this.state.projectDetails.id }>
         
         <div className="project-detail-container">
+          <div>
+            <Link to="/work">
+              <img className="back-arrow-icon" src={ backIcon } />
+            </Link>
+          </div>
           <div className="project-detail-header">
             <h1 className="page-header-label">{ this.state.projectDetails.name }</h1>
             { this.state.projectDetails.url === "" ? null : 

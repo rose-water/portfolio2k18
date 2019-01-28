@@ -8,7 +8,8 @@
   font-weight: 100;
 }
 
-span#name-label {
+#name-label a {
+  color: var(--lt-pink)!important;
   letter-spacing: 0.5px!important;
   font-weight: 200;
 }
@@ -32,7 +33,7 @@ span#name-label:hover {
  
 a, a:visited { 
   text-decoration: none;
-  color: var(--med-pink);
+  color: var(--med-pink)!important;
   text-transform: uppercase;
   font-size: 0.9em;
 }
@@ -48,22 +49,22 @@ a, a:visited {
 }
 
 @media screen and (max-width: 600px) {
+  #name-label a {
+    font-size: 1.4em;
+    color: var(--lt-pink)!important;
+  }
+
+  .nav {
+    flex-direction: column;
+    margin-bottom: 1.8em;
+  }
+
   .nav-items {
+    margin-top: 1em;
     width: 100%;
   }
 
   .nav-items ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .nav-items ul li {
-    margin-left: 0;
-  }
-
-  span#name-label {
-    display: none;
+    margin-left: -1em;
   }
 }

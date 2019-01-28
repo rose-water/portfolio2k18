@@ -37,14 +37,13 @@ class Work extends Component {
   }
     
   render() {
-  return (
-    <div>
-      <Nav />
-      <div key={ Math.random() }>
-      { this.renderProjectSections(projects) }
-    </div>
-    </div>
-    
+    return (
+      <div>
+        <Nav />
+        <div key={ Math.random() }>
+          { this.renderProjectSections(projects) }
+        </div>
+      </div>
     );
   }
 }

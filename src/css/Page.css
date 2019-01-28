@@ -46,4 +46,9 @@ div.page-content.about p {
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  div.page-content.about p {
+    font-size: 0.9em;
+    line-height: 1.6em;
+  }
 }

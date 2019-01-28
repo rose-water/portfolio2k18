@@ -9,21 +9,19 @@ class Nav extends Component {
       <div className="nav">
         {
           window.location.pathname !== '/' ? 
-          <span id="name-label">
+          <div id="name-label">
             <Link to="/">RACHEL ROSE ULGADO</Link>
-          </span> : null
+          </div> : null
         }
     
         <div className="nav-items">
           <ul>
             <li className="underline">
               <NavLink className="nav-link" to="/info">Info</NavLink>
-            </li>
-            /
+            </li>/
             <li className="underline">
               <NavLink className="nav-link" to="/work">Work</NavLink>
-            </li>
-            /
+            </li>/
             <li className="underline">
               <a className="nav-link" href={ cv } rel="noopener noreferrer" target="_blank">CV</a>
             </li>
