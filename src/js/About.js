@@ -13,11 +13,11 @@ class About extends Component {
 
             <p>I am currently pursuing my MFA in Media Design Practices at Art Center College of Design.</p>
 
-            <p>I hold an M.S. in Human-Centered Design and Engineering from the University of Washington, where I spent my time researching the sociocultural aspects of hacker and maker culture, particularly around feminist hackerspace communities. My bachelor’s degrees are in anthropology and informatics (specialization in human-computer interaction) from UC Irvine.</p>
+            <p>Previously, I was a resident artist in the incubator program at the Gray Area Foundation for the Arts. During my time there, I also taught web development and creative coding courses in the 10-week immersive program. I was a student at the School for Poetic Computation in New York in 2014.</p>
 
-            <p>Previously, I was a resident artist at the Gray Area Foundation for the Arts incubator program. During my time there, I also taught web development and creative coding courses in the 10-week immersive program. I was a student at the School for Poetic Computation in New York in 2014.</p>
+            <p>I hold an M.S. in Human-Centered Design and Engineering from the University of Washington, where I spent my time researching the sociocultural aspects of hacker and maker culture, particularly around feminist hackerspace communities. </p>
             
-            <p>My professional experience has involved a hybrid of UX research and web development at several tech and design companies, including IBM, Intel, Schema Design, and Xerox PARC.</p>
+            <p>My bachelor’s degrees are in anthropology and informatics (specialization in human-computer interaction) from UC Irvine.</p>
           </div>
         </div>
       </div>
