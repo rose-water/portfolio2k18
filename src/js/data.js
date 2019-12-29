@@ -49,10 +49,10 @@ module.exports = [
         "assetsDir": "projects/propagator",
         "description" : "A digital zine created by a network of peers working across various creative disciplines looking to expand their art, design, and research practices.",
         "content": "Several conversations with peers who also work within art and design disciplines revealed a shared sentiment along these lines: \“I really want to make something different from what I usually make, but I’m not sure what I want to create or where to start.\” In our work, we realized that we tend to employ processes that we learned in school or professional environments. Although these processes have undoubtedly led to work that we’re proud of, we also realized that they can feel quite formulaic and potentially limiting for our creative outputs. \“What are some ways that we can gain new insights and perspectives in our own work?\” <br/><br/>To answer this question, I decided to start a digital zine as a platform for supporting a community of peers working across creative disciplines in expanding our artistic, design, and research practices.<br/><br/>Each issue of PROPAGATOR is put together based on a loosely structured prompt that invites contributors to engage in an activity meant to be outside the norms of their creative practices and professional work.<br/><br/>In ISSUE 01, \"DREAM MACHINE,\" contributors were asked to attempt dream journaling for several weeks, to talk about their experiences with dream journaling, and to create a piece based on their entries. The format of their dream journals was not predetermined, rather, they were asked to experiment with different methods to get a feeling for what was right for them. This zine issue features contributors' works (where submissions included 3D art for the web, data visualizations, short essays, video essays, and illustrations) alongside images of their dream journals.",
-        "videoEmbedUrl" : `<iframe style="background:white; "src="http://www.propagator.xyz"></iframe>`,
+        "videoEmbedUrl" : `<iframe style="background:white; "src="https://www.propagator.xyz"></iframe>`,
         "imgs": [],
         "tools": ["Node.js", "React", "CSS3", "Sketch 3"],
-        "url": "http://propagator.xyz",
+        "url": "https://propagator.xyz",
         "isPublic": true
       },
 
