@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom'
-import cv from '../assets/rachel-rose-ulgado-2018-CV.pdf';
+import cv from '../assets/RachelRoseWaterhouse-CV-2019.pdf';
 import '../css/Nav.css';
 
 class Nav extends Component { 
