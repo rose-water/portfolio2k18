@@ -23,12 +23,12 @@ class App extends Component {
     )
 
     // Only show the three.js sketch on the landing page
-    let elem = document.getElementById('canvas');
-    if (window.location.pathname === '/') {
-      elem.style.display = "block";
-    } else {
-      elem.style.display = "none";
-    }
+    // let elem = document.getElementById('canvas');
+    // if (window.location.pathname === '/') {
+    //   elem.style.display = "block";
+    // } else {
+    //   elem.style.display = "none";
+    // }
 
     return (
       <Switch>
