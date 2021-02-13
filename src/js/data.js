@@ -117,20 +117,7 @@ module.exports = [
         "url": "",
         "publications": ["Fox, S., Ulgado, R.R., & Rosner, D. \"Hacking Culture, Not Devices: Access and Recognition in Feminist Hackerspaces.\" In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (pp. 56-68). ACM."],
         "isPublic": true
-      },
-      
-      {
-        "name" : "",
-        "id" : "placeholder",
-        "description" : "",
-        "content": [
-          ""
-        ],
-        "videoEmbedUrl" : "",
-        "imgs" : [],
-        "url" : "",
-        "isPublic": true
-      },
+      }
       
     ]
   },

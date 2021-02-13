@@ -6,16 +6,23 @@
   font-size: 1.2em;
   letter-spacing: 1px;
   font-weight: 100;
+  border-top: 1px solid  var(--lt-pink);
+  padding-top: 30px;
 }
 
 #name-label a {
   color: var(--lt-pink)!important;
   letter-spacing: 0.5px!important;
   font-weight: 200;
+  display: flex;
 }
 
 span#name-label:hover {
   cursor: default;
+}
+
+#descriptors {
+  margin-top: 30px;
 }
 
 .nav-items ul {     

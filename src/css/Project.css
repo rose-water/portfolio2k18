@@ -79,7 +79,7 @@ img.project-highlight {
 
 /* GRID VIEW */
 .content-grid-item-outer {
-  width: 30%;
+  width: 100%;
   margin-bottom: 8em;
   padding: 0px;  
   min-width: 400px;
@@ -89,13 +89,17 @@ img.project-highlight {
   margin-bottom: 0px;
 }
 
+.content-grid-item {
+  display: flex;
+}
+
 .project-img-grid {
   width: 100%;
 }
 
 .project-meta-container {
-  margin-top: 1.2em;
-  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .project-name {
@@ -110,14 +114,6 @@ a.project-link {
   display: flex;
   flex-direction: column;
   position: absolute;
-}
-
-a.project-link:after {
-  content: "";
-  bottom: -3px;
-  height: 1px;
-  width: 100%;
-  background: var(--lt-pink);
 }
 
 .project-desc-container {

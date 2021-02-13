@@ -15,7 +15,8 @@ class Project extends Component {
         <Link to={`/work/${ projectId }`}>
           {
             projectId === "placeholder" ? null : <LazyLoad>
-            <img alt={ projectId }className="project-img-grid" src={ require('../assets/projects/' + projectId + '.png') }></img>
+            <img alt={ projectId }className="project-img-grid" 
+            src={require(`../assets/projects/${projectId}.png`).default}></img>
           </LazyLoad>
           }
         </Link>
