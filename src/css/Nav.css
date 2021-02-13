@@ -16,6 +16,7 @@
   font-weight: 200;
   display: flex;
   font-size: 28px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 span#name-label:hover {
@@ -25,6 +26,7 @@ span#name-label:hover {
 #descriptors {
   margin-top: 30px;
   font-size: 15px;
+  font-style: italic;
 }
 
 .nav-items ul {     

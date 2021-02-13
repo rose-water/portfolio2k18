@@ -41,11 +41,11 @@ class ProjectDetail extends Component {
       <div className="project inner-page-container" key={ this.state.projectDetails.id }>
         
         <div className="project-detail-container">
-          <div>
+          {/* <div>
             <Link to="/work">
               <img className="back-arrow-icon" src={ backIcon } />
             </Link>
-          </div>
+          </div> */}
           <div className="project-detail-header">
             <h1 className="page-header-label">{ this.state.projectDetails.name }</h1>
             { this.state.projectDetails.url === "" ? null : 
@@ -59,12 +59,11 @@ class ProjectDetail extends Component {
           </div>
           <div className="project-content">
   
-            <div className="project-content-meta">
               <div className="project-content-desc">
                 <p dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.content) }></p>
               </div>
 
-              {
+              {/* {
                 this.state.projectDetails.hasOwnProperty("tools") ?
                 <div className="project-content-tools">
                   TOOLS
@@ -78,8 +77,7 @@ class ProjectDetail extends Component {
                     }
                   </ul>
                 </div> : null
-              }
-            </div>
+              } */}
 
             {
               this.state.projectDetails.videoEmbedUrl !== "" ? 
@@ -97,8 +95,9 @@ class ProjectDetail extends Component {
                       <img 
                         alt={ this.state.projectDetails.id } 
                         key={ this.state.projectDetails.id + '-img-' + index } 
-                        className="proj-img"  
-                        src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img)}></img>
+                        className="proj-img"
+                        // src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img)}></img>
+                        src={require(`../assets/projects/${this.state.projectDetails.id}/${img}`).default}></img>
                     </LazyLoad>
                   )
                 })

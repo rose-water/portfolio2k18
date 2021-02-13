@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 :root {
   --lt-pink: #FFFFFF;
@@ -17,7 +19,7 @@ html, body {
   background: var(--bg-dark);
   margin: 0 auto;
   height: 100%;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   color: var(--lt-pink);
 }
 
