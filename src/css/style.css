@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400');
 
 :root {
-  --lt-pink: #FFEBFF;
+  --lt-pink: #FFFFFF;
   --med-pink: #D6B4D6;
   --bg-navy: #1B182E;
-  --bg-dark: #11111a;
+  --bg-dark: #282630;
   background: var(--bg-dark);
 }
 
@@ -18,7 +18,7 @@ html, body {
   margin: 0 auto;
   height: 100%;
   font-family: "Roboto Mono", monospace;
-  color: var(--med-pink);
+  color: var(--lt-pink);
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 
 p {
-  color: var(--med-pink);
+  color: var(--lt-pink);
   font-size: 0.8em;
 }
 

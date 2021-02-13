@@ -23,7 +23,15 @@ class Project extends Component {
         <div className="project-meta-container">
           <Link className="project-name project-link" to={`/work/${ projectId }`}>{ name }</Link>
           <div className="project-desc-container">
+            <div className="upper-section">
+              <p className="project-desc">Client: JPL + NASA</p>
+              <p className="project-desc">Dates: 2020 + 2021</p>
+              <p className="project-desc">Collaborators: Me and myself</p>
+            </div>
             <p className="project-desc">{ description.replace("\\n", "\n") }</p>
+            <Link to={`/work/${ projectId }`}>
+              <div className='readMore'>{'read more >>'}</div>
+            </Link>
           </div>
         </div>
       </div>

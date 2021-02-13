@@ -14,7 +14,7 @@
 .project-content p {
   font-size: 0.775em;
   line-height: 1.6em;
-  color: var(--med-pink);
+  color: var(--lt-pink);
 }
 
 .project-content {
@@ -59,7 +59,7 @@ img.project-highlight {
 }
 
 .project-description {
-  border: 2px solid var(--med-pink);
+  border: 2px solid var(--lt-pink);
   padding: 12px;
 }
 
@@ -91,10 +91,15 @@ img.project-highlight {
 
 .content-grid-item {
   display: flex;
+  margin: 0 100px;
 }
 
 .project-img-grid {
   width: 100%;
+  float: left;
+  width:  900px;
+  height: 600px;
+  object-fit: cover;
 }
 
 .project-meta-container {
@@ -124,7 +129,17 @@ a.project-link {
   margin: 0px;
   line-height: 1.6em;
   font-size: 0.775em;
-  color: var(--med-pink);
+  color: var(--lt-pink);
+}
+
+.upper-section {
+  margin-bottom: 200px;
+}
+
+.readMore {
+  text-transform: none !important;
+  margin-top: 30px;
+  text-decoration: underline;
 }
 
 .back-arrow-icon {
@@ -144,9 +159,9 @@ a.project-link {
   font-size: 1em;
   margin-top: 36px;
   margin-bottom: 36px;
-  border: 1px solid var(--med-pink);
+  border: 1px solid var(--lt-pink);
   border-radius: 3px;
-  background: var(--med-pink);
+  background: var(--lt-pink);
   color: var(--bg-navy);
   font-size: 0.875em;
 }
@@ -203,7 +218,7 @@ iframe {
 .project-content-tools {
   color: var(--lt-pink);
   width: 20%;
-  border-top: 0.5px solid var(--med-pink);
+  border-top: 0.5px solid var(--lt-pink);
   padding-top: 8px;
 }
 
@@ -217,7 +232,7 @@ iframe {
   font-size: 0.8em;
   margin-top: 4px;
   margin-bottom: 4px;
-  color: var(--med-pink);
+  color: var(--lt-pink);
 }
 
 .project-content-pubs {
