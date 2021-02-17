@@ -9,13 +9,8 @@ class Work extends Component {
   renderProjectSections(projects) {
     return projects.map((workSection, index) => {
       return (
-        <div className="work inner-page-container" key={ 'worksection-' + index }>
-          <div className="page-header work">
-            <h1 className="page-header-label">{ workSection.workType }</h1>
-          </div>
-          <div className="projects-container">
-            { this.renderProjects(workSection.projects) }
-          </div>
+        <div className="projects-container" key={ 'worksection-' + index }>
+          { this.renderProjects(workSection.projects) }
         </div>
       );
     });
@@ -24,7 +19,7 @@ class Work extends Component {
   renderProjects(projects) {
     return projects.map((project, index) => {
       return (
-        <div className={`content-grid-item-outer ${ project.id === "placeholder" ? "placeholder" : null }`} key={ project.name }>
+        <div className={`content-grid-item-outer`} key={ project.name }>
           <Project 
             name={ project.name } 
             id={ project.id }
@@ -38,12 +33,12 @@ class Work extends Component {
     
   render() {
     return (
-      <div>
+      <>
         <Nav />
         <div key={ Math.random() }>
           { this.renderProjectSections(projects) }
         </div>
-      </div>
+      </>
     );
   }
 }

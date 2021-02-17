@@ -2,12 +2,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 4em;
   font-size: 1.2em;
   letter-spacing: 1px;
   font-weight: 100;
   border-top: 1px solid  var(--lt-pink);
-  padding-top: 30px;
+  padding: 30px 0px;
 }
 
 #name-label a {
@@ -24,6 +23,7 @@ span#name-label:hover {
 }
 
 #descriptors {
+  font-family: 'IBM Plex Mono', monospace;
   margin-top: 30px;
   font-size: 15px;
   font-style: italic;
@@ -32,13 +32,14 @@ span#name-label:hover {
 .nav-items ul {     
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-items li {
   list-style-type: none;
   display: inline-block;
   position: relative;
-  margin-right: 1em;
   margin-left: 1em;
 }
  

@@ -22,7 +22,8 @@ class Nav extends Component {
           <ul>
             <li className="underline">
               <NavLink className="nav-link" to="/work">Work</NavLink>
-            </li>/
+            </li>
+            <li>/</li>
             <li className="underline">
               <NavLink className="nav-link" to="/info">Info</NavLink>
             </li>
