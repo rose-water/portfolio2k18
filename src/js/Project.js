@@ -4,25 +4,47 @@ import { Link } from 'react-router-dom';
 import LazyLoad from 'react-lazy-load';
 
 class Project extends Component {
-  render() {
-    const name        = this.props.name;
-    const description = this.props.description;
-    const projectId   = this.props.id;
+  render() { 
     
+    const proj = this.props.data;
+
     // Grid view
     return (
       <div className="content-grid-item">
-        <Link to={`/work/${ projectId }`}>
-          {
-            projectId === "placeholder" ? null : <LazyLoad>
-            <img alt={ projectId }className="project-img-grid" src={ require('../assets/projects/' + projectId + '.png') }></img>
-          </LazyLoad>
-          }
-        </Link>
+        <div className='hero-container'>
+          <Link to={`/work/${ proj.id }`}>       
+            <LazyLoad>
+              <img 
+                alt={ proj.id  }
+                className="project-img-grid" 
+                src={ require(`../assets/projects/${ proj.id  }.png`).default }>
+              </img>
+            </LazyLoad>
+          </Link>
+        </div>
+
         <div className="project-meta-container">
-          <Link className="project-name project-link" to={`/work/${ projectId }`}>{ name }</Link>
+
+          <div className="project-name-container">
+            <Link 
+              className="project-name project-link" 
+              to={`/work/${ proj.id  }`}
+            >
+              { proj.name }
+            </Link>
+          </div>
+          
+          
           <div className="project-desc-container">
-            <p className="project-desc">{ description.replace("\\n", "\n") }</p>
+            <div className="upper-section">
+              <p className="project-client">{ proj.client } </p>
+              <p className="project-years">{ proj.years }</p>
+              <p className="project-collaborators">{ proj.collaborators }</p>
+            </div>
+            <p className="project-desc">{ proj.description.replace("\\n", "\n") }</p>
+            <Link to={`/work/${ proj.id  }`}>
+              <div className='readMore'>{'read more >>'}</div>
+            </Link>
           </div>
         </div>
       </div>

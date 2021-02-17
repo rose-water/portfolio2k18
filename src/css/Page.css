@@ -32,13 +32,13 @@ div.page-header-divider {
 
 div.page-content {
   line-height: 26px;
-  max-width: 580px;
+  max-width: 50%;
 }
 
 div.page-content.about p {
-  font-size: 1.0em;
-  line-height: 1.7em;
-  font-weight: 200;
+  font-size: 0.85vw;
+  line-height: 1.4em;
+  margin-top: 1.7em;
 }
 
 @media screen and (max-width: 600px) {

@@ -9,15 +9,11 @@ class About extends Component {
         <Nav />
         <div id="about" className="inner-page-container">
           <div className="page-content about">
-            <p>I’m an artist / designer / technologist working with code as a medium for exploring new ways of interacting and engaging with the world. My most recent work is focused on creating 3D interactive experiences for VR and the web.</p>
-
-            <p>I am currently pursuing my MFA in Media Design Practices at Art Center College of Design.</p>
-
-            <p>Previously, I was a resident artist in the incubator program at the Gray Area Foundation for the Arts. During my time there, I also taught web development and creative coding courses in the 10-week immersive program. I was a student at the School for Poetic Computation in New York in 2014.</p>
-
-            <p>I hold an M.S. in Human-Centered Design and Engineering from the University of Washington, where I spent my time researching the sociocultural aspects of hacker and maker culture, particularly around feminist hackerspace communities. </p>
-            
-            <p>My bachelor’s degrees are in anthropology and informatics (specialization in human-computer interaction) from UC Irvine.</p>
+            <p>I’m a technologist, artist, and designer based in Los Angeles, CA.</p>
+            <p>My professional experience has involved working in both applied and conceptual contexts, across formats including interactive web experiences and media art installations. Some of my past clients include SFMOMA, Intel, California College of the Arts, and independent media artists.</p>
+            <p>My personal practice involves experimentation through code and playing with 3D software tools. My work is invested in exploring how these media lend themselves to creative forms of self-expression, particularly within immersive world-building, music, and writing.</p> 
+            <p>I am currently finishing my MFA in Media Design Practices at Art Center College of Design, and will graduate in April 2021. Prior to that, I was a resident artist and creative coding instructor at Gray Area, and am an alumna of the School for Poetic Computation.</p>
+            <p>When I’m not working, you’ll find me practicing classical piano, watching a slice of life anime, drawing, or going for a walk with my Bernese Mountain Dog, Willow.</p>
           </div>
         </div>
       </div>
