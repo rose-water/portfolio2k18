@@ -32,7 +32,7 @@ class Work extends Component {
     return (
       <>
         <Nav />
-        <div key={ Math.random() }>
+        <div id='projects'>
           { this.renderProjectSections(projects) }
         </div>
       </>

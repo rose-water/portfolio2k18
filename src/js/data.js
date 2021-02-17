@@ -4,17 +4,65 @@ module.exports = [
     
     "projects" : [
       {
-        "name" : "Nimbus",
+        "name" : "NIMBUS",
         "id" : "nimbus",
         "assetsDir": "projects/nimbus",
         "client": "Client: NASA JPL + CALTECH",
         "years": "2020 – 2021",
         "collaborators": "with Martin Bernard & Barbara Alonso",
         "description": "An interactive, web-based tool for visualizing and analyzing climate simulation data.",
-        "content": "TBD",
+        "content": "Coming Soon.",
         "videoEmbedUrl" : ``,
         "imgs": [],
         "tools": ["ReactJS", "d3.js", "Node.js", "Julia"],
+        "url": "",
+        "isPublic": true
+      },
+
+      {
+        "name" : "Towards Coexistence: Malleable Wilderness, Hybrid Landscapes, and New Assemblages",
+        "id" : "towards-coexistence",
+        "assetsDir": "projects/towards-coexistence",
+        "client": "ArtCenter College of Design",
+        "years": "2021",
+        "collaborators": "self-directed",
+        "description": "MFA in Media Design Practices – GRADUATE THESIS",
+        "content": "Coming Soon.",
+        "videoEmbedUrl" : ``,
+        "imgs": [],
+        "tools": [],
+        "url": "",
+        "isPublic": true
+      },
+
+      {
+        "name" : "Shadow Stalker (Installation)",
+        "id" : "shadowstalker",
+        "assetsDir": "projects/shadowstalker",
+        "client": "Client: Lynn Hershman Leeson",
+        "years": "2019",
+        "collaborators": "with Mark Hellar",
+        "description": "An interactive installation that generates digital shadows of participants, displaying personal information about them retrieved from internet databases with the use of just their email addresses.",
+        "content": "Coming Soon.",
+        "videoEmbedUrl" : ``,
+        "imgs": [],
+        "tools": ["ReactJS", "d3.js", "Node.js", "Julia"],
+        "url": "",
+        "isPublic": true
+      },
+
+      {
+        "name" : "RUSH v.1 – Entrance",
+        "id" : "rush-v1",
+        "assetsDir": "projects/rush-v1",
+        "client": "Client: LEVYdance + Gray Area",
+        "years": "2019",
+        "collaborators": "with Mark Schroeder",
+        "description": "Presented by LEVYdance x Gray Area at Mission Theater, San Francisco",
+        "content": "Coming Soon.",
+        "videoEmbedUrl" : ``,
+        "imgs": [],
+        "tools": ["Processing", "Arduino", "MadMapper"],
         "url": "",
         "isPublic": true
       },
@@ -53,7 +101,7 @@ module.exports = [
       },
 
       {
-        "name" : "Propagator",
+        "name" : "PROPAGATOR ZINE – ISSUE 01",
         "id" : "propagator",
         "assetsDir": "projects/propagator",
         "client": "self-directed",

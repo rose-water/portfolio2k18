@@ -11,11 +11,12 @@ class Project extends Component {
     // Grid view
     return (
       <div className="content-grid-item">
-        <div class='hero-container'>
+        <div className='hero-container'>
           <Link to={`/work/${ proj.id }`}>       
             <LazyLoad>
               <img 
-                alt={ proj.id  }className="project-img-grid" 
+                alt={ proj.id  }
+                className="project-img-grid" 
                 src={ require(`../assets/projects/${ proj.id  }.png`).default }>
               </img>
             </LazyLoad>
@@ -23,7 +24,17 @@ class Project extends Component {
         </div>
 
         <div className="project-meta-container">
-          <Link className="project-name project-link" to={`/work/${ proj.id  }`}>{ proj.name }</Link>
+
+          <div className="project-name-container">
+            <Link 
+              className="project-name project-link" 
+              to={`/work/${ proj.id  }`}
+            >
+              { proj.name }
+            </Link>
+          </div>
+          
+          
           <div className="project-desc-container">
             <div className="upper-section">
               <p className="project-client">{ proj.client } </p>

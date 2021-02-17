@@ -3,18 +3,26 @@
   display: flex;
   justify-content: space-between;
   font-size: 1.2em;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   font-weight: 100;
   border-top: 1px solid  var(--lt-pink);
   padding: 30px 0px;
 }
 
+#disclaimer {
+  margin-top: 24px;
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  color: rgb(0, 255, 238);
+  font-style: italic;
+}
+
 #name-label a {
   color: var(--lt-pink)!important;
   letter-spacing: 0.5px!important;
-  font-weight: 200;
+  font-weight: 300;
   display: flex;
-  font-size: 28px;
+  font-size: 2.0rem;
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -25,7 +33,7 @@ span#name-label:hover {
 #descriptors {
   font-family: 'IBM Plex Mono', monospace;
   margin-top: 30px;
-  font-size: 15px;
+  font-size: 1rem;
   font-style: italic;
 }
 
@@ -41,13 +49,13 @@ span#name-label:hover {
   display: inline-block;
   position: relative;
   margin-left: 1em;
+  font-size: 1.2rem;
 }
  
 a, a:visited { 
   text-decoration: none;
   color: var(--lt-pink)!important;
   text-transform: uppercase;
-  font-size: 0.9em;
 }
 
 .nav-link.active:after {
@@ -72,8 +80,8 @@ a, a:visited {
   }
 
   .nav-items {
-    margin-top: 1em;
-    width: 100%;
+    margin-top: 2em;
+    display: inline-flex;
   }
 
   .nav-items ul {

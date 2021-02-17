@@ -1,12 +1,19 @@
+#projects {
+  display: flex;
+  justify-content: center;
+  padding: 4vh 0vh;
+}
+
 .projects-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 90vw;
 }
 
 .project-content p {
-  font-size: 0.775em;
+  font-size: 1em;
   line-height: 1.6em;
   color: var(--lt-pink);
 }
@@ -100,7 +107,13 @@ img.project-highlight {
 
 .LazyLoad {
   width: 100%;
-  padding: 0px 40px;
+  padding: 0px 30px 0px 0px;
+}
+
+.project-collaborators {
+  font-style: italic;
+  font-size: 0.8vw;
+  margin-top: 1em!important;
 }
 
 .project-img-grid {
@@ -112,7 +125,7 @@ img.project-highlight {
 }
 
 .project-name {
-  text-transform: uppercase;
+  text-transform: none;
   color: var(--lt-pink);
   letter-spacing: 0.02em;
   font-family: 'Work Sans', sans-serif;
@@ -120,10 +133,9 @@ img.project-highlight {
 
 a.project-link {
   color: var(--lt-pink)!important;
-  font-size: 24px;
+  font-size: 1.4rem;
   display: flex;
   flex-direction: column;
-  position: absolute;
 }
 
 .project-desc-container {
@@ -293,9 +305,17 @@ iframe {
 }
 
 @media screen and (max-width: 1400px) {
-  /* .content-grid-item-outer {
-    width: 47%;
-  } */
+  .content-grid-item {
+    flex-direction: column;
+  }
+
+  .hero-container, .project-meta-container {
+    width: 100%;
+  }
+
+  .LazyLoad {
+    padding: 0px;
+  }
 }
 
 @media screen and (max-width: 768px) {
