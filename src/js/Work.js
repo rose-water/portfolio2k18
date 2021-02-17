@@ -21,10 +21,7 @@ class Work extends Component {
       return (
         <div className={`content-grid-item-outer`} key={ project.name }>
           <Project 
-            name={ project.name } 
-            id={ project.id }
-            description={ project.description } 
-            highlightUrl={ project.highlightUrl }
+            data={ project }
           />
         </div>
       );

@@ -4,40 +4,34 @@ import { Link } from 'react-router-dom';
 import LazyLoad from 'react-lazy-load';
 
 class Project extends Component {
-  render() {
-    const name        = this.props.name;
-    const description = this.props.description;
-    const projectId   = this.props.id;
+  render() { 
     
+    const proj = this.props.data;
+
     // Grid view
     return (
       <div className="content-grid-item">
         <div class='hero-container'>
-          <Link to={`/work/${ projectId }`}>
-            {
-              projectId === "placeholder" ? null : 
-              <LazyLoad>
-                
-                  <img 
-                    alt={ projectId }className="project-img-grid" 
-                    src={ require(`../assets/projects/${ projectId }.png`).default }>
-                  </img>
-
-              </LazyLoad>
-            }
+          <Link to={`/work/${ proj.id }`}>       
+            <LazyLoad>
+              <img 
+                alt={ proj.id  }className="project-img-grid" 
+                src={ require(`../assets/projects/${ proj.id  }.png`).default }>
+              </img>
+            </LazyLoad>
           </Link>
         </div>
 
         <div className="project-meta-container">
-          <Link className="project-name project-link" to={`/work/${ projectId }`}>{ name }</Link>
+          <Link className="project-name project-link" to={`/work/${ proj.id  }`}>{ proj.name }</Link>
           <div className="project-desc-container">
             <div className="upper-section">
-              <p className="project-desc">Client: JPL + NASA</p>
-              <p className="project-desc">Dates: 2020 + 2021</p>
-              <p className="project-desc">Collaborators: Me and myself</p>
+              <p className="project-client">{ proj.client } </p>
+              <p className="project-years">{ proj.years }</p>
+              <p className="project-collaborators">{ proj.collaborators }</p>
             </div>
-            <p className="project-desc">{ description.replace("\\n", "\n") }</p>
-            <Link to={`/work/${ projectId }`}>
+            <p className="project-desc">{ proj.description.replace("\\n", "\n") }</p>
+            <Link to={`/work/${ proj.id  }`}>
               <div className='readMore'>{'read more >>'}</div>
             </Link>
           </div>
