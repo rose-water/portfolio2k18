@@ -11,25 +11,15 @@ class App extends Component {
   render() {
 
     const App = () => (
-      <div className="page-container">
-        <Switch>
-          <Route exact path='/' component={ Landing }/>
-          <Route path='/info' component={ About }/>
-          <Route path='/work/:projectId' component={ ProjectDetail }/>
-          <Route path='/work' component={ Work }/>
-          <Route path='/contact' component={ Contact }/>
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path='/' component={ Landing }/>
+        <Route path='/info' component={ About }/>
+        <Route path='/work/:projectId' component={ ProjectDetail }/>
+        <Route path='/work' component={ Work }/>
+        <Route path='/contact' component={ Contact }/>
+      </Switch>
     )
-
-    // Only show the three.js sketch on the landing page
-    let elem = document.getElementById('canvas');
-    if (window.location.pathname === '/') {
-      elem.style.display = "block";
-    } else {
-      elem.style.display = "none";
-    }
-
+    
     return (
       <Switch>
         <App />

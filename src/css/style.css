@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i');
-@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap');
 
 :root {
-  --lt-pink: #FFEBFF;
-  --med-pink: #D6B4D6;
-  --bg-navy: #1B182E;
-  --bg-dark: #11111a;
+  --lt-pink: #FFFFFF;
+  --bg-dark: #282630;
   background: var(--bg-dark);
 }
 
@@ -17,8 +15,8 @@ html, body {
   background: var(--bg-dark);
   margin: 0 auto;
   height: 100%;
-  font-family: "Roboto Mono", monospace;
-  color: var(--med-pink);
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--lt-pink);
 }
 
 body {
@@ -28,13 +26,13 @@ body {
 }
 
 p {
-  color: var(--med-pink);
+  color: var(--lt-pink);
   font-size: 0.8em;
 }
 
 #app {
   min-height: 100%;
-  padding: 6em;
+  padding: 4em;
   background: var(--bg-dark);
 }
 
