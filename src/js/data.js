@@ -20,13 +20,13 @@ module.exports = [
       },
 
       {
-        "name" : "Compossible Assemblages (MFA Graduate Thesis)",
+        "name" : "Compossible Assemblages",
         "id" : "towards-coexistence",
         "assetsDir": "projects/towards-coexistence",
         "client": "ArtCenter College of Design",
         "years": "2021",
         "collaborators": "self-directed",
-        "description": "A series of speculative, near-future interventions and provocations that renegotiate capitalistic paradigms of utilitarian infrastructure networks (e.g. water, data centers, telecommunications) – towards a more balanced relationship with nature and ecosystems.",
+        "description": "A series of speculative, near-future interventions and provocations that renegotiate capitalistic paradigms of utilitarian infrastructure networks (e.g. water, data centers, telecommunications) – towards a more balanced relationship with nature and ecosystems. <br /><br /><i>MFA Graduate Thesis<br/>Media Design Practices</i>",
         "content": "Coming Soon.",
         "videoEmbedUrl" : ``,
         "imgs": [],
@@ -35,6 +35,38 @@ module.exports = [
         "isPublic": true
       },
 
+      {
+        "name" : "Dispersal Vector Agents",
+        "id" : "dispersal-vector-agents",
+        "assetsDir": "projects/dispersal-vector-agents",
+        "client": "",
+        "years": "2020",
+        "collaborators": "",
+        "description": "This project is the design of a system, where the organization, storage, and movement of seeds is facilitated by robot agents that deliver seeds based on need. <br/><br/>I imagine a plausible scenario where natural seed dispersal mechanisms are eradicated or at-risk as a result of climate change, and consider seeds as active, living organisms rather than passive, dormant entities. <br /><br />Course: <br/><i>Grad Design Studio II<br/>Media Design Practices</i>",
+        "content": "Coming Soon.",
+        "videoEmbedUrl" : ``,
+        "imgs": [],
+        "tools": ["HTML5", "CSS3", "P5.js"],
+        "url": "",
+        "isPublic": true
+      },
+
+      {
+        "name" : "HIVE",
+        "id" : "hive",
+        "assetsDir": "projects/hive",
+        "client": "",
+        "years": "2020",
+        "collaborators": "with Martin Bernard, Aishwarya Janwadkar, & Alana Zhang",
+        "description": "An interactive prototype for users to observe bees, whose behaviors are affected by environmental factors controlled by the user. <br /><br />Course: <br/><i>Creative Tech III<br/>Media Design Practices</i>",
+        "content": "Coming Soon.",
+        "videoEmbedUrl" : ``,
+        "imgs": [],
+        "tools": ["HTML5", "CSS3", "P5.js"],
+        "url": "",
+        "isPublic": true
+      },
+    
       {
         "name" : "Shadow Stalker (Installation)",
         "id" : "shadowstalker",
@@ -53,13 +85,28 @@ module.exports = [
       },
 
       {
+        "name" : "City of Retextured Coexistence",
+        "id" : "retextured-coexistence",
+        "assetsDir": "projects/retextured-coexistence",
+        "years": "2019",
+        "collaborators": "",
+        "description": "A series of illustrated design fictions for a reimagined city, where inaccessible structures like that of oil refineries are more integrated with society. <br /><br />Course: <br/><i>Grad Design Studio I<br/>Media Design Practices</i>",
+        "content": "Coming Soon.",
+        "videoEmbedUrl" : ``,
+        "imgs": [],
+        "tools": ["ReactJS", "d3.js", "Node.js", "Julia"],
+        "url": "",
+        "isPublic": true
+      },
+
+      {
         "name" : "RUSH v.1 – Entrance",
         "id" : "rush-v1",
         "assetsDir": "projects/rush-v1",
         "client": "Client: LEVYdance + Gray Area",
         "years": "2019",
         "collaborators": "with Mark Schroeder",
-        "description": "An interactive and immersive touchable tunnel entrance inviting audience members to participate in a three-part dance performance. <br/><br/>Presented by LEVYdance x Gray Area at Mission Theater, SF.",
+        "description": "An interactive and immersive touchable tunnel entrance inviting audience members to participate in a three-part dance performance. <br/><br/>Presented by:<br/><i>LEVYdance x Gray Area<br/> Mission Theater, SF</i>",
         "content": "Coming Soon.",
         "videoEmbedUrl" : ``,
         "imgs": [],
@@ -76,7 +123,7 @@ module.exports = [
         "years": "2018",
         "collaborators": "self-directed",
         "exhibitions": ["Gray Area Artist Showcase 2018.1, Mission Theater, SF"],
-        "description": "A 3D meditation born from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal. <br/><br/>Exhibited at:<br/><i>Gray Area Artist Showcase 2018.1</i>, Mission Theater, SF",
+        "description": "A 3D meditation born from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal. <br/><br/>Exhibited at:<br/><i>Gray Area Artist Showcase 2018.1<br/>Mission Theater, SF</i>",
         "content": "Perennial grew during a long phase of much dedicated, much needed, self-reflection & self-care. It is a little world, a gentle vessel, a patient portal.<br/><br/>This project was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts.",
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303649092?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs": [ "proto-1.png", "proto-2.png", "install-mock.png", "install.png" ],
