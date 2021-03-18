@@ -5,11 +5,15 @@
 }
 
 .projects-container {
-  display: flex;
+  margin: 0vw 2vw;
+  /* display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  max-width: 90vw;
+  justify-content: space-between; */
+}
+
+.project-client, .project-years {
+  font-size: 1.2em!important;
 }
 
 .project-content p {
@@ -62,14 +66,11 @@ img.project-highlight {
 .project-description {
   border: 2px solid var(--lt-pink);
   padding: 12px;
+  margin-top: -2px;
 }
 
 .proj-img {
   width: 100%;
-}
-
-.project-description {
-  margin-top: -2px;
 }
 
 .project-description p {
@@ -112,34 +113,40 @@ img.project-highlight {
 
 .project-collaborators {
   font-style: italic;
-  font-size: 0.8vw;
-  margin-top: 1em!important;
+  font-size: 0.85em;
+  margin-top:1em!important;
+  margin-bottom:2em!important;
+}
+
+p.project-desc {
+  font-size: 0.95em;
+  line-height: 1.6em;
 }
 
 .project-img-grid {
   width: 100%;
+  /* box-shadow: 5px 5px 10px #19181d!important; */
 }
 
 .project-meta-container {
-  width: 28%;
+  width: 24%;
+  margin: 24px 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-name {
   text-transform: none;
   color: var(--lt-pink);
-  letter-spacing: 0.02em;
   font-family: 'Work Sans', sans-serif;
 }
 
 a.project-link {
-  color: var(--lt-pink)!important;
-  font-size: 1.4rem;
+  color: #a3fffb!important;
+  font-size: 1.6rem;
   display: flex;
   flex-direction: column;
-}
-
-.project-desc-container {
-  padding-top: 2.2em;
+  margin-bottom: 16px;
 }
 
 .project-desc-container p {
@@ -149,14 +156,42 @@ a.project-link {
   color: var(--lt-pink);
 }
 
-.upper-section {
-  margin-bottom: 200px;
+.upper-section p {
+  margin: 0;
+}
+
+.lower-section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .readMore {
   text-transform: none !important;
   margin-top: 30px;
-  text-decoration: underline;
+  display: inline;
+  position: relative;
+  /* text-decoration: underline; */
+  font-size: 0.9em;
+  color: #a3fffb!important;
+}
+
+.readMore:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  background: #a3fffb;
+  width: 100%;
+}
+
+.line-deco {
+  width: 40px;
+  margin-bottom: 20px;
+  height: 1px;
+  background: white;
 }
 
 .back-arrow-icon {
@@ -229,6 +264,7 @@ iframe {
   padding-top: 8px;
 }
 
+
 .project-content-tools ul {
   margin: 12px 0px;
   padding: 0px;
@@ -281,11 +317,6 @@ iframe {
   
   .back-icon {
     display: none;
-  }
-
-
-  .project-content-desc {
-    /* margin-bottom: 48px; */
   }
 
   .project-content-desc,

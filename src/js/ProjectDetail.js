@@ -3,6 +3,7 @@ import projects from './data.js';
 import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
 import backIcon from '../assets/arrow.svg';
+import Nav from './Nav';
 
 class ProjectDetail extends Component {
 
@@ -38,6 +39,8 @@ class ProjectDetail extends Component {
   // ------------------------------------------------------
   render() {
     return (
+      <>
+      <Nav />
       <div className="project inner-page-container" key={ this.state.projectDetails.id }>
         
         <div className="project-detail-container">
@@ -53,7 +56,7 @@ class ProjectDetail extends Component {
                 href={ this.state.projectDetails.url } 
                 target="_blank"
                 rel="noopener noreferrer">
-                <div className="project-detail-link">Project Website</div>
+                {/* <div className="project-detail-link">Project Website</div> */}
               </a>
             }
           </div>
@@ -122,6 +125,7 @@ class ProjectDetail extends Component {
           </div>
         </div>
       </div>
+      </>
     );
   }
 }

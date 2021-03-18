@@ -10,10 +10,10 @@
 }
 
 #disclaimer {
-  margin-top: 24px;
-  font-size: 0.7rem;
-  letter-spacing: 0;
-  color: rgb(0, 255, 238);
+  font-size: 0.6em;
+  color: rgb(255, 142, 249);
+  margin-top: 20px;
+  text-transform: uppercase;
   font-style: italic;
 }
 
@@ -35,6 +35,7 @@ span#name-label:hover {
   margin-top: 30px;
   font-size: 1rem;
   font-style: italic;
+  color: rgb(0, 255, 238);
 }
 
 .nav-items ul {     

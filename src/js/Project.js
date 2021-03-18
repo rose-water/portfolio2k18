@@ -24,28 +24,39 @@ class Project extends Component {
         </div>
 
         <div className="project-meta-container">
-
-          <div className="project-name-container">
+          <div className="upper-section">
             <Link 
               className="project-name project-link" 
               to={`/work/${ proj.id  }`}
             >
               { proj.name }
             </Link>
+            <p className="project-client">{ proj.client }</p>
+            <p className="project-years">{ proj.years }</p>
+            <p className="project-collaborators">{ proj.collaborators }</p>
+            <div className="line-deco"></div>
           </div>
-          
-          
-          <div className="project-desc-container">
-            <div className="upper-section">
-              <p className="project-client">{ proj.client } </p>
-              <p className="project-years">{ proj.years }</p>
-              <p className="project-collaborators">{ proj.collaborators }</p>
-            </div>
-            <p className="project-desc">{ proj.description.replace("\\n", "\n") }</p>
+          <div className="lower-section">
+            <p className="project-desc">
+              { proj.description.replace("\\n", "\n") }
+              { 
+                proj.hasOwnProperty('exhibitions') ?
+                <div>
+                  <span>Exhibited at:</span>
+                  <ul>
+                    {
+                      proj.exhibitions.map((exh, idx) => {
+                        return <li key={`exh-${idx}`}>{ exh }</li>
+                      })
+                    }
+                  </ul>
+                  </div>: null
+              }
+            </p>
             <Link to={`/work/${ proj.id  }`}>
               <div className='readMore'>{'read more >>'}</div>
             </Link>
-          </div>
+          </div> 
         </div>
       </div>
     );
