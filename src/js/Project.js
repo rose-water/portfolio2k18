@@ -4,6 +4,13 @@ import { Link } from 'react-router-dom';
 import LazyLoad from 'react-lazy-load';
 
 class Project extends Component {
+
+  // ------------------------------------------------------
+  renderInnerHtml(content) {
+    return { __html: content };
+  }
+
+  // ------------------------------------------------------
   render() { 
     
     const proj = this.props.data;
@@ -12,7 +19,7 @@ class Project extends Component {
     return (
       <div className="content-grid-item">
         <div className='hero-container'>
-          <Link to={`/work/${ proj.id }`}>       
+          {/* <Link to={`/work/${ proj.id }`}>        */}
             <LazyLoad>
               <img 
                 alt={ proj.id  }
@@ -20,42 +27,29 @@ class Project extends Component {
                 src={ require(`../assets/projects/${ proj.id  }.png`).default }>
               </img>
             </LazyLoad>
-          </Link>
+          {/* </Link> */}
         </div>
 
         <div className="project-meta-container">
           <div className="upper-section">
-            <Link 
-              className="project-name project-link" 
-              to={`/work/${ proj.id  }`}
-            >
-              { proj.name }
-            </Link>
+            {/* <Link  */}
+              {/* className="project-name project-link"  */}
+              {/* to={`/work/${ proj.id  }`} */}
+            {/* > */}
+            <span className="project-name project-link">{ proj.name }</span>
+            {/* </Link> */}
             <p className="project-client">{ proj.client }</p>
             <p className="project-years">{ proj.years }</p>
             <p className="project-collaborators">{ proj.collaborators }</p>
             <div className="line-deco"></div>
           </div>
           <div className="lower-section">
-            <p className="project-desc">
-              { proj.description.replace("\\n", "\n") }
-              { 
-                proj.hasOwnProperty('exhibitions') ?
-                <div>
-                  <span>Exhibited at:</span>
-                  <ul>
-                    {
-                      proj.exhibitions.map((exh, idx) => {
-                        return <li key={`exh-${idx}`}>{ exh }</li>
-                      })
-                    }
-                  </ul>
-                  </div>: null
-              }
+            <p className="project-desc" dangerouslySetInnerHTML={ this.renderInnerHtml(proj.description) }>
+              
             </p>
-            <Link to={`/work/${ proj.id  }`}>
+            {/* <Link to={`/work/${ proj.id  }`}>
               <div className='readMore'>{'read more >>'}</div>
-            </Link>
+            </Link> */}
           </div> 
         </div>
       </div>

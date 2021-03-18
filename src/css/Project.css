@@ -141,7 +141,7 @@ p.project-desc {
   font-family: 'Work Sans', sans-serif;
 }
 
-a.project-link {
+.project-link {
   color: #a3fffb!important;
   font-size: 1.6rem;
   display: flex;
