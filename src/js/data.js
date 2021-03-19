@@ -42,7 +42,7 @@ module.exports = [
         "client": "",
         "years": "2020",
         "collaborators": "",
-        "description": "This project is the design of a system, where the organization, storage, and movement of seeds is facilitated by robot agents that deliver seeds based on need. <br/><br/>I imagine a plausible scenario where natural seed dispersal mechanisms are eradicated or at-risk as a result of climate change, and consider seeds as active, living organisms rather than passive, dormant entities. <br /><br />Course: <br/><i>Grad Design Studio II<br/>Media Design Practices</i>",
+        "description": "A system design for a reimagined seed vault, where the organization, storage, and movement of seeds is facilitated by robot agents that deliver seeds based on need. <br/><br/>I imagine a plausible scenario where natural seed dispersal mechanisms are eradicated or at-risk as a result of climate change, and consider seeds as active, living organisms rather than passive, dormant entities. <br /><br />Course: <br/><i>Grad Design Studio II<br/>Media Design Practices</i>",
         "content": "Coming Soon.",
         "videoEmbedUrl" : ``,
         "imgs": [],
