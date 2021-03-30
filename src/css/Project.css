@@ -16,6 +16,10 @@
   font-size: 1.2em!important;
 }
 
+.project-tools {
+  font-style: italic;
+}
+
 .project-content p {
   font-size: 1em;
   line-height: 1.6em;

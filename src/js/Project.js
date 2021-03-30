@@ -32,30 +32,41 @@ class Project extends Component {
 
         <div className="project-meta-container">
           <div className="upper-section">
-            <Link 
+            {/* <Link 
               className="project-name project-link" 
               to={`/work/${ proj.id  }`} 
-            >
+            > */}
               <span className="project-name project-link">{ proj.name }</span>
-            </Link> 
+            {/* </Link>  */}
             <p className="project-client">
-               {
-                 proj.hasOwnProperty('client') ? `${ proj.client } / ` : null
-               }
-              
-               { proj.years }</p>
-            {
-              proj.hasOwnProperty('role') ? <p className="project-role">role: { proj.role }</p> : null
-            }
+              {
+                proj.hasOwnProperty('client') ? `${ proj.client } / ` : null
+              }
+              { proj.years }
+            </p>
             
-            <div className="line-deco"></div>
+            
           </div>
           <div className="lower-section">
+            
             <p className="project-desc" dangerouslySetInnerHTML={ this.renderInnerHtml(proj.description) }>
             </p>
-            <Link to={`/work/${ proj.id  }`}>
+  
+            <div>
+              <div className="line-deco"></div>
+              {
+                proj.hasOwnProperty('role') ? 
+                <p className="project-role">role: { proj.role }</p> : null
+              }
+              { 
+                proj.hasOwnProperty('tools') ? 
+                <p className="project-tools">tools: { proj.tools }</p> : null 
+              }
+            </div>
+            
+            {/* <Link to={`/work/${ proj.id  }`}>
               <div className='readMore'>{'read more >>'}</div>
-            </Link>
+            </Link> */}
           </div> 
         </div>
       </div>
