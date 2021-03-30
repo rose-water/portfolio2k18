@@ -15,7 +15,6 @@ class Nav extends Component {
             <div id='descriptors'>
               technologist, artist + designer
             </div>
-            <div id='disclaimer'>** Updates in progress, please check back late March 2021. **</div>
           </div> : null
         }
     

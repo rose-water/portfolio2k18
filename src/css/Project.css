@@ -119,8 +119,9 @@ img.project-highlight {
 }
 
 p.project-desc {
-  font-size: 0.8em;
+  font-size: 0.95em;
   line-height: 1.6em;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .project-img-grid {
@@ -146,7 +147,11 @@ p.project-desc {
   font-size: 1.6rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin: 4px 0px 0px 0px;
+}
+
+.project-role {
+  font-style: italic;
 }
 
 .project-desc-container p {
@@ -157,7 +162,7 @@ p.project-desc {
 }
 
 .upper-section p {
-  margin: 0;
+  margin: 8px 0px;
 }
 
 .lower-section {
@@ -189,7 +194,7 @@ p.project-desc {
 
 .line-deco {
   width: 40px;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   height: 1px;
   background: white;
 }
