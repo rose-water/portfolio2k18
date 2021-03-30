@@ -73,6 +73,8 @@ a, a:visited {
   #name-label a {
     font-size: 1.8em;
     color: var(--lt-pink)!important;
+    margin-left: 2vw;
+    margin-right: 2vw;
   }
 
   .nav {
@@ -80,9 +82,16 @@ a, a:visited {
     margin-bottom: 1.8em;
   }
 
+  #descriptors { 
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
   .nav-items {
     margin-top: 2em;
+    margin-left: 2vw;
     display: inline-flex;
+    margin-right: 2vw;
   }
 
   .nav-items ul {
