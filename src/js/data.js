@@ -159,22 +159,22 @@ module.exports = [
         "isPublic": true
       },
 
-      {
-        "name" : "tenderbloom",
-        "id" : "tenderbloom",
-        "assetsDir": "projects/tenderbloom",
-        "years": "2018 – Present",
-        "role": "self-directed",
-        "collaborators": "",
-        "description": "As part of my creative practice, this serves as a sketchbook for visual experiments using code and 3D software tools.",
-        "content": "An ongoing series of little renders created in the process of learning 3D modeling, animation, and working with 3D on the web.",
-        "imgs": ["shortened.gif", "monstera_still.png", "aloe.png", "polar.jpg", "interim.png"],
-        "imgLayout": "grid",
-        "url": "https://www.instagram.com/tenderbloom/",
-        "tools": "Cinema 4D, Unity, Processing, openFrameworks, three.js, Sketch 3",
-        "isPublic": true,
-        "videoEmbedUrl" : "",
-      },
+      // {
+      //   "name" : "tenderbloom",
+      //   "id" : "tenderbloom",
+      //   "assetsDir": "projects/tenderbloom",
+      //   "years": "2018 – Present",
+      //   "role": "self-directed",
+      //   "collaborators": "",
+      //   "description": "As part of my creative practice, this serves as a sketchbook for visual experiments using code and 3D software tools.",
+      //   "content": "An ongoing series of little renders created in the process of learning 3D modeling, animation, and working with 3D on the web.",
+      //   "imgs": ["shortened.gif", "monstera_still.png", "aloe.png", "polar.jpg", "interim.png"],
+      //   "imgLayout": "grid",
+      //   "url": "https://www.instagram.com/tenderbloom/",
+      //   "tools": "Cinema 4D, Unity, Processing, openFrameworks, three.js, Sketch 3",
+      //   "isPublic": true,
+      //   "videoEmbedUrl" : "",
+      // },
 
       {
         "name" : "PROPAGATOR",
