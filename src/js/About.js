@@ -37,7 +37,7 @@ class About extends Component {
                   <a href="http://github.com/rose-water" target="_blank">GITHUB</a>
                 </li>
                 <li>
-                  <a href="http://instagram.com/rrosewaterhouse">INSTAGRAM</a>
+                  <a href="http://instagram.com/rrosewaterhouse" target="_blank">INSTAGRAM</a>
                 </li>
               </ul>
              
