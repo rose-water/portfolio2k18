@@ -9,14 +9,64 @@ class About extends Component {
         <Nav />
         <div id="about" className="inner-page-container">
           <div className="page-content about">
-          <p>I am a technologist, artist, and designer based in Los Angeles, CA.</p>
-          <p>My experimental art + design practice is concerned with the interplay between humans, natural ecosystems, technology, and infrastructure. Through my work I complicate and broaden notions of ‘ecosystems’ as being deeply intertwined with humans rather than upholding the artificial binary of humans versus nature.</p>
-          <p>I create speculative interventions as a form of critique and way to reimagine systems at various scales, which often take shape through the design and development of fictional artifacts, objects, and interfaces. My design and research methods foreground making and experimentation; I frequently work with various 2D + 3D software tools, code, mixed-media illustration, and physical computing.</p>
-          <p>Some of my recent projects include: <a href="https://compossibleassemblages.cargo.site" target="_blank">Compossible Assemblages</a>, a series of near-future interventions and provocations that renegotiate the capitalistic paradigms of utilitarian infrastructure networks (e.g. water, data centers, telecommunications), and <a href="/work/Nimbus">Nimbus</a>, an interactive visualization tool enabling climate modeling research scientists to analyze multivariate cloud simulation data. Alongside this work, some of my more personal endeavors involve the use of technology to explore creative opportunities for self-expression, particularly within immersive world-building, music, and writing.</p>
-          <p>My professional experience has involved working in both applied and conceptual contexts, across formats including interactive web experiences and media art installations. Some of my past clients include SFMOMA, California College of the Arts, Intel, and independent media artists. I have an MFA in <a href="http://www.mediadesignpractices.net" target="_blank">Media Design Practices</a> from ArtCenter College of Design, and an MS in <a href="https://www.hcde.washington.edu/" target="_blank">Human Centered Design and Engineering</a> from the University of Washington. Previously, I was a resident artist and creative coding instructor at <a href="http://www.grayarea.org" target="_blank">Gray Area Foundation for the Arts</a>, and a student in the <a href="https://sfpc.io" target="_blank">School for Poetic Computation</a>.</p>
-          <p>When I’m not working, you’ll find me practicing classical piano, watching a slice of life anime, drawing, or going for a walk with my Bernese Mountain Dog, Willow.</p>
+            <h3>BIO</h3>
+            <p><b>I am a technologist, artist, and designer based in Los Angeles, CA.</b></p>
+
+            <p>My experimental art + design practice is concerned with the interplay between humans, natural ecosystems, technology, and infrastructure. I create speculative interventions as a form of critique and way to reimagine systems at various scales, which often take shape through the design and development of fictional artifacts, objects, and interfaces. My design and research methods foreground making and experimentation; I frequently work with various 2D + 3D software tools, code, mixed-media illustration, and physical computing.</p>
+
+            <p>My professional experience has involved working in both applied and conceptual contexts, across formats including interactive web experiences and media art installations. Some of my past clients include SFMOMA, California College of the Arts, Intel, and independent media artists. Alongside this work, some of my more personal endeavors involve the use of technology to explore creative opportunities for self-expression, particularly within immersive world-building, music, and writing.</p>
+
+            <p>When I’m not working, you’ll find me practicing classical piano, watching a slice of life anime, drawing, or going for a walk with my Bernese Mountain Dog, Willow.</p>
+          </div>
+
+          <div className="additional-info">
+            
+            <div>
+              <h3>LINKS</h3>
+              <ul>
+                <li>
+                  <a href="https://drive.google.com/file/d/1AnQyREst39gYID-FJYZBxIV99i81Gqcr/view?usp=sharing" target="_blank">RESUME</a> (2020, currently updating)
+                </li>
+                <li>
+                 <a href="https://drive.google.com/file/d/1BVPKBV8R3QaCHxYr48462aGnlIN_QokR/view?usp=sharing" target="_blank">CV</a> (2019, currently updating)
+                </li>
+                <li>
+                  <a href="https://www.are.na/rachel-rose-waterhouse" target="_blank">ARE.NA</a>
+                </li>
+                <li>
+                  <a href="http://github.com/rose-water" target="_blank">GITHUB</a>
+                </li>
+                <li>
+                  <a href="http://instagram.com/rrosewaterhouse">INSTAGRAM</a>
+                </li>
+              </ul>
+             
+            </div>
+
+            <div>
+              <h3>PREVIOUSLY</h3>
+              <ul>
+                <li>Freelance creative technologist at <a href="https://www.sfmoma.org/" target="_blank">SFMOMA</a><br/></li>
+                <li>Design Lead Intern, <a href="https://datavis.caltech.edu/" target="_blank">Data to Discovery</a><br/>
+                NASA JPL + ArtCenter + Caltech</li>
+                <li>Workshop instructor: <a href="https://grayarea.org/event/bitrate-ml-music-series/" target="_blank">Intro to P5.js + Tone.js</a><br/>BitRate Series (Google Magenta x Gray Area)</li>
+                <li>Workshop instructor: <a href="https://github.com/rose-water/mdp-git-workshop" target="_blank">Intro to Git + GitHub</a><br/>ACCD Media Design Practices</li>
+                <li>Incubator artist + creative coding teacher at <a href="http://www.grayarea.org" target="_blank">Gray Area</a></li>
+                <li>Student at <a href="" target="_blank">SFPC</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>EDUCATION</h3>
+              <ul>
+                <li>MFA Media Design Practices, ArtCenter College of Design</li>
+                <li>MS Human Centered Design & Engineering, University of Washington</li>
+              </ul>
+            </div>
+            
           </div>
         </div>
+        
       </div>
     );
   }

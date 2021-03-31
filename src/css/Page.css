@@ -35,18 +35,76 @@ div.page-content {
   max-width: 50%;
 }
 
-div.page-content.about {
-  max-width: 40%;
+div.page-content.about, .additional-info {
+  width: 45%;
 }
 
 div.page-content.about p {
   font-size: 1.0em;
   line-height: 1.8em;
   margin-top: 2.0em;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
+  /* font-style: italic; */
+}
+
+.additional-info div {
+  margin-bottom: 64px;
+}
+
+#about h3 {
+  color: rgb(136, 255, 206);
+}
+
+.additional-info ul li {
+  /* font-family: 'Work Sans', sans-serif; */
+  list-style-type: none;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.additional-info ul {
+  padding: 0;
+  margin-left: 0;
+  position: relative;
+}
+
+#about {
+  margin: 40px 2vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+#about a {
+  text-transform: none;
+  position: relative;
+  line-height: 24px;
+}
+
+#about b {
+  color: #b6b6ff;
+  font-style: italic;
+}
+
+#about a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  background: var(--lt-pink);
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
+  #about {
+    flex-direction: column;
+  }
+
+  div.page-content.about, .additional-info {
+    width: 100%;
+    max-width: 100%!important;
+  }
+
   div.page-content {
     margin-left: 0px;
     margin-right: 0px;
