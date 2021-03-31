@@ -57,6 +57,23 @@ module.exports = [
       },
 
       {
+        "name" : "Workshop: Intro to p5.js + Tone.js",
+        "id" : "bitrate",
+        "assetsDir": "projects/bitrate",
+        "client": "Google Magenta x Gray Area",
+        "role": "workshop instructor",
+        "years": "2020",
+        "collaborators": "",
+        "description": "A 3-hour introductory workshop covering the basics of audio visualization and synthesis using  open-source javascript libraries p5.js and tone.js. <br/><br/>Held as part of the BitRate Machine Learning & Music Series, a hackathon hosted by Google Magenta x Gray Area.",
+        "content": "Coming Soon.",
+        "videoEmbedUrl" : ``,
+        "imgs": [],
+        "tools": "p5.js, tone.js",
+        "url": "",
+        "isPublic": true
+      },
+      
+      {
         "name" : "Dispersal Vector Agents",
         "id" : "dispersal-vector-agents",
         "assetsDir": "projects/dispersal-vector-agents",
@@ -134,7 +151,7 @@ module.exports = [
         "collaborators": "",
         "exhibitions": ["Gray Area Artist Showcase 2018.1, Mission Theater, SF"],
         "description": "A 3D meditation born from daydreams, pieced together from fragments of self-reflection & self-care. A little world, a gentle vessel, a patient portal. <br/><br/>Exhibited at:<br/><i>Gray Area Artist Showcase 2018.1<br/>Mission Theater, SF</i>",
-        "content": "Perennial grew during a long phase of much dedicated, much needed, self-reflection & self-care. It is a little world, a gentle vessel, a patient portal.<br/><br/>This project was exhibited as an interactive installation (using Leap Motion) at the 2018.1 Showcase at Gray Area Foundation for the Arts.",
+        "content": "Perennial grew during a long phase of much dedicated, much needed, self-reflection & self-care. It is a little world, a gentle vessel, a patient portal.<br/><br/>This project was exhibited as an interactive installation (using Leap Motion) at the 2018 Showcase at Gray Area Foundation for the Arts.",
         "videoEmbedUrl" : `<iframe src="https://player.vimeo.com/video/303649092?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>`,
         "imgs": [ "proto-1.png", "proto-2.png", "install-mock.png", "install.png" ],
         "tools": "Cinema 4D, HTML5, three.js, web audio, Leap Motion",
