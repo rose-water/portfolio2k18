@@ -51,6 +51,10 @@ div.page-content.about p {
   margin-bottom: 64px;
 }
 
+.additional-info .last-updated {
+  font-size: 0.85em;
+}
+
 #about h3 {
   color: rgb(136, 255, 206);
 }

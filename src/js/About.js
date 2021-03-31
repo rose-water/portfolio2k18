@@ -25,10 +25,10 @@ class About extends Component {
               <h3>LINKS</h3>
               <ul>
                 <li>
-                  <a href="https://drive.google.com/file/d/1AnQyREst39gYID-FJYZBxIV99i81Gqcr/view?usp=sharing" target="_blank">RESUME</a> (2020, currently updating)
+                  <a href="https://drive.google.com/file/d/17tU6XLz5edFlqrq5Zpl35SmwB5H3t0hD/view?usp=sharing" target="_blank">RESUME</a> <i class='last-updated'>(last updated 03/2021)</i>
                 </li>
                 <li>
-                 <a href="https://drive.google.com/file/d/1BVPKBV8R3QaCHxYr48462aGnlIN_QokR/view?usp=sharing" target="_blank">CV</a> (2019, currently updating)
+                 <a href="https://drive.google.com/file/d/1a23cImnzHOaus8lN742yyl_4JOXYfcT3/view?usp=sharing" target="_blank">CV</a> <i class='last-updated'>(last updated 03/2021)</i>
                 </li>
                 <li>
                   <a href="https://www.are.na/rachel-rose-waterhouse" target="_blank">ARE.NA</a>
