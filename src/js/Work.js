@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
-import projects from './data.js';
+import projects, { filter } from './data.js';
 import Project from './Project'
 import Nav from './Nav';
 import '../css/Project.css'; 
 
 class Work extends Component {
 
-  renderProjectSections(projects) {
-    return projects.map((workSection, index) => {
-      return (
-        <div className="projects-container" key={ 'worksection-' + index }>
-          { this.renderProjects(workSection.projects) }
-        </div>
-      );
-    });
+  // ------------------------------------------------------
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      currentFilter: 'all',
+      filteredProjects: projects
+    }
   }
 
-  renderProjects(projects) {
-    return projects.map((project, index) => {
+  // ------------------------------------------------------
+  renderProjects() {
+    return this.state.filteredProjects.map((project, idx) => {
       return (
-        <div className={`content-grid-item-outer`} key={ project.name }>
+        <div className={`content-grid-item-outer`} key={ 'project-' + project.name + '-' + idx }>
           <Project 
             data={ project }
           />
@@ -27,13 +28,49 @@ class Work extends Component {
       );
     });
   }
-    
+  
+  // ------------------------------------------------------
+  selectProjectType(type) {
+    this.setState({
+      currentFilter: type
+    });
+  }
+  
+  // ------------------------------------------------------
   render() {
     return (
       <>
         <Nav />
+        <div id='project-filters-container'>
+          <ul id='project-filters'>
+            <li 
+              className={`project-filter ${ this.state.currentFilter == 'all' ? 'active' : ''}`}
+              onClick={ () => { this.selectProjectType('all') } }
+            >
+              All Projects
+            </li>
+            <li 
+              className={`project-filter ${ this.state.currentFilter == 'web' ? 'active' : ''}`}
+              onClick={ () => { this.selectProjectType('web') } }
+            >
+              Web Design + Dev
+            </li>
+            <li 
+              className={`project-filter ${ this.state.currentFilter == 'media art' ? 'active' : ''}`}
+              onClick={ () => { this.selectProjectType('media art') } }
+            >
+              Media Art
+            </li>
+            <li 
+              className={`project-filter ${ this.state.currentFilter == 'speculative' ? 'active' : ''}`}
+              onClick={ () => { this.selectProjectType('speculative') } }
+            >
+              Speculative Design
+            </li>
+          </ul>
+        </div>
         <div id='projects'>
-          { this.renderProjectSections(projects) }
+          { this.renderProjects() }
         </div>
       </>
     );

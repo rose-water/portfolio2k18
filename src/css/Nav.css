@@ -32,8 +32,8 @@ span#name-label:hover {
 
 #descriptors {
   font-family: 'IBM Plex Mono', monospace;
-  margin-top: 30px;
-  font-size: 1rem;
+  margin-top: 12px;
+  font-size: 0.8rem;
   font-style: italic;
   color: #b6b6ff;
 }
@@ -63,10 +63,23 @@ a, a:visited {
   content: '';
   position: absolute;
   left: 0;
+  animation: animate-underline .35s 1 forwards;
+  animation-timing-function: ease-in-out;
   bottom: -2px;
   height: 1px;
   background: var(--lt-pink);
-  width: 100%;
+  /* width: 100%; */
+}
+
+@keyframes animate-underline {
+  0% { 
+    /* left: -100%;  */
+    width: 0%; 
+  }
+  100% { 
+    /* left : 0;  */
+    width: 100%; 
+  }
 }
 
 @media screen and (max-width: 600px) {

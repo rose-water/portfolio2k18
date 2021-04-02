@@ -6,6 +6,7 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav">
+        
         {
           window.location.pathname !== '/' ? 
           <div id="name-label">
@@ -30,9 +31,9 @@ class Nav extends Component {
             <li className="underline">
               <NavLink className="nav-link" to="/play">Play</NavLink>
             </li>
-
           </ul>
         </div>
+
       </div>
     );
   }

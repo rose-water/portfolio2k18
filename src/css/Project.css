@@ -1,15 +1,9 @@
 #projects {
   display: flex;
   justify-content: center;
-  padding: 4vh 0vh;
-}
-
-.projects-container {
+  padding: 4vh 0vh 0vh 0vh;
   margin: 0vw 2vw;
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between; */
+  flex-direction: column;
 }
 
 .project-client, .project-years {
@@ -84,8 +78,29 @@ img.project-highlight {
 }
 
 
+/* FILTERS */
+ul#project-filters {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  /* justify-content: space-between; */
+}
 
+li.project-filter {
+  padding: 6px 12px;
+  font-size: 0.8em;
+  margin-right: 24px;
+  text-transform: uppercase;
+}
 
+li.project-filter.active {
+  background: #5d5677;
+  border-radius: 4px;
+}
+
+li.project-filter:hover {
+  cursor: pointer;
+}
 
 
 
