@@ -377,4 +377,8 @@ iframe {
   div.vid.propagator {
     padding-top: 195%;
   }
+
+  #project-filters-container {
+    display: none;
+  }
 }

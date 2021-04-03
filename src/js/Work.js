@@ -18,6 +18,7 @@ class Work extends Component {
 
   // ------------------------------------------------------
   renderProjects() {
+    console.log('currentfilter:', this.state.currentFilter)
     return this.state.filteredProjects.map((project, idx) => {
       return (
         <div className={`content-grid-item-outer`} key={ 'project-' + project.name + '-' + idx }>
@@ -32,9 +33,21 @@ class Work extends Component {
   // ------------------------------------------------------
   selectProjectType(type) {
     this.setState({
-      currentFilter: type
+      currentFilter: type,
+      filteredProjects: this.filterProjectsByType(type)
     });
   }
+
+  // ------------------------------------------------------
+  filterProjectsByType(type) {
+    if (type == 'all') {
+      return projects;
+    }
+    return projects.filter(proj => {
+      return proj.types.indexOf(type) > -1;
+    });
+  }
+
   
   // ------------------------------------------------------
   render() {

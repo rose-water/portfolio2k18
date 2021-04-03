@@ -39,7 +39,7 @@ module.exports = [
   {
     "name" : "Shadow Stalker (Installation)",
     "id" : "shadowstalker",
-    "types": ["web", "media art"],
+    "types": ["media art"],
     "assetsDir": "projects/shadowstalker",
     "client": "Lynn Hershman Leeson",
     "role": "interactive designer + developer",
@@ -58,7 +58,7 @@ module.exports = [
   {
     "name" : "Workshop: Intro to p5.js + Tone.js",
     "id" : "bitrate",
-    "types": ["web", "media art"],
+    "types": ["web"],
     "assetsDir": "projects/bitrate",
     "client": "Google Magenta x Gray Area",
     "role": "workshop instructor",
