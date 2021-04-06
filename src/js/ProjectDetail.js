@@ -14,9 +14,10 @@ class ProjectDetail extends Component {
     const { projectId } = props.match.params;
     let projectDetails = {};
     for (let i = 0; i < projects.length; i++) {
+      
       // TODO: make filter return an object instead of assigning it directly
-      projects[i].projects.filter(project => {
-        if(project.id === projectId) {
+      projects.filter(project => {
+        if ( project.id === projectId ) {
           projectDetails = project;
         }
       });
@@ -40,91 +41,93 @@ class ProjectDetail extends Component {
   render() {
     return (
       <>
-      <Nav />
-      <div className="project inner-page-container" key={ this.state.projectDetails.id }>
+
+        <Nav />
+        <div className="project inner-page-container" key={ this.state.projectDetails.id }>
         
-        <div className="project-detail-container">
-          {/* <div>
-            <Link to="/work">
-              <img className="back-arrow-icon" src={ backIcon } />
-            </Link>
-          </div> */}
-          <div className="project-detail-header">
-            <h1 className="page-header-label">{ this.state.projectDetails.name }</h1>
-            { this.state.projectDetails.url === "" ? null : 
-              <a 
-                href={ this.state.projectDetails.url } 
-                target="_blank"
-                rel="noopener noreferrer">
-                {/* <div className="project-detail-link">Project Website</div> */}
-              </a>
-            }
-          </div>
-          <div className="project-content">
-  
-              <div className="project-content-desc">
-                <p dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.content) }></p>
-              </div>
+          {/* Back button */}
+          <Link to="/work">
+            <div className='back-header'>
+              {/* <Link to="/work"> */}
+                <img className="back-arrow-icon" src={ backIcon } />
+              {/* </Link> */}
+              <span className="back-label">Back to projects</span>
+            </div>
+          </Link>
 
-              {/* {
-                this.state.projectDetails.hasOwnProperty("tools") ?
-                <div className="project-content-tools">
-                  TOOLS
-                  <ul>
-                    {
-                      this.state.projectDetails.tools.map((tool, index) => {
-                        return (
-                          <li key={ tool+'-'+index }>{ tool }</li>
-                        )
-                      })
-                    }
-                  </ul>
-                </div> : null
+          {/* Project content details */}
+          <div className="project-content-container">
+
+            {/* HEADER */}
+            <div className="project-detail-header">
+              <h1 className="project-detail-name">{ this.state.projectDetails.name }</h1>
+              <h3 className="project-detail-client">
+                {
+                  this.state.projectDetails.client &&
+                  this.state.projectDetails.client !== '' ? 
+                  this.state.projectDetails.client : 'self-directed'
+                } / { this.state.projectDetails.years }
+              </h3>
+              {/* { this.state.projectDetails.url === "" ? null : 
+                <a 
+                  href={ this.state.projectDetails.url } 
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <div className="project-detail-link">Project Website</div>
+                </a>
               } */}
-
-            {
-              this.state.projectDetails.videoEmbedUrl !== "" ? 
-              <div className={ "vid " + this.state.projectDetails.id } dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.videoEmbedUrl) } >
-              </div> : null
-            }
-
-            <div className="project-content-imgs">
-              {
-                this.state.projectDetails.imgs.map((img, index) => {
-                  return (
-                    <LazyLoad 
-                      className={ this.state.projectDetails.imgs.length > 1 ? "proj-img-container half" : "proj-img-container full" }  
-                      key={ this.state.projectDetails.id + '-img-' + index }>
-                      <img 
-                        alt={ this.state.projectDetails.id } 
-                        key={ this.state.projectDetails.id + '-img-' + index } 
-                        className="proj-img"
-                        // src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img)}></img>
-                        src={require(`../assets/projects/${this.state.projectDetails.id}/${img}`).default}></img>
-                    </LazyLoad>
-                  )
-                })
-              }
             </div>
 
-            {
-              this.state.projectDetails.hasOwnProperty("publications") ?
-              <div className="project-content-pubs">
-                PUBLICATIONS
-                <ul>
-                  { 
-                    this.state.projectDetails.publications.map((pub, index) => {
-                      return (
-                        <li>{ pub }</li>
-                      )
-                    })
-                  }
-                </ul>
-              </div> : null
-            }
+            {/*  */}
+            <div className="project-content">
+
+              {/* VIDEO IF APPLICABLE */}
+              {
+                this.state.projectDetails.videoEmbedUrl !== "" ? 
+                <div 
+                  className={ "vid " + this.state.projectDetails.id } 
+                  dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.videoEmbedUrl) } 
+                >
+                </div> : null
+              }
+            
+              {/* CONTENT IMAGES */}
+              <div className="project-content-imgs">
+                {
+                  this.state.projectDetails.imgs.map((img, index) => {
+                    return (
+                      <LazyLoad 
+                        className={ this.state.projectDetails.imgs.length > 1 ? "proj-img-container half" : "proj-img-container full" }  
+                        key={ this.state.projectDetails.id + '-img-' + index }>
+                        <img 
+                          alt={ this.state.projectDetails.id } 
+                          key={ this.state.projectDetails.id + '-img-' + index } 
+                          className="proj-img"
+                          // src={ require('../assets/projects/' + this.state.projectDetails.id + '/' + img)}></img>
+                          src={require(`../assets/projects/${this.state.projectDetails.id}/${img}`).default}></img>
+                      </LazyLoad>
+                    )
+                  })
+                }
+              </div>
+
+              {/* TEXT CONTENT */}
+              <div className="project-content-desc">
+                {
+                  this.state.projectDetails.hasOwnProperty('collaborators') && 
+                  this.state.projectDetails['collaborators'] !== '' ? 
+
+                  <p className='proj-collaborators'>
+                    in collaboration with { this.state.projectDetails['collaborators'] }
+                  </p> : null
+                }
+                
+                <p className='project-desc' dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.content) }></p>
+              </div>
+
+            </div>
           </div>
-        </div>
-      </div>
+        </div>      
       </>
     );
   }

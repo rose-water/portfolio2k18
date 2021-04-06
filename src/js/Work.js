@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import projects, { filter } from './data.js';
+import projects from './data.js';
 import Project from './Project'
 import Nav from './Nav';
 import '../css/Project.css'; 
@@ -18,7 +18,6 @@ class Work extends Component {
 
   // ------------------------------------------------------
   renderProjects() {
-    console.log('currentfilter:', this.state.currentFilter)
     return this.state.filteredProjects.map((project, idx) => {
       return (
         <div className={`content-grid-item-outer`} key={ 'project-' + project.name + '-' + idx }>

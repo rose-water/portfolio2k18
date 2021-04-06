@@ -14,12 +14,12 @@ class Project extends Component {
   render() { 
     
     const proj = this.props.data;
-
+    
     // Grid view
     return (
       <div className="content-grid-item">
         <div className='hero-container'>
-          {/* <Link to={`/work/${ proj.id }`}>        */}
+          <Link to={`/work/${ proj.id }`}>       
             <LazyLoad>
               <img 
                 alt={ proj.id  }
@@ -27,17 +27,17 @@ class Project extends Component {
                 src={ require(`../assets/projects/${ proj.id  }.png`).default }>
               </img>
             </LazyLoad>
-          {/* </Link> */}
+          </Link>
         </div>
 
         <div className="project-meta-container">
           <div className="upper-section">
-            {/* <Link 
+            <Link 
               className="project-name project-link" 
               to={`/work/${ proj.id  }`} 
-            > */}
+            >
               <span className="project-name project-link">{ proj.name }</span>
-            {/* </Link>  */}
+            </Link> 
             <p className="project-client">
               {
                 proj.hasOwnProperty('client') ? `${ proj.client } / ` : null
@@ -64,9 +64,6 @@ class Project extends Component {
               }
             </div>
             
-            {/* <Link to={`/work/${ proj.id  }`}>
-              <div className='readMore'>{'read more >>'}</div>
-            </Link> */}
           </div> 
         </div>
       </div>

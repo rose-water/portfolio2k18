@@ -8,11 +8,11 @@ module.exports = [
     "years": "2020 – 2021",
     "role": "designer + front-end developer",
     "keywords": "data visualization, climate prediction",
-    "collaborators": "with Martin Bernard & Barbara Alonso",
+    "collaborators": "Martin Bernard & Barbara Alonso",
     "description": "An open-source, interactive web-based tool for visualizing and analyzing multivariate climate simulation data.",
-    "content": "Coming Soon.",
+    "content": "This project was undertaken as a Design Lead in the Data to Discovery program, a data visualization, art and design research initiative between NASA Jet Propulsion Laboratory, ArtCenter College of Design, and Caltech).<br/><br/>As a designer and developer on this project, I worked closely with several research scientists from the Climate Modeling Alliance, headed by P.I Tapio Schneider of Caltech. I met with stakeholders on a weekly basis, using contextual inquiry as the main method of understanding each person's role and responsibilities, the challenges in their current workflow, and their unique needs. <br/><br/>I generated user interfaces designs for an interactive data visualization tool, and design iterations involved incorporating feedback we received from the team. I took on a lot of the frontend responsibilities, using React, d3.js, and Node.js to create a high fidelity prototype.",
     "videoEmbedUrl" : ``,
-    "imgs": [],
+    "imgs": ["nimbus.png"],
     "tools": "HTML5, CSS3, Javascript (React, d3.js, Node.js)",
     "url": "",
     "isPublic": true
@@ -46,7 +46,7 @@ module.exports = [
     "years": "2019 – 2020",
     "collaborators": "with Mark Hellar",
     "exhibitions": ["Manual Override, The Shed, NYC", "Uncanny Valley, de Young Museum, SF"],
-    "description": "An interactive installation that generates digital shadows of participants, displaying personal information about them retrieved from internet databases with the use of just their email addresses. <br/><br/><br/>Exhibited at:<br/><i>\"Manual Override\"</i> at The Shed<br/><i>\"Uncanny Valley\"</i> at de Young Museum",
+    "description": "An interactive installation that generates digital shadows of participants, displaying personal information about them retrieved from internet databases with the use of just their email addresses. <br/><br/><br/>Exhibited at:<br/>\"Manual Override\" at The Shed<br/>\"Uncanny Valley\" at de Young Museum",
     "content": "Coming Soon.",
     "videoEmbedUrl" : ``,
     "imgs": [],
@@ -163,23 +163,6 @@ module.exports = [
     "url": "https://perennial.herokuapp.com/",
     "isPublic": true
   },
-
-  // {
-  //   "name" : "tenderbloom",
-  //   "id" : "tenderbloom",
-  //   "assetsDir": "projects/tenderbloom",
-  //   "years": "2018 – Present",
-  //   "role": "self-directed",
-  //   "collaborators": "",
-  //   "description": "As part of my creative practice, this serves as a sketchbook for visual experiments using code and 3D software tools.",
-  //   "content": "An ongoing series of little renders created in the process of learning 3D modeling, animation, and working with 3D on the web.",
-  //   "imgs": ["shortened.gif", "monstera_still.png", "aloe.png", "polar.jpg", "interim.png"],
-  //   "imgLayout": "grid",
-  //   "url": "https://www.instagram.com/tenderbloom/",
-  //   "tools": "Cinema 4D, Unity, Processing, openFrameworks, three.js, Sketch 3",
-  //   "isPublic": true,
-  //   "videoEmbedUrl" : "",
-  // },
 
   {
     "name" : "PROPAGATOR",
