@@ -85,7 +85,7 @@ class ProjectDetail extends Component {
 
               {/* VIDEO IF APPLICABLE */}
               {
-                this.state.projectDetails.videoEmbedUrl !== "" ? 
+                this.state.projectDetails.hasOwnProperty('videoEmbedUrl') && this.state.projectDetails.videoEmbedUrl !== "" ? 
                 <div 
                   className={ "vid " + this.state.projectDetails.id } 
                   dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.videoEmbedUrl) } 

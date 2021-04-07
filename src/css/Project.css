@@ -152,7 +152,7 @@ li.project-filter:hover {
 .proj-collaborators {
   font-family: "IBM Plex Mono", monospace!important;
   font-style: italic;
-  font-size: 0.85em;
+  font-size: 0.85em!important;
   margin-top:1em!important;
   margin-bottom:2em!important;
 }
