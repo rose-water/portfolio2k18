@@ -140,9 +140,10 @@ module.exports = [
     "years": "2019",
     "collaborators": "with Mark Schroeder",
     "description": "An interactive and immersive touchable tunnel entrance inviting audience members to participate in a three-part dance performance. <br/><br/>Presented by:<br/><i>LEVYdance x Gray Area<br/> Mission Theater, SF</i>",
-    "content": "Coming Soon.",
+    "content": "RUSH v.1, presented by LevyDance x Gray Area, is an experimental, immersive and participatory dance performance. <br/><br/> As an interactive designer and developer on this project, I worked with design technologist Marc Schroeder to develop an interactive and immersive touchable tunnel entrance for the event.<br/><br/>I helped plan the physical installation and determined the best mechanism for the structure holding together the scrim for rear projection. Additionally, I wired together an array of ultrasonic sensors which was connected to an Arduino and placed inside of the tunnel. The sensor data was sent to a Processing application that used the data to drive fluid simulation animations that were projected on both sides of the tunnel (using the PixelFlow library).",
     "videoEmbedUrl" : ``,
-    "imgs": [],
+    "imgs": ['tunnel-lit.jpg'],
+    "carouselImgs": ['rush-v1.png', 'Rush-Wall.jpg', 'mock.png'],
     "tools": "Processing, Arduino (ultrasonic sensors, serial communication), MadMapper",
     "url": "",
 

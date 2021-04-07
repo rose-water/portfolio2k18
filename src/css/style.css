@@ -36,7 +36,7 @@ p {
 
 #app {
   min-height: 100%;
-  padding: 4em;
+  padding: 2.5em 4em;
   background: var(--bg-dark);
 }
 
