@@ -48,9 +48,10 @@ module.exports = [
     "collaborators": "with Mark Hellar",
     "exhibitions": ["Manual Override, The Shed, NYC", "Uncanny Valley, de Young Museum, SF"],
     "description": "An interactive installation that generates digital shadows of participants, displaying personal information about them retrieved from internet databases with the use of just their email addresses. <br/><br/><br/>Exhibited at:<br/>\"Manual Override\" at The Shed<br/>\"Uncanny Valley\" at de Young Museum",
-    "content": "Coming Soon.",
+    "content": "\"Shadow Stalker is a “live” interactive installation that uses algorithms, performance and projections to make visible private Internet systems like Predictive Policing that are increasingly used by law enforcement and promote racial profiling.\" - Lynn Hershman Leeson <br/><br/>As an interactive designer + developer on the project, I worked on building the user experience for two parts of the installation. First was the entrance to the exhibit where users would enter their email; the app was built with Javascript and Node, pulling user data from an external API. I designed and developed the projection that displayed user data, blurring out the most revealing personal information. I also aided in the development of the shadow projections, which were created with Unity and Kinect, and was on site to support the live installation at The Shed, NYC for the Uncanny Valley exhibit.<br/><br/>Shadow Stalker won a 2020 Prix Ars Electronica Award of Distinction.<br/><br/><br/><br/>Exhibitions:<br/>Manual Override, The Shed, NYC (November 13, 2019 – January 12, 2020)<br/>Uncanny Valley, de Young Museum, FAMSF (February 22, 2020 – October 25, 2020)<br/>Art in the Age of Anxiety, Sharjah Art Foundation (March 21, 2020 – June 21, 2020)<br/>The 13th Gwangju Biennale, South Korea (February 26 – May 9, 2021)<br/><br/><br/><br/>(Photos courtesy of The Shed / Dan Bradica, de Young Museum)",
     "videoEmbedUrl" : ``,
     "imgs": ['shadowstalker.png'],
+    "carouselImgs":["theshed-1.jpg", "deyoung.jpg", "deyoung-2.jpg"],
     "tools": "Kinect, Unity, HTML3, CSS3, Node.js, Websockets, MQTT",
     "url": "",
     
