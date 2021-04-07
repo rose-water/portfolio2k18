@@ -5,19 +5,17 @@ import '../css/Nav.css';
 class Nav extends Component { 
   render() {
     return (
+      
       <div className="nav">
-        
         {
           window.location.pathname !== '/' ? 
           <div id="name-label">
-            <Link to="/">RACHEL ROSE</Link>
-            <Link to="/">WATERHOUSE</Link>
+            <Link to="/">RACHEL ROSE WATERHOUSE</Link>
             <div id='descriptors'>
               technologist, artist + designer
             </div>
           </div> : null
         }
-    
         <div className="nav-items">
           <ul>
             <li className="underline">
@@ -33,8 +31,8 @@ class Nav extends Component {
             </li>
           </ul>
         </div>
-
       </div>
+
     );
   }
 }

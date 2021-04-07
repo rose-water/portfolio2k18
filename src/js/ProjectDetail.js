@@ -4,6 +4,8 @@ import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
 import backIcon from '../assets/arrow.svg';
 import Nav from './Nav';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 class ProjectDetail extends Component {
 
@@ -125,6 +127,25 @@ class ProjectDetail extends Component {
                 <p className='project-desc' dangerouslySetInnerHTML={ this.renderInnerHtml(this.state.projectDetails.content) }></p>
               </div>
 
+              {
+                this.state.projectDetails.hasOwnProperty('carouselImgs') ? 
+                <Carousel 
+                  showArrows={ true } 
+                  // onChange={ onChange } 
+                  // onClickItem={ onClickItem } 
+                  // onClickThumb={ onClickThumb }
+                >
+                  {
+                    this.state.projectDetails['carouselImgs'].map((img, idx) => {
+                      return (
+                        <div>
+                          <img src={ require(`../assets/projects/${this.state.projectDetails.id}/${img}`).default} />
+                        </div>
+                      )
+                    })
+                  }
+                </Carousel> : null
+              }
             </div>
           </div>
         </div>      

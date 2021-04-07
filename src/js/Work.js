@@ -53,6 +53,7 @@ class Work extends Component {
     return (
       <>
         <Nav />
+        
         <div id='project-filters-container'>
           <ul id='project-filters'>
             <li 
@@ -81,6 +82,8 @@ class Work extends Component {
             </li>
           </ul>
         </div>
+          
+     
         <div id='projects'>
           { this.renderProjects() }
         </div>
