@@ -17,7 +17,7 @@ class Project extends Component {
     
     // Grid view
     return (
-      <div className="content-grid-item">
+      <div className={`content-item-${ this.props.currentView }`}>
         <div className='hero-container'>
           <Link to={`/work/${ proj.id }`}>       
             <LazyLoad>
