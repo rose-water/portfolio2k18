@@ -16,17 +16,22 @@ class Work extends Component {
 
     this.state = {
       currentFilter: 'all',
-      filteredProjects: projects,
       currentView: 'list'
     }
   }
 
   // ------------------------------------------------------
+  checkTypes(proj) {
+    return proj.types.indexOf(this.state.currentFilter) > -1;
+  }
+
+  // ------------------------------------------------------
   renderProjects() {
-    return this.state.filteredProjects.map((project, idx) => {
+    return projects.map((project, idx) => {
       return (
-        <div className={`content-item-outer ${ this.state.currentView }`} key={ 'project-' + project.name + '-' + idx }>
+        <div className={`content-item-outer ${ this.state.currentView } ${ this.state.currentFilter !== 'all' && !this.checkTypes(project) ? 'inactive' : ''}` } key={ 'project-' + project.name + '-' + idx }>
           <Project
+            currentFilter={ this.state.currentFilter } 
             currentView={ this.state.currentView } 
             data={ project }
           />
@@ -39,7 +44,6 @@ class Work extends Component {
   selectProjectType(type) {
     this.setState({
       currentFilter: type,
-      filteredProjects: this.filterProjectsByType(type)
     });
   }
 
