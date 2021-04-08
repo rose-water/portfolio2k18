@@ -33,10 +33,10 @@ module.exports = [
 				"img": "polar.jpg",
 				"tools": "",
 			},
-			// {
-			// 	"img": "aloe.png",
-			// 	"tools": "",
-			// },
+			{
+				"img": "mesh-connect.gif",
+				"tools": "",
+			},
 		]
 	}
 	
